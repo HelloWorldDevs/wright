@@ -389,13 +389,13 @@ button.theme-btn-1:hover {
 	color: #fcfcfc;
 }
 
-/* 
+/* =========================
 	Custom Theme Backgrounds
-*/
+========================= */
 
 /* sets the primary theme background */
 .theme-background-1 {
-	background-color: #0D2D3F;
+	background-color: #C95E2D;
 }
 
 /* sets the secondary theme background */
@@ -405,7 +405,7 @@ button.theme-btn-1:hover {
 
 /* sets the tertiary theme background */
 .theme-background-3 {
-	background-color: lightskyblue;
+	background-color: steelblue;
 }
 
 /* set the pattern theme background */
@@ -476,14 +476,17 @@ button.theme-btn-1:hover {
 
 /* controls the no insurance section */
 #no-insurance {
-	background-image: url("../../membership-row-wright.jpg");
+	padding: 20px 0px 20px 0px;
+	background-image: url("../../img/membership-row-wright.jpg");
 	background-position: top center;
-	background-size: cover;
 	background-repeat: no-repeat;
-	width: auto;
-	max-height: 600px;
-	margin: 0px;
-	padding: 40px 0px 80px 0px;
+	background-size: cover;
+	border-bottom: solid 2px #cccccc;
+}
+	
+/* controls the services section */
+#services {
+	padding: 20px 0px 20px 0px;
 }
 
 /* controls the mobile membership club section */
@@ -539,8 +542,6 @@ button.theme-btn-1:hover {
 #desktop-footer img {
 
 }
-
-
 
 .owl-controls.clickable {
 	visibility: hidden;
