@@ -1109,6 +1109,159 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 		End of Desktop Footer 
 	====================  -->	
 	
+		<!-- ==============
+			Start of Modals 	
+		=============== -->
+			
+		<!-- #appointmentModal -->	
+		<div id="appointmentModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" 
+										class="close" 
+										data-dismiss="modal" 
+										aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="header modal-title sans-serif-bold theme-color-3">Request Appointment</h4>
+					</div>
+					<div class="modal-body">
+						<form id="mail-form"
+									class="form-horizontal" 
+									method="post" 
+									action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+							<div class="form-error"></div>
+							<div class="form-group">
+								<div class="col-md-12">
+									<p class="serif-reg">YES! Please contact me to schedule an appointment, or answer any questions I&nbsp;might&nbsp;still&nbsp;have.</p>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="name" 
+											 class="col-sm-2 col-md-2 control-label">Name:</label>
+									<div class="col-sm-10 col-md-10">
+										<input type="text" 
+													 class="form-control" 
+													 placeholder="">
+									</div>
+							</div>
+							<div class="form-group">
+								<label for="email" 
+											 class="col-sm-2 col-md-2 control-label" >Email:</label>
+								<div class="col-sm-10 col-md-10" >
+									<input type="email" 
+												 class="form-control" 
+												 placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="name" 
+											 class="col-sm-2 col-md-2 control-label">Phone:</label>
+								<div class="col-sm-10 col-md-10">
+									<input type="tel" 
+												 class="form-control" 
+												 placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-12">
+									<button type="submit" class="btn btn-lg theme-btn-1">Request Appointment</button>
+								</div>
+							</div>
+						</forsm>
+					</div>
+					<div class="modal-footer"></div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /#appointmentModal -->
+		
+		<!-- #franklinWrightModal -->	
+		<div id="franklinWrightModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" 
+										class="close" 
+										data-dismiss="modal" 
+										aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="header modal-title sans-serif-bold theme-color-3">Dr. Franklin Wright</h4>
+					</div>
+					<div class="modal-body">
+						<p class="serif-reg text-reg">Dr. Wright is a member of the Cincinnati Dental Society (CDS), the Ohio Dental Association (ODA) and the American Dental Association (ADA). He is member emeritus of the ODA Forensic Dental Team and a member of the CDS Council. He is a trustee and vice president of the Cincinnati Dental Society Oral Health Foundation. When not providing patient care, Dr. Wright can be found practicing forensic dentistry.</p>
+						<p class="serif-reg text-reg">He is a member of the American Society of Forensic Odontology (ASFO), a diplomat and past president of the American Board of Forensic Odontology (ABFO) and a fellow in the American Academy of Forensic Sciences- Odontology Section (AAFS). He currently serves as the chairman of the Bitemark Proficiency Examination Development Committee of the ABFO.</p> 
+						<p class="serif-reg text-reg">In October of 2014, he was appointed to the Odontology Subcommittee of the Organization of Scientific Areas Committee, National Institute of Standards and Technology (NIST), U.S. Department of Commerce for a two year term. He has previously served on the Board of Governors of the AFSO and as the AAFS Section Program Chairman, Secretary and Chairman. He is the Forensic Dental Consultant for the Hamilton County Coroner's Office and is a member of the Disaster Committee at the Cincinnati/ Northern Kentucky International Airport.</p>
+					</div>
+					<div class="modal-footer"></div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->	
+		
+		<!-- #bradleyDorschModal -->	
+		<div id="bradleyDorschModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" 
+										class="close" 
+										data-dismiss="modal" 
+										aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="header modal-title sans-serif-bold theme-color-3">Dr. Bradley Dorsch</h4>
+					</div>
+					<div class="modal-body">
+						<p class="serif-reg text-reg">When not treating patients, Dr. Dorsch spends many hours in continuing education learning about CAD-Cam dentistry and complex patient care with the Spear Foundation.</p>
+						<p class="serif-reg text-reg">Dr. Dorsch practices the full array of family dentistry, with a special interest in high-tech digital dentistry and dental implant reconstruction. He is an active participant in many online study clubs, and he also performs limited orthodontics using Invisalign.</p>
+					</div>
+					<div class="modal-footer"></div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->	
+			
+		<!-- #3DConeModal -->	
+		<div id="3DConeModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" 
+										class="close" 
+										data-dismiss="modal" 
+										aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">3D Cone Beam Imaging</h4>
+					</div>
+					<div class="modal-body">
+						<p>https://www.youtube.com/watch?v=tfKEk7g9GI&hellip;</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->			
+			
+		<!-- #discoverForensicDentistryModal -->	
+		<div id="discoverForensicDentistryModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" 
+										class="close" 
+										data-dismiss="modal" 
+										aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="header sans-serif-bold theme-color-1 modal-title">Discover Forensic Dentistry</h4>
+					</div>
+					<div class="modal-body">
+						<p class="serif-reg-text">Professional education in forensic dentistry is available in varying degrees from many of the dental schools in the United States, both as an elective short course as well as longer courses that can take more than a semester. Postgraduate forensic dental education is available from many sources and in many different forms.
+							<p class="serif-reg-text">The most widely recognized postgraduate forensic dental education opportunities are those presented by the Armed Forces Institute of Pathology and the University of Texas-San Antonio. Many universities and colleges also sponsor postgraduate education in forensic dentistry.</p>
+						<p class="serif-reg-text">The most widely recognized forensic dental organizations in the United States include The American Society of Forensic Dentistry (ASFO), The American Academy of Forensic Sciences-Odontology Section (AAFS), and The Amerigan Board of Forensic Odontology (ABFO).</p>
+					</div>
+					<div class="modal-footer"></div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->	
+	
+		<!-- ==============
+			End of Modals 	
+		=============== -->	
+	
 	<!-- ===========================
 		Start of JavaScript Includes 
 	============================ -->
@@ -1129,7 +1282,7 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 					type="text/javascript"></script>
 	
 	<!-- Banner Carousel Script Dependency -->
-	<script src="js/banner-carousel.js" type="text/javascript"></script>
+	<script src="js/features/banner-carousel.js" type="text/javascript"></script>
 	
 	<!-- Navigation JS Script Dependency -->
 	<script src="js/features/smooth-scroll.js" type="text/javascript"></script>
