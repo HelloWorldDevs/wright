@@ -1,37 +1,38 @@
-/* 
-	General CSS 
-*/
+/* ====================================
+	General HTML/Body Default Settings 
+==================================== */
 
-/* sets the default font size */
+/* overrides the default html element*/
 html {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	font-size: 16px;
 }
 
-/* sets the default body font size based on html value */
+/* overrides the default body */
 body {
-	margin: 0;
-	padding: 0;
+	margin-top: 80px;
+	padding: 0px;	
 	font-size: 1rem;
 }
 
+/* overrides the default nav element */
 nav {
 	margin: 0px !important;
 }
 
-/* overrides the default header section */
+/* overrides the default header element */
 header {
 	margin: 0px !important;
 }
 
-/* overrides default grid padding */
+/* overrides default section element */
 section {
 	margin: 0px;
 	padding: 40px 0px 40px 0px;
 }
 
-/* overrides the default grid pladding */
+/* overrides the footer element */
 footer {
 	padding: 40px 0px 40px 0px;
 }
@@ -88,6 +89,8 @@ h6.header {
 /*  */
 p {
 	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	line-height: normal;
 	padding: 0px;
 }
 
@@ -96,6 +99,46 @@ p {
 	font-size: 1rem;
 	font-weight: normal;
 	line-height: normal;
+}
+
+/* creates an extra small text class */
+.text-xs {
+	font-size: 0.75rem;
+}
+
+/* creates a small text class */
+.text-sm {
+	font-size: 0.875rem;
+}
+
+/* creates a regular text class */
+.text-reg {
+	font-size: 1rem;
+}
+
+/* creates a medium text class */
+.text-md {
+	font-size: 1.5rem;
+}
+
+/* creates a large text class */
+.text-lg {
+	font-size: 2.25rem;
+}
+
+/* creates an extra large text class */
+.text-xl {
+	font-size: 3rem;
+}
+
+/* creates an extra extra large text class */
+.text-xxl {
+	font-size: 4rem;
+}
+
+/* creates a huge  text class */
+.text-hu {
+	font-size: 4.5rem;
 }
 
 /* sets the default serif regular text class */
@@ -127,41 +170,6 @@ p {
 		font-size: 0.75rem;
 	}
 
-	/* creates a small responsive text class */
-	.text-sm {
-		font-size: 0.875rem;
-	}
-
-	/* creates a regular responsive text class */
-	.text-reg {
-		font-size: 1rem;
-	}
-
-	/* creates a medium responsive text class */
-	.text-md {
-		font-size: 1.5rem;
-	}
-
-	/* creates a large responsive text class */
-	.text-lg {
-		font-size: 2.25rem;
-	}
-
-	/* creates an extra-large responsive text class */
-	.text-xl {
-		font-size: 3rem;
-	}
-
-	/* creates an extra-extra-large responsive text class */
-	.text-xxl {
-		font-size: 4rem;
-	}
-
-	/* creates a huge responsive text class */
-	.text-hu {
-		font-size: 4.5rem;
-	}
-
 /* sets the bold text class */
 .text-bold {
 	font-weight: bold;
@@ -184,11 +192,11 @@ p {
 
 /* sets the inverse text class */
 .text-inverse {
-	color: #ffffff !important;
+	color: #fcfcfc !important;
 }
 
 /* sets the description text class */
-.description {
+.text-description {
 	font-family: "Merriweather", "Georgia", serif;
 	font-weight: normal;
 	font-size: 14px !important;	
@@ -236,12 +244,12 @@ a.read-more-2:hover {
 	Custom Theme Colors
 ==================== */
 
-/* sets the primary theme color for interactive theme elements */
+/* sets the primary theme color for interactive elements */
 .theme-color-1 {
 	color: #E57C4B;
 }
 
-/* secondary theme color for interactive theme elements  */
+/* sets the secondary theme color for interactive elements  */
 .theme-color-2 {
 	color: #0D2D3F !important;
 }
@@ -258,7 +266,7 @@ a.read-more-2:hover {
 
 /* sets the  */
 .theme-color-5 {
-	color: #0D2D3F;
+	color: #FCFCFC;
 }
 
 /* controls the facebook icon */
@@ -267,6 +275,10 @@ a.read-more-2:hover {
 	overflow: hidden;
 	color: blue;
 }
+
+/* ====================
+	Specials CSS Styles
+==================== */
 
 /* controls the specials section-1 background color */
 .specials-color-1 {
@@ -283,9 +295,9 @@ a.read-more-2:hover {
 	background-color: #0D2D3F;
 }
 
-/* =================
-	Custom Theme Links
-================= */ 
+/* ===================
+	Custom Link Styles 
+=================== */ 
 
 /* sets the primary theme link color */
 a.link-color-1 {
@@ -327,6 +339,10 @@ a.link-color-4:hover {
 	color: #6F6D6A;
 	text-decoration: underline;	
 }
+
+/* =====================
+	Custom Button Styles 
+===================== */
 
 /* sets the primary theme button color */
 a.theme-btn-1 {
@@ -389,9 +405,9 @@ button.theme-btn-1:hover {
 	color: #fcfcfc;
 }
 
-/* =========================
-	Custom Theme Backgrounds
-========================= */
+/* ==========================
+	Custom Backgrounds Styles
+========================== */
 
 /* sets the primary theme background */
 .theme-background-1 {
@@ -417,6 +433,7 @@ button.theme-btn-1:hover {
 	Custom Theme Sections 
 ====================== */
 
+/* controls the banner carousel section */
 #banner-carousel {
 	margin: 0;
 	padding: 0;
@@ -425,16 +442,28 @@ button.theme-btn-1:hover {
 /* controls the 1st slide of the banner carousel */
 #banner-slide-1 {
 	background-image: url("../../img/wright-slide1.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 583px;
 }
 
 /* controls the 2nd slide of the banner carousel */
 #banner-slide-2 {
 	background-image: url("../../img/wright-slide2.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	min-height: 583px;	
 }
 
 /* controls the 3rd slide of the banner carousel */
 #banner-slide-3 {
 	background-image: url("../../img/wright-slide3.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	min-height: 583px;	
 }
 
 /* controls the new patient hotline mobile section */
