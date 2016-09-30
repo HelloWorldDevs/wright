@@ -1,3 +1,7 @@
+/* 
+	General CSS 
+*/
+
 /* sets the default font size */
 html {
 	margin: 0;
@@ -36,9 +40,9 @@ ul {
 	list-style: none;
 }
 
-/* 
+/* ===========================
 	Custom Typography Settings
-*/
+=========================== */
 
 /* headings */
 h1,
@@ -63,7 +67,6 @@ h2.header {
 
 /* creates a custom h3 header class for custom sizing */
 h3.header {
-	font-weight: normal;
 	margin: 0px 0px 0px 0px;	
 }
 
@@ -414,7 +417,10 @@ button.theme-btn-1:hover {
 	Custom Theme Sections 
 ====================== */
 
-#banner
+#banner-carousel {
+	margin: 0;
+	padding: 0;
+}
 
 /* controls the 1st slide of the banner carousel */
 #banner-slide-1 {
@@ -432,12 +438,13 @@ button.theme-btn-1:hover {
 }
 
 /* controls the new patient hotline mobile section */
-#new-patient-hotline-mobile {
+#new-patient-hotline-existing-mobile {
+	background-color: lightblue;
 	padding: 20px 0px 20px 0px; 
 }
 
 /* controls the new patient hotline desktop section */
-#new-patient-hotline-desktop {
+#new-patient-hotline-existing-desktop {
 	padding: 60px 0px 50px 0px;
 }
 
