@@ -433,6 +433,8 @@ button.theme-btn-1:hover {
 	Custom Theme Sections 
 ====================== */
 
+/* Banner Carousel Styles */
+
 /* controls the banner carousel section */
 #banner-carousel {
 	margin: 0;
@@ -464,6 +466,10 @@ button.theme-btn-1:hover {
 	background-size: cover;
 	background-repeat: no-repeat;	
 	min-height: 583px;	
+}
+
+.slide-stars .fa-gold {
+	color: gold;
 }
 
 /* controls the new patient hotline mobile section */
@@ -547,7 +553,7 @@ button.theme-btn-1:hover {
 }
 
 /* controls the desktop location section styles */
-#location {
+#desktop-location {
 	background-image: url("../../img/forest-hills-family-dentistry.png");
 	background-position: center center;
 	background-size: cover;

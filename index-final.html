@@ -13,11 +13,28 @@
 		Start of CSS Includes 
 	===================== -->
 	
-	<!-- Bootstrap CSS Dependency -->
-	<link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css" type="text/css">
+	<!-- Google Fonts CSS dependency -->
+	<link rel="stylesheet" 
+				href="https://fonts.googleapis.com/css?family=Lato:400,900%7cMerriweather:400,700" 
+				type="text/css">	
+
+	<!-- Bootstrap CSS dependency -->
+	<link rel="stylesheet" 
+				href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+				crossorigin="anonymous">
+	
+	<!-- Canvas Icon Fonts CSS -->
+	<link rel="stylesheet" href="lib/canvas-4.1.1/css/font-icons.css" type="text/css">
+	
+	<!-- Swiper Carousel CSS -->
+	<link rel="stylesheet" href="lib/swiper-carousel/dist/css/swiper.min.css" type="text/css">	
 	
 	<!-- OWL Carousel Dependency -->
-	<link rel="stylesheet" href="lib/owl.carousel.2.0.0/assets/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="lib/owl.carousel.2.1.0/assets/owl.carousel.css" type="text/css">
+	
+	<!-- OWL Carousel Theme CSS -->
+	<link rel="stylesheet" href="lib/owl.carousel.2.1.0/assets/owl.theme.default.min.css" type="text/css"	
 	
 	<!-- Animate CSS Dependency -->
 	<link rel="stylesheet" href="lib/animate-css/animate.css" type="text/css">	
@@ -28,9 +45,7 @@
 	<!-- ==================
 		End of CSS Includes 
 	=================== -->	
-	
-	<link rel="stylesheet" href="css/features/" type="text/css">
-	
+		
 </head>
 <body>
 	
@@ -1025,22 +1040,21 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 								</ul>
 							</div>
 						</div>					
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+					</div><!-- /.panel .panel-default -->
+				</div><!-- /.col-xs-12 .col-sm-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#mobile-location -->	
 	
-	<!-- #mobile-map -->
 	<section id="mobile-map" class="visible-xs-block visible-sm-block">
 		<div class="container-fluid">
-			<a href="">
+			<a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138">
 				<img src="img/forest-hills-family-dentistry.png"
 						 class="img-responsive"
-						 alt="Forest Hills Dentistry location map"></a>
-		</div>
-	</section>
-	<!-- /#mobile-map -->
+						 alt="Forest Hills Dentistry location map">
+			</a>
+		</div><!-- /.container-fluid -->
+	</section><!-- /#mobile-map -->
 		
 	<!-- ===========================
 		End of Mobile Location + Map
@@ -1050,132 +1064,149 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 		Start of Desktop Location 
 	========================= -->
 	
-	<section id="location" class="visible-md-block visible-lg-block">
+	<section id="desktop-location" class="hidden-xs hidden-sm">
 		<div class="container">
+			<div class="row hidden">
+				<h2 class="h2 sans-serif-bold theme-color-2 text-lg text-center">Location</h2>
+			</div>
 			<div class="row">
-				<div class="col-lg-4 col-lg-offset-8">
+				<div class="col-md-4 col-md-offset-8 col-lg-4 col-lg-offset-8">
 					<div class="panel panel-default">
-						<div class="row">
-							<div class="col-lg-12">
-								<img src="img/forest-hills-logo.svg" 
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-12 col-lg-12">
+								<img id="location-brand"
 										 class="img-responsive" 
+										 src="img/forest-hills-logo.svg"
 										 alt="Forest Hills Dentistry logo">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="text-center">
-									<address>
+									<address class="text-center">
 										1055 N Nimitzview Drive <br>
 										Cincinatti,OR 45230 <br>
 									</address>
+									<p class="text-center">
+										<a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138" class="link-color-3">Click to view map</a>
+									</p>
 								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-x">
-								<p class="text-center">
-									<a href="" class="link-color-3">Click to view map</a>
-								</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-x text-center">
-								<p class="text-center">New Patient Hotline</p>
-								<span class="text">
-									<a href="tel:+18883064431" class="link-color-1">(888) 306-4431</a>
-								</span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-x">
-								<p class="text-center">
-									<a href="" 
-										 class="btn btn-lg theme-btn-1 text-uppercase"
-										 data-toggle="modal"
-										 data-target="#requestAppointmentModal">Request Appointment</a>
-								</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-x text-center">
-								<p class="text-center">Existing patients call</p>
-								<span class="text">
-									<a href="tel:+15132315353" class="link-color-1">(513) 231-5353</a>
-								</span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-8 col-lg-offset-2">
-								<h4 class="theme-color-3 text-center">Hours</h4>
-								<ul class="unstyled-list text-center">
-									<li class="text-left">Mon:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Tue:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Wed:  8:00am - 5:00pm</li>
-									<li class="text-left">Thu:  8:00am - 5:00pm</li>
-									<li class="text-left">Fri:  8:00am - 5:00pm</li>
-								</ul>
-							</div>
-						</div>					
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+							<div class="row">
+								<div class="col-md-12 col-lg-12">
+									<ul class="list-unstyled">
+										<li class="text-center">
+											<p>New Patient Hotline</p>
+										</li><!-- /.text-center -->
+										<li class="text-center">
+											<h3 class="h3">
+													<a href="tel:8883064431" class="theme-color-1">(888) 306-4431</a>
+												</h3>
+										</li><!-- /.text-center -->
+										<li class="text-center">
+											<a href="" 
+												 class="btn btn-lg theme-btn-1" 
+												 data-toggle="modal" 
+												 data-target="#requestAppointmentModal">Request appointment</a>
+										</li><!-- /.text-center -->
+										<li class="text-center">
+											<p class="text-center">Existing patients call</p>
+										</li><!-- /.text-center -->
+										<li class="text-center">
+											<h4 class="h4">
+												<a href="tel:5132315353"
+													 class="link-color-1">(513) 231-5353</a>
+											</h4><!-- /.h4 -->
+										</li><!-- /.text-center -->
+									</ul><!-- /.list-unstyled -->
+								</div><!-- /.col-md-12 .col-lg-12 -->
+							</div><!-- /.row -->
+							<div class="row">
+								<div class="col-md-12 col-lg-12">
+									<h4 class="h4 sans-serif-bold theme-color-3 text-md text-center">Hours</h4>
+								</div><!-- /.col-md-12 .col-lg-12 -->
+							</div><!-- /.row -->
+							<div class="row">
+								<div class="col-md-8 col-md-offset-3">
+									<ul class="list-unstyled text-left">
+										<li>
+											<span class="">Mon: 8:00am - 5:00pm</span>
+										</li><!-- /li -->
+										<li>
+											<span class="">Tue: 8:00am - 5:00pm</span>
+										</li>
+										<li><!-- /li -->
+											<span class="">Wed: 8:00am - 5:00pm</span>
+										</li><!-- /li -->
+										<li>
+											<span class="">Thu: 8:00am - 5:00pm</span>
+										</li><!-- /li -->
+										<li>
+											<span class="">Fri:  8:00am - 5:00pm</span>
+										</li><!-- /li -->
+									</ul><!-- /.list-unstyled .text-left -->
+								</div><!-- /.col-md-8 .col-md-offset-3 -->
+							</div><!-- /.row -->
+						</div><!-- /.panel-body -->
+					</div><!-- /.panel .panel-default -->
+				</div><!-- /.col-md-4 .col-md-offset-8 .col-lg-4 .col-lg-offset-8 -->
+			</div><!-- /.panel .panel-default -->
+		</div><!-- /.col-md-4 .col-md-offset-8 .col-lg-4 .col-lg-offset-8 -->
+	</section><!-- /#desktop-location -->	
 	
-	<!-- ==============
-		End of Location
-	=============== -->
-	
+	<!-- ======================
+		End of Desktop Location 
+	======================= -->	
 	
 	<!-- ====================
 		Start of Associations 
 	===================== -->
 	
-	<!-- #assocations -->
-	<section id="assocations">
+	<!-- #associations -->
+	<section id="associations">
 		<div class="container-fluid">
 			<div class="row visible-xs-block visible-sm-block">
 				<div class="col-xs-12 col-sm-12">
 					<p class="text-center">
-						<img src="img/american-dental-association.jpg" alt="American Dental Association logo">
-					</p>
-				</div>
-			</div>
+						<img src="img/american-dental-association.jpg" 
+								 class="img-responsive"
+								 alt="American Dental Association logo">
+					</p><!-- /.text-center -->
+				</div><!-- /.col-xs-12 .col-sm-12	-->
+			</div><!-- /.row .visible-xs-block .visible-sm-block -->
 			<div class="row visible-xs-block visible-sm-block">	
 				<div class="col-xs-12 col-sm-12">
 					<p class="text-center">
-						<img src="img/spear-education.png" alt="Spear Education logo">
-					</p>
-				</div>	
-			</div>
+						<img src="img/spear-education.png" 
+								 class="img-responsive" 
+								 alt="Spear Education logo">
+					</p><!-- /.text-center -->
+				</div><!-- /.col-xs-12 .col-sm-12	-->
+			</div><!-- /.row .visible-xs-block .visible-sm-block -->
 			<div class="row visible-xs-block visible-sm-block">				
 				<div class="col-xs-12 col-sm-12">
 					<p class="text-center">
-						<img src="img/care-credit-footer.png" alt="Care Credit logo">
-					</p>
-				</div>
-			</div>
+						<img src="img/care-credit-footer.png" 
+								 class="img-responsive" 
+								 alt="Care Credit logo">
+					</p><!-- /.text-center -->
+				</div><!-- /.col-xs-12 .col-sm-12	-->
+			</div><!-- /.row .visible-xs-block .visible-sm-block -->
 			<div class="row visible-md-block visible-lg-block">
 				<div class="col-md-4 col-lg-4">
-					<p class="text-center">
+					<p class="text-right">
 						<img src="img/american-dental-association.jpg" alt="American Dental Association logo">
-					</p>
-				</div>
+					</p><!-- /.text-right -->
+				</div><!-- /.col-md-4 .col-lg-4 -->
 				<div class="col-md-4 col-lg-4">
 					<p class="text-center">
 						<img src="img/spear-education.png" alt="Spear Education logo">
-					</p>
-				</div>	
+					</p><!-- /.text-center -->
+				</div><!-- /.col-md-4 .col-lg-4 -->	
 				<div class="col-md-4 col-lg-4">
-					<p class="text-center">
+					<p class="text-left">
 						<img src="img/care-credit-footer.png" alt="Care Credit logo">
-					</p>
-				</div>			
-			</div>
-		</div>
-	</section>
-	<!-- /#assocations -->
+					</p><!-- /.text-left -->
+				</div><!-- /.col-md-4 .col-lg-4 -->			
+			</div><!-- /.row .visible-md-block .visible-lg-block -->
+		</div><!-- /.container-fluid -->
+	</section><!-- /#associations -->
 	
 	<!-- ==================
 		End of Associations 
@@ -1185,26 +1216,28 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 		Start of Mobile Footer 
 	====================== -->
 	
-	<footer id="mobile-footer" class="visible-xs-block visible-sm-block">
+	<!-- #mobile-footer -->
+	<footer id="mobile-footer" class="theme-background-3 visible-xs-block visible-sm-block">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
-					<p class="">&copy; 2016. All Rights Reserved by 
-						<a href="//www.tysonsteele.com">Tyson Steele Associates</a></p>
-				</div>
-			</div>
+					<p class="sans-serif-reg theme-color-5 text-center">
+						<small>&copy; 2016. All Rights Reserved by</small> 
+						<a href="//www.tysonsteele.com"><small>Tyson Steele Associates</small></a></p>
+				</div><!-- /.col-xs-12 .col-sm-12 -->
+			</div><!-- /.row -->
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
 					<p class="text-center">
 						<a href="//www.facebook.com/CincyDigitalDentists/" target="_blank">
 							<img src="img/facebook.png" alt="Facebook logo"></a></p>
-				</div>
+				</div><!-- /.col-xs-12 .col-sm-12 -->
 			</div><!-- /.row -->
 		</div><!-- /.container-fluid -->
-	</footer><!-- /#primary-footer -->
+	</footer><!-- /#mobile-footer -->
 	
 	<!-- ====================
-		End of Primary Footer 
+		End of Mobile Footer 
 	====================  -->
 	
 	<!-- =====================
@@ -1216,18 +1249,20 @@ role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-exp
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 col-lg-6">
-					<p class="theme-color-5">&copy; 2016. All Rights Reserved by 
-						<a href="//www.tysonsteele.com" target="_blank">Tyson Steele Associates</a></p>
-				</div>
+					<p class="sans-serif-reg theme-color-5">&copy; 2016. 
+						<small>All Rights Reserved by</small> 
+						<a href="//www.tysonsteele.com" target="_blank">
+							<small>Tyson Steele Associates</small></a>
+					</p>
+				</div><!-- /.col-md-6 .col-lg-6 -->
 				<div class="col-md-6 col-lg-6">
 					<p class="text-right">
 						<a href="//www.facebook.com/CincyDigitalDentists/" target="_blank">
 							<img src="img/facebook.png" alt="Facebook logo"></a></p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- /#desktop-footer -->
+				</div><!-- /.col-md-6 .col-lg-6 -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+	</footer><!-- /#desktop-footer -->
 	
 	<!-- ====================
 		End of Desktop Footer 
