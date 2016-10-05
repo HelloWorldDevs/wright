@@ -57,32 +57,32 @@ h6 {
 }
 
 /* creates a custom h1 header class for custom sizing */
-h1.header {
+.h1 {
 	margin: 0px 0px 0px 0px;
 }
 
 /* creates a custom h2 header class for custom sizing */
-h2.header {
+.h2 {
 	margin: 0px 0px 0px 0px;	
 }
 
 /* creates a custom h3 header class for custom sizing */
-h3.header {
+.h3 {
 	margin: 0px 0px 0px 0px;	
 }
 
 /* creates a custom h4 header class for custom sizing */
-h4.header {
+.h4 {
 	margin: 0px 0px 0px 0px;	
 }
 
 /* creates a custom h5 header class for custom sizing */
-h5.header {
+.h5 {
 	margin: 0px 0px 0px 0px;	
 }
 
 /* creates a custom h6 header class for custom sizing */
-h6.header {
+.h6 {
 	margin: 0px 0px 0px 0px;	
 }
 
@@ -144,25 +144,25 @@ p {
 /* sets the default serif regular text class */
 .serif-reg {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 /* sets the default serif bold text class */
 .serif-bold {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 /* sets the default sans-serif regular text class */
 .sans-serif-reg {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 /* sets the default sans-serif bold text class */
 .sans-serif-bold {
 	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 /* creates an extra-small responsive text class */
@@ -538,18 +538,26 @@ button.theme-btn-1:hover {
 
 /* controls the forensic dentistry section */
 #forensic-dentistry {
+	margin: 0px;	
+	padding: 60px 0px 70px 0px;
 	background-color: #6F6D6A;
 	color: #F9F7F4;
 }
 
 /* control the mobile desktop location styles */
 #mobile-location {
-	border: solid 2px #cccccc;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 #mobile-location img {
 	max-height: 80px;
 	margin-top: 10px;
+}
+
+#mobile-map {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 /* controls the desktop location section styles */
@@ -558,10 +566,12 @@ button.theme-btn-1:hover {
 	background-position: center center;
 	background-size: cover;
 	width: auto;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 #associations {
-
+	padding: 0px 0px 0px 0px;
 }
 
 /* controls the desktop footer section */
