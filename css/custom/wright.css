@@ -6,7 +6,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /* overrides the default body */
@@ -63,7 +63,7 @@ h6 {
 
 /* creates a custom h2 header class for custom sizing */
 .h2 {
-	margin: 0px 0px 0px 0px;	
+	margin: 0px 0px 30px 0px;	
 }
 
 /* creates a custom h3 header class for custom sizing */
@@ -145,24 +145,28 @@ p {
 .serif-reg {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
 	font-weight: 400;
+	line-height: normal;
 }
 
 /* sets the default serif bold text class */
 .serif-bold {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
 	font-weight: 600;
+	line-height: normal;	
 }
 
 /* sets the default sans-serif regular text class */
 .sans-serif-reg {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
+	line-height: normal;	
 }
 
 /* sets the default sans-serif bold text class */
 .sans-serif-bold {
 	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 600;
+	line-height: normal;	
 }
 
 /* creates an extra-small responsive text class */
