@@ -728,7 +728,7 @@ no-insurance-mobile-banner {
 	
 	/* overrides the default html settings */
 	html {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	
 	/* overrides default body browser settings */
@@ -748,7 +748,7 @@ no-insurance-mobile-banner {
 	
 		/* sets the 1st default theme button style */
 	a.theme-btn-1:hover {
-		padding: 0px 0px 0px 0px;	
+		padding: 5px 25px 5px 25px;	
 		background-color: #C04355;
 		border: solid 2px #fcfcfc;
 		border-radius: 15px;
