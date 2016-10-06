@@ -344,6 +344,17 @@ a.link-color-4:hover {
 	text-decoration: underline;	
 }
 
+/* sets the tertiary theme link color */
+a.link-color-5 {
+	color: #FCFCFC;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-5:hover {
+	color: #FCFCFC;
+	text-decoration: underline;	
+}
+
 /* =====================
 	Custom Button Styles 
 ===================== */
