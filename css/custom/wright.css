@@ -6,7 +6,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* overrides the default body */
@@ -151,7 +151,7 @@ p {
 /* sets the default serif bold text class */
 .serif-bold {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: normal;	
 }
 
@@ -165,7 +165,7 @@ p {
 /* sets the default sans-serif bold text class */
 .sans-serif-bold {
 	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: 600;
+	font-weight: 900;
 	line-height: normal;	
 }
 
@@ -256,6 +256,7 @@ a.read-more-2:hover {
 /* sets the secondary theme color for interactive elements  */
 .theme-color-2 {
 	color: #0D2D3F !important;
+	color: #003333;
 }
 
 /* sets the tertiary theme color for interactive theme elements */
@@ -305,42 +306,42 @@ a.read-more-2:hover {
 
 /* sets the primary theme link color */
 a.link-color-1 {
-	color: #C95E2D !important;
+	color: #ff6633 !important;
 }
 
 a.link-color-1:hover {
-	color: #C95E2D;
+	color: #ff6633;
 	text-decoration: underline;
 }
 
 /* sets the secondary theme link color */
 a.link-color-2 {
-	color: #0D2D3F !important;
+	color: #669999 !important;
 }
 
 a.link-color-2:hover {
-	color: #0D2D3F;
+	color: #669999;
 	text-decoration: underline;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3 {
-	color: #846A20 !important;
+	color: #996633 !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3:hover {
-	color: #846A20;
+	color: #996633;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-4 {
-	color: #6F6D6A !important;
+	color: #666666 !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-4:hover {
-	color: #6F6D6A;
+	color: #666666;
 	text-decoration: underline;	
 }
 

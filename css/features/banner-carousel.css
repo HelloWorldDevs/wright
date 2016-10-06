@@ -1,0 +1,110 @@
+/* ========================
+	Swiper Carousel Feature
+======================== */
+
+/* ========================
+	Mobile Swiper Carousel
+======================== */
+
+/* controls the mobile banner */
+#swiper-mobile {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	max-height: 586px;	
+}
+
+/* ========================
+	Desktop Swiper Carousel
+======================== */
+
+/* controls the banner carousel section */
+#swiper-carousel  {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+
+/* overrides the control display for banner carousel */
+.owl-controls {
+	display: ;
+}
+
+.owl-item {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+/* controls the first slide in the banner-carousel */
+#banner-slide-1 {
+	background-image: url("../../img/wright-slide1.jpg");
+	background-repeat: no-repeat;	
+	background-position: top center;
+	background-size: cover;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 175px;
+	height: 586px;
+	max-height: 586px;	
+}
+
+/* controls the second slide in the banner-carousel */
+#banner-slide-2 {
+	background-image: url("../../img/wright-slide2.jpg");
+	background-repeat: no-repeat;	
+	background-position: top center;
+	background-size: cover;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 75px;
+	height: 586px;
+	max-height: 586px;	
+}
+
+/* controls the third slide in the banner-carousel */
+#banner-slide-3 {
+	background-image: url("../../img/wright-slide3.jpg");
+	background-position: top center;	
+	background-repeat: no-repeat;	
+	background-size: cover;
+	width: auto;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 180px;	
+	height: 586px;
+	max-height: 586px;	
+}
+
+/* sets the default color style for the review stars */
+.fa-gold {
+	color: gold !important;
+}
+
+/* sets the default color style for the customer review */
+.customer-review {
+	color: #cccccc;
+}
+
+.call-to-action {
+	margin: 50px 0px 0px 0px;
+}
+
+/* sets the styles for the slide arrow */
+.scroll-down {
+	position: absolute;
+	/* position: relative; */
+ 	z-index: 4;
+	bottom: 60px;
+	left: 50%;
+	margin-top: 0px !important;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
+.swiper-container {
+	width: auto;
+	height: 578px;
+}

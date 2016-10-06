@@ -1,6 +1,7 @@
-$(document).ready(function () {
+/* controls the banner carousel functionality */
+(document).ready(function () {
 	
-	$("#header-carousel-slides").owlCarousel({
+	$("#banner-carousel-slides").owlCarousel({
 		items: 1,
 		loop: true,
 		mouseDrag: true,
