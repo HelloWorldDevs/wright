@@ -594,13 +594,13 @@ no-insurance-mobile-banner {
 }
 
 /* controls the desktop location section styles */
-#desktop-location {
+#location {
 	background-image: url("../../img/forest-hills-family-dentistry.png");
 	background-position: center center;
 	background-size: cover;
 	width: auto;
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 40px 0px 40px 0px;
 }
 
 #associations {
