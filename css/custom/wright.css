@@ -519,6 +519,17 @@ button.theme-btn-1:hover {
 	padding: 40px 0px 0px 0px;
 }
 
+no-insurance-mobile-banner {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* controls the no insurance mobile image */
+#no-insurance-mobile-img {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
 /* controls the no insurance section */
 #no-insurance {
 	padding: 100px 0px 100px 0px;
@@ -628,9 +639,14 @@ button.theme-btn-1:hover {
 }
 
 
-/* sets a right border */ 
+/* sets a solid right blue border */ 
 .right-border {
 	border-right: solid 2px #0D2D3F;
+}
+
+/* sets a solid right border */
+.right-border-white {
+	border-right: solid 2px #FCFCFC;
 }
 
 /* ==============
