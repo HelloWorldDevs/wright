@@ -437,10 +437,10 @@ button.theme-btn-1:hover {
 	Custom Theme Sections 
 ====================== */
 
-/* Banner Carousel Styles */
+/* Header Carousel Styles */
 
-/* controls the banner carousel section */
-#banner-carousel {
+/* controls the header carousel section */
+#header-carousel {
 	margin: 0;
 	padding: 0;
 }
