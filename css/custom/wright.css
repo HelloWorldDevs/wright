@@ -513,9 +513,15 @@ button.theme-btn-1:hover {
 	background-repeat: no-repeat;	
 }
 
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+}
+
 /* controls the no insurance section */
 #no-insurance {
-	padding: 20px 0px 20px 0px;
+	padding: 100px 0px 100px 0px;
 	background-image: url("../../img/membership-row-wright.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
