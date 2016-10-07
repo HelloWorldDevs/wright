@@ -165,6 +165,13 @@ p {
 /* sets the default sans-serif bold text class */
 .sans-serif-bold {
 	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 700;
+	line-height: normal;	
+}
+
+/* sets the default sans-serif black text class */
+.sans-serif-black {
+	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 900;
 	line-height: normal;	
 }
@@ -600,7 +607,7 @@ no-insurance-mobile-banner {
 	background-size: cover;
 	width: auto;
 	margin: 0px;
-	padding: 40px 0px 40px 0px;
+	padding: 60px 0px 50px 0px;
 }
 
 #associations {

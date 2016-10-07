@@ -1,5 +1,5 @@
 /* controls the banner carousel functionality */
-(document).ready(function () {
+$(document).ready(function () {
 	
 	$("#banner-carousel-slides").owlCarousel({
 		items: 1,
