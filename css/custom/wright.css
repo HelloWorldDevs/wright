@@ -456,14 +456,6 @@ button.theme-btn-1:hover {
 	Custom Theme Sections 
 ====================== */
 
-/* Header Carousel Styles */
-
-/* controls the header carousel section */
-#header-carousel {
-	margin: 0;
-	padding: 0;
-}
-
 /* controls the 1st slide of the banner carousel */
 #banner-slide-1 {
 	background-image: url("../../img/wright-slide1.jpg");

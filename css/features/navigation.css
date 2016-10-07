@@ -56,33 +56,56 @@ a:hover {
 	text-decoration: underline !important;
 }
 
-/* sets the 1st default link color */
+/* sets the primary theme link color */
 a.link-color-1 {
-	color: #C04355 !important;
+	color: #ff6633 !important;
 }
 
 a.link-color-1:hover {
-	
+	color: #ff6633;
+	text-decoration: underline;
 }
 
-/* sets the 2nd default link color */
+/* sets the secondary theme link color */
 a.link-color-2 {
-	color: #36A9AE !important;
+	color: #669999 !important;
 }
 
-/* sets the 3rd default link color */
+a.link-color-2:hover {
+	color: #669999;
+	text-decoration: underline;
+}
+
+/* sets the tertiary theme link color */
 a.link-color-3 {
-	color: #252A2E !important;
+	color: #996633 !important;
 }
 
-/* sets the 4th default link color */
+/* sets the tertiary theme link color */
+a.link-color-3:hover {
+	color: #996633;
+}
+
+/* sets the tertiary theme link color */
 a.link-color-4 {
-	color: #797874 !important;
+	color: #666666 !important;
 }
 
-/* sets the 5th default link color */
+/* sets the tertiary theme link color */
+a.link-color-4:hover {
+	color: #666666;
+	text-decoration: underline;	
+}
+
+/* sets the tertiary theme link color */
 a.link-color-5 {
-	color: #fcfcfc;
+	color: #FCFCFC;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-5:hover {
+	color: #FCFCFC;
+	text-decoration: underline;	
 }
 
 /*!
