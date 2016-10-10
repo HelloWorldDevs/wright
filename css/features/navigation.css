@@ -1,10 +1,11 @@
 /* =================
 	Navbar Component 
+	1. Use YAMM?
 ================= */
 
 nav {
-	margin: 0px !important; 
-	padding: 10px 0px 20px 0px !important;
+	margin: 0 auto; 
+	padding: 0px 0px 20px 0px !important;
 }
 
 .navbar-default {
@@ -17,9 +18,8 @@ nav {
 }
 
 .navbar-brand > img {
-  height: 60px;
+  height: 80px;
   padding: 0px;
-  width: auto;
 }
 
 .navbar-default .navbar-toggle:hover  {
@@ -38,7 +38,7 @@ button.navbar-toggle:clicked {
 	background-color: #ffffff !important;
 }
 
-div.navbar-header {
+.navbar-header {
 	padding: 0px 0px 0px 0px;
 	border: 0px;
 }

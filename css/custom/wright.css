@@ -226,28 +226,31 @@ a:hover {
 	text-decoration: underline !important;
 }
 
-/* sets overrides for the read more links in description */
+/* sets overrides for the read more links in text description */
 a.read-more-1 {
-	font-size: 16px;
-	color: #E57C4B;
+	font-size: 1rem;
+	color: #e67c4c;
 	text-decoration: none;
 }
 
+/* sets the hover styles for 1st read more link style */
 a.read-more-1:hover {
-	font-size: 16px; 
-	color: #E57C4B;
+	font-size: 1rem; 
+	color: #e67c4c;
 	text-decoration: underline;
 }
 
+/* sets the styles for 2nd read more link style */
 a.read-more-2 {
-	font-size: 16px;
-	color: goldenrod;
+	font-size: 1rem;
+	color: #578fb0;
 	text-decoration: none;
 }
 
+/* sets the hover styles for 2nd read more link style */
 a.read-more-2:hover {
-	font-size: 16px; 
-	color: goldenrod;	
+	font-size: 1rem; 
+	color: #578fb0;	
 	text-decoration: underline;
 }
 
@@ -263,12 +266,11 @@ a.read-more-2:hover {
 /* sets the secondary theme color for interactive elements  */
 .theme-color-2 {
 	color: #0D2D3F !important;
-	color: #003333;
 }
 
 /* sets the tertiary theme color for interactive theme elements */
 .theme-color-3 {
-	color: #846A20 !important;
+	color: #856b21 !important;
 }
 
 /*  */
@@ -292,53 +294,69 @@ a.read-more-2:hover {
 	Specials CSS Styles
 ==================== */
 
-/* controls the specials section-1 background color */
-.specials-color-1 {
+/* controls the 1st specials background color */
+.specials-background-color-1 {
 	background-color: #C95E2D;
 }
 
-/* controls the specials section-2 background color*/
-.specials-color-2 {
+/* controls the 1st specials text color */
+.specials-color-1 {
+	color: #C95E2D;
+}
+
+/* controls the 2nd specials section-2 background color*/
+.specials-background-color-2 {
 	background-color: #846A20;
 }
 
+/* controls the 2nd specials text color */
+.specials-color-2 {
+	color: #846A20;
+}
+
 /* controls the specials section-3 background color */
-.specials-color-3 {
+.specials-background-color-3 {
 	background-color: #0D2D3F;
+}
+
+/* controls the 3rd specials text color */
+.specials-color-3 {
+	color: #0D2D3F;
 }
 
 /* ===================
 	Custom Link Styles 
 =================== */ 
 
-/* sets the primary theme link color */
+/* sets the primary link color styles */
 a.link-color-1 {
-	color: #ff6633 !important;
+	color: #e67c4c !important;
 }
 
+/* sets the primary link color hover styles */
 a.link-color-1:hover {
-	color: #ff6633;
+	color: #e67c4c;
 	text-decoration: underline;
 }
 
 /* sets the secondary theme link color */
 a.link-color-2 {
-	color: #669999 !important;
+	color: #5592b1 !important;
 }
 
 a.link-color-2:hover {
-	color: #669999;
+	color: #5592b1;
 	text-decoration: underline;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3 {
-	color: #996633 !important;
+	color: #856b21 !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3:hover {
-	color: #996633;
+	color: #856b21;
 }
 
 /* sets the tertiary theme link color */
@@ -354,7 +372,7 @@ a.link-color-4:hover {
 
 /* sets the tertiary theme link color */
 a.link-color-5 {
-	color: #FCFCFC;
+	color: #FCFCFC !important;
 }
 
 /* sets the tertiary theme link color */
@@ -362,6 +380,25 @@ a.link-color-5:hover {
 	color: #FCFCFC;
 	text-decoration: underline;	
 }
+
+/* sets the small phone number link class */
+.phone-sm {
+	font-size: 0.875rem !important;
+	font-weight: 700;
+}
+
+/* sets the medium phone number link class */
+.phone-md {
+	font-size: 1.5rem !important;
+	font-weight: 700;
+}
+
+/* sets the large phone number link class */
+.phone-lg {
+	font-size: 2.5rem !important;
+	font-weight: 700;
+}
+
 
 /* =====================
 	Custom Button Styles 
@@ -399,11 +436,11 @@ a.theme-btn-1:active {
 
 /* sets the secondary theme link color */
 .theme-btn-2 {
-	background-color: steelblue;
+	background-color: #578fb0;
 }
 
 .theme-btn-2:hover {
-	background-color: steelblue;
+	background-color: #578fb0;
 }
 
 button.theme-btn-1 {
@@ -444,7 +481,7 @@ button.theme-btn-1:hover {
 
 /* sets the tertiary theme background */
 .theme-background-3 {
-	background-color: steelblue;
+	background-color: #578fb0;
 }
 
 /* set the pattern theme background */
@@ -452,40 +489,13 @@ button.theme-btn-1:hover {
 	background-image: url(../../img/field-bkgd_specials.jpg);
 }
 
-/* ======================
-	Custom Theme Sections 
-====================== */
-
-/* controls the 1st slide of the banner carousel */
-#banner-slide-1 {
-	background-image: url("../../img/wright-slide1.jpg");
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	min-height: 583px;
+.theme-background-5 {
+	background-color: #f8f7f3;
 }
 
-/* controls the 2nd slide of the banner carousel */
-#banner-slide-2 {
-	background-image: url("../../img/wright-slide2.jpg");
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;	
-	min-height: 583px;	
-}
-
-/* controls the 3rd slide of the banner carousel */
-#banner-slide-3 {
-	background-image: url("../../img/wright-slide3.jpg");
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;	
-	min-height: 583px;	
-}
-
-.slide-stars .fa-gold {
-	color: gold;
-}
+/* ================
+	Custom Sections 
+================ */
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-existing-mobile {
@@ -511,9 +521,15 @@ button.theme-btn-1:hover {
 	background-repeat: no-repeat;
 }
 
-/* controls the new patient existing clients section */
-#new-patient-hotline-existing {
-	padding: 60px 0px 50px 0px;
+/* controls the new patient hotline mobile section */
+#new-patient-hotline-mobile {
+	padding: 60px 0px 40px 0px;
+}
+
+/* controls the new patient hotline desktop section */
+#new-patient-hotline-desktop {
+	padding: 40px 0px 40px 0px;
+	box-shadow: 15px 15px 15px 15px #333333;
 }
 
 /* controls the patient reviews section */
@@ -524,13 +540,35 @@ button.theme-btn-1:hover {
 	background-repeat: no-repeat;	
 }
 
+#reviews .h2 {
+	text-shadow: 2px 2px #333333;
+}
+
+#reviews p {
+	text-shadow: 2px 2px #333333;
+}
+	
+/* controls the mobile membership club section */
+#membership-club-mobile {
+	background-image: url("../../membership-row-wright.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	max-height: 600px;
+	margin: 0px;
+	padding: 40px 0px 80px 0px;
+}
+
+
 /* controls the no insurance mobile section */
 #no-insurance-mobile {
 	margin: 0px;
 	padding: 40px 0px 0px 0px;
 }
 
-no-insurance-mobile-banner {
+/* controls the no insurance mobile banner image */
+#no-insurance-mobile-banner {
 	margin: 0px;
 	padding: 0px 0px 0px 0px;
 }
@@ -550,22 +588,12 @@ no-insurance-mobile-banner {
 	background-size: cover;
 	border-bottom: solid 2px #cccccc;
 }
-	
+
 /* controls the services section */
 #services {
-	padding: 20px 0px 20px 0px;
-}
-
-/* controls the mobile membership club section */
-#membership-club-mobile {
-	background-image: url("../../membership-row-wright.jpg");
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: auto;
-	max-height: 600px;
-	margin: 0px;
-	padding: 40px 0px 80px 0px;
+	background-image: url("../../img/bedge_grunge_light.jpg");
+	background-repeat: repeat;
+	padding: 50px 0px 50px 0px;
 }
 
 /* controls the forensic dentistry section */
@@ -602,26 +630,36 @@ no-insurance-mobile-banner {
 	padding: 60px 0px 50px 0px;
 }
 
+/* controls the association section */
 #associations {
-	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#associations img {
+	margin: 0px 0px 0px 0px;
+	max-width: 200px;
 }
 
 /* controls the desktop footer section */
 #mobile-footer {
-	padding: 30px 10px 30px 10px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
 }
 
 /* controls the desktop footer section */
 #desktop-footer {
-	padding: 20px 10px 20px 10px;
-}
-
-#desktop-footer img {
-
+	margin: 0 auto;
+	padding: 30px 0px 0px 0px;
 }
 
 .owl-controls.clickable {
 	visibility: hidden;
+}
+
+/* controls spacing around buttons */
+.call-to-action {
+	margin: 20px 0px 20px 0px;
 }
 
 /* centers an image */
@@ -629,18 +667,6 @@ no-insurance-mobile-banner {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-/* sets the small phone number class */
-.phone-sm {
-	font-size: 24px;
-	font-weight: bold;
-}
-
-/* sets the large phone number class */
-.phone-lg {
-	font-size: 36px;
-	font-weight: bolder;
 }
 
 /* overrides the default panel border */
@@ -763,7 +789,7 @@ no-insurance-mobile-banner {
 	/* sets the 1st default theme button style */
 	a.theme-btn-1 {
 		padding: 5px 25px 5px 25px;	
-		background-color: #C04355;
+		background-color: #e67c4c;
 		border: solid 2px #fcfcfc;
 		border-radius: 15px;
 		color: #fcfcfc;
@@ -773,7 +799,7 @@ no-insurance-mobile-banner {
 		/* sets the 1st default theme button style */
 	a.theme-btn-1:hover {
 		padding: 5px 25px 5px 25px;	
-		background-color: #C04355;
+		background-color: #e67c4c;
 		border: solid 2px #fcfcfc;
 		border-radius: 15px;
 		color: #fcfcfc;

@@ -1,4 +1,4 @@
-/* controls the banner carousel functionality */
+/* controls the banner swiper carousel functionality */
 $(document).ready(function () {
 	
 	$("#banner-carousel-slides").owlCarousel({

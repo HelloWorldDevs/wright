@@ -2,15 +2,14 @@
 	Swiper Carousel Feature
 ======================== */
 
-/* ========================
-	Mobile Swiper Carousel
-======================== */
+/* =====================
+	Mobile Static Banner 
+===================== */
 
 /* controls the mobile banner */
-#swiper-mobile {
+#mobile-banner {
 	margin: 0px;
 	padding: 0px;
-	width: 100%;
 	max-height: 586px;	
 }
 
@@ -25,59 +24,74 @@
 	height: auto;
 }
 
-/* overrides the control display for banner carousel */
-.owl-controls {
-	display: ;
+/* controls the banner swiper container */
+.banner-swiper-container {
+	width: auto;
+	height: 578px;
 }
 
-.owl-item {
+/* controls the swiper slide */
+.swiper-slide {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 /* controls the first slide in the banner-carousel */
-#banner-slide-1 {
+#banner-swiper-slide-1 {
 	background-image: url("../../img/wright-slide1.jpg");
 	background-repeat: no-repeat;	
 	background-position: top center;
 	background-size: cover;
-	width: auto;
 	margin: 0 auto;
-	padding-top: 175px;
+	padding-top: 130px;
 	height: 586px;
+	min-height: 583px;	
 	max-height: 586px;	
 }
 
 /* controls the second slide in the banner-carousel */
-#banner-slide-2 {
+#banner-swiper-slide-2 {
 	background-image: url("../../img/wright-slide2.jpg");
 	background-repeat: no-repeat;	
 	background-position: top center;
 	background-size: cover;
-	width: auto;
 	margin: 0 auto;
 	padding-top: 75px;
 	height: 586px;
+	min-height: 583px;	
 	max-height: 586px;	
 }
 
 /* controls the third slide in the banner-carousel */
-#banner-slide-3 {
+#banner-swiper-slide-3 {
 	background-image: url("../../img/wright-slide3.jpg");
 	background-position: top center;	
 	background-repeat: no-repeat;	
 	background-size: cover;
-	width: auto;
 	margin: 0 auto;
 	width: 100%;
 	padding-top: 180px;	
 	height: 586px;
+	min-height: 583px;	
 	max-height: 586px;	
+}
+
+/* creates a swiper slide stars class */
+.slide-stars .fa-gold {
+	color: gold;
 }
 
 /* sets the default color style for the review stars */
 .fa-gold {
 	color: gold !important;
+}
+
+.fa-color-1 {
+	color: #E57C4B;
+}
+
+.fa-color-2 {
+	color: #5592b1;
 }
 
 /* sets the default color style for the customer review */
@@ -102,9 +116,4 @@
 	width: 40px;
 	height: 40px;
 	text-align: center;
-}
-
-.banner-swiper-container {
-	width: auto;
-	height: 578px;
 }

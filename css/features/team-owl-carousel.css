@@ -10,28 +10,28 @@
 
 /* overrides the default owl prev background color */
 .owl-prev {
-	background-color: #846A20 !important;
+	background-color: #5592b1 !important;
 	color: #ffffff;
 	margin-left: 0px;
 }
 
 /* overrides the default owl prev background color */
 .owl-prev:hover {
-	background-color: #846A20 !important;
+	background-color: #5592b1 !important;
 	color: #ffffff;
 	margin-left: 0px;
 }
 
 /* overrides the default owl next background color */
 .owl-next {
-	background-color: #846A20 !important;
+	background-color: #5592b1 !important;
 	color: #ffffff;
 	margin-right: 0px;
 }
 
 /* overrides the default owl next background color */
 .owl-next:hover {
-	background-color: #846A20 !important;
+	background-color: #5592b1 !important;
 	color: #ffffff;
 	margin-right: 0px;
 }
