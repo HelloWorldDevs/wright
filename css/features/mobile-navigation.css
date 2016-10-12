@@ -8,7 +8,11 @@ nav {
 }
 
 button.navbar-toggle {
-	background: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	left: 0%;
+	background: none !important;
 	border: none !important;
 	height: 40px;
 }
@@ -21,36 +25,61 @@ button.navbar-toggle:focus {
 	background: none;
 }	
 
+#navbar-brand-img {
+	width: 160px !important;
+	height: 80px !important;
+}
+
 a:hover {
 	text-decoration: underline !important;
 }
 
 /* sets the 1st default link color */
 a.link-color-1 {
-	color: #C04355 !important;
+	color: #E57C4B !important;
 }
 
 a.link-color-1:hover {
-	
+	color: #E57C4B !important;
 }
 
 /* sets the 2nd default link color */
 a.link-color-2 {
-	color: #36A9AE !important;
+	color: #578fb0 !important;
+}
+
+/* sets the 2nd default link hover color */
+a.link-color-2:hover {
+	color: #578fb0 !important;
 }
 
 /* sets the 3rd default link color */
 a.link-color-3 {
-	color: #252A2E !important;
+	color: #846A20 !important;
+}
+
+/* sets the 3rd default link hover color */
+a.link-color-3:hover {
+	color: #846A20 !important;
 }
 
 /* sets the 4th default link color */
 a.link-color-4 {
-	color: #797874 !important;
+	color: #cccccc !important;
+}
+
+/* sets the 4th default link color */
+a.link-color-4:hover {
+	color: #cccccc !important;
 }
 
 /* sets the 5th default link color */
 a.link-color-5 {
+	color: #fcfcfc;
+}
+
+/* sets the 5th default link hover color */
+a.link-color-5:hover {
 	color: #fcfcfc;
 }
 
@@ -64,8 +93,12 @@ a.link-color-5 {
 
 .navbar-default {
 	background-color: #ffffff;
-	border-bottom: solid 2px #cccccc;
+	border-bottom: solid 2px #CCCCCC;
 	height: 100px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #CCCCCC;
 }
 
 /* Large desktops and laptops */
