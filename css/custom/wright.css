@@ -540,10 +540,12 @@ button.theme-btn-1:hover {
 	background-repeat: no-repeat;	
 }
 
+/* controls the reviews h2 heading */
 #reviews .h2 {
 	text-shadow: 2px 2px #333333;
 }
 
+/* controls the reviews p */
 #reviews p {
 	text-shadow: 2px 2px #333333;
 }
