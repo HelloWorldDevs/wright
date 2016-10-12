@@ -623,7 +623,7 @@ button.theme-btn-1:hover {
 }
 
 /* controls the desktop location section styles */
-#location {
+#desktop-location {
 	background-image: url("../../img/forest-hills-family-dentistry.png");
 	background-position: center center;
 	background-size: cover;
