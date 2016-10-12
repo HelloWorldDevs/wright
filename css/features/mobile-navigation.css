@@ -28,7 +28,9 @@ button.navbar-toggle:focus {
 #navbar-brand-img {
 	width: 160px !important;
 	height: 80px !important;
-}
+	margin-top: 0px;
+	
+}		
 
 a:hover {
 	text-decoration: underline !important;
@@ -105,112 +107,136 @@ a.link-color-5:hover {
 @media (min-width: 1200px) {
 	.navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
-		display: block;
-		width: 160px;
+		width: 180px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC:;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
 		margin-left: 0px;
-		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
-		display: block;
-		width: 160px;
+		width: 180px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
 		margin-left: 0px;
-		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 }
 
-@media screen (min-width: 800px) and (max-width:900px){
-	.navbar-brand-centered {
-		position: absolute;
-		left: 0%;
-		display: block;
-		width: 160px;
-		height: 100px;
-		text-align: center;
-		background-color: #FCFCFC;
+
+/* Portrait phones and larger tablets */
+@media (min-width: 481px) and (max-width: 991px) {
+  .navbar-header {
+		float: none;
 	}
-	.navbar>.container .navbar-brand-centered, 
-	.navbar>.container-fluid .navbar-brand-centered {
-		position: absolute;
-		left: 0%;
-		margin-left: 0px;
+	.navbar-toggle {
 		display: block;
-		height: 100px;
 	}
 	.navbar-collapse {
-		position: relative;
-		top: 0px;
-		margin-top: 40px;
-		border-top: solid 2px #CCCCCC;
-		background-color: #FCFCFC;
+    display: block !important;
+		background-color: #FFFFFF;
+    width: 1000px;
+    left: 0%;
+    margin-top: 100px;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;	
+		
 	}
-}	
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 799px) {
-	.navbar-brand {
+	.navbar-collapse.collapse {
+			display: none!important;
+	}
+	.navbar-nav {
+			float: none!important;
+			margin: 7.5px -15px;
+	}
+	.navbar-nav > li {
+			float: none;
+	}
+	.navbar-nav > li >a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+	}
+	.navbar-text {
+			float: none;
+			margin: 15px 0;
+	}
+	/* since 3.1.0 */
+	.navbar-collapse.collapse.in { 
+    display: block!important;
+    width: 1000px;
+    left: 0%;
+    margin-top: 100px;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;		
+	}
+	.collapsing {
+		overflow: hidden!important;
+	}	
+	.navbar-brand-centered {
 		position: absolute;
-		top: 5%;
-		left: 0%;
-		margin-top: -10px;
+		left: 50%;
+		display: block;
+		width: 180px;
+		height: 100px;
+		text-align: center;
+	}
+	.navbar>.container .navbar-brand-centered,
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 50%;
 		margin-left: -80px;
 		display: block;
-		height: 80px;
+		height: 100px;
 	}
 }
 
 /* Portrait phones and smaller */
-@media (min-width: 481px) and (max-width: 798px) {
+@media (max-width: 480px) {
+	#navbar-brand-img {
+		width: 160px !important;
+		height: 80px !important;
+	}	
 	.navbar-brand-centered {
 		position: absolute;
-		left: 50%;
 		display: block;
-		width: 160px;
+		left: 50%;
+		width: 180px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 50%;
 		margin-left: -80px;
-		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 	.navbar-collapse {
 		position: relative;
-		top: 0px;
-		margin-top: 40px;
-		border-top: solid 2px #CCCCCC;
-		background-color: #FCFCFC;
+		margin-top: 100px;
+		background-color: #FFFFFF;
 	}
-	
-}	
+}
