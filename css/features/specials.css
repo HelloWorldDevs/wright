@@ -1,6 +1,36 @@
-/* ============================
-	Services Accordion  Feature
-============================ */
+/* =====================
+	Our Specials Feature
+===================== */
+
+/* controls the 1st specials background color */
+.specials-background-color-1 {
+	background-color: #C95E2D;
+}
+
+/* controls the 1st specials text color */
+.specials-color-1 {
+	color: #C95E2D;
+}
+
+/* controls the 2nd specials section-2 background color*/
+.specials-background-color-2 {
+	background-color: #846A20;
+}
+
+/* controls the 2nd specials text color */
+.specials-color-2 {
+	color: #846A20;
+}
+
+/* controls the specials section-3 background color */
+.specials-background-color-3 {
+	background-color: #0D2D3F;
+}
+
+/* controls the 3rd specials text color */
+.specials-color-3 {
+	color: #0D2D3F;
+}
 
 .ui-helper-reset {
   margin: 0;

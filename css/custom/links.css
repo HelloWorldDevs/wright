@@ -1,0 +1,111 @@
+/* ==========================
+	Custom Link Styles 
+	1.	General Type Setting 
+	2. 	Custom Headings
+	3. 	Custom Sizes
+	4. 	Custom Helper Classes
+========================== */
+
+/* sets the default link */
+a {
+	font-size: 18px !important;
+	font-weight: normal;
+}
+
+/* sets the default link hover */
+a:hover {
+	text-decoration: underline !important;
+}
+
+/* sets overrides for the read more links in text description */
+a.read-more-1 {
+	font-size: 1rem;
+	color: #e67c4c;
+	text-decoration: none;
+}
+
+/* sets the hover styles for 1st read more link style */
+a.read-more-1:hover {
+	font-size: 1rem; 
+	color: #e67c4c;
+	text-decoration: underline;
+}
+
+/* sets the styles for 2nd read more link style */
+a.read-more-2 {
+	font-size: 1rem;
+	color: #578fb0;
+	text-decoration: none;
+}
+
+/* sets the hover styles for 2nd read more link style */
+a.read-more-2:hover {
+	font-size: 1rem; 
+	color: #578fb0;	
+	text-decoration: underline;
+}
+
+/* =====================
+	Custom Button Styles 
+===================== */
+
+/* sets the primary theme button color */
+a.theme-btn-1 {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}
+
+a.theme-btn-1:hover {
+	padding: 15px 40px 15px 40px;
+	border: solid 2px #fcfcfc;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	color: #fcfcfc !important;
+	text-decoration: underline;
+}
+
+a.theme-btn-1:active {
+	padding: 15px 40px 15px 40px;
+	border: solid 2px #fcfcfc;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	color: #fcfcfc !important;
+	text-decoration: underline;
+}
+
+/* sets the secondary theme link color */
+.theme-btn-2 {
+	background-color: #578fb0;
+}
+
+.theme-btn-2:hover {
+	background-color: #578fb0;
+}
+
+button.theme-btn-1 {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}
+
+button.theme-btn-1:hover {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}

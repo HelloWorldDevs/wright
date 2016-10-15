@@ -1,0 +1,59 @@
+/* ===================
+	Custom Font Styles
+	1. serif-thin
+	2. serif-reg
+	3. serif-bold
+	4. sans-serif-thin
+	5. sans-serif-reg
+	6. sans-serif-bold
+	7. sans-serif-black
+=================== */
+
+/* sets the default serif thin font class */
+.serif-thin {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 300;
+	line-height: normal;
+}
+
+/* sets the default serif regular font class */
+.serif-reg {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* sets the default serif bold font class */
+.serif-bold {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 700;
+	line-height: normal;	
+}
+
+/* sets the default serif thin font class */
+.sans-serif-thin {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	line-height: normal;
+}
+
+/* sets the default sans-serif regular text class */
+.sans-serif-reg {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: normal;	
+}
+
+/* sets the default sans-serif bold text class */
+.sans-serif-bold {
+	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 700;
+	line-height: normal;	
+}
+
+/* sets the default sans-serif black text class */
+.sans-serif-black {
+	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 900;
+	line-height: normal;	
+}

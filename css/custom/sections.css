@@ -1,0 +1,328 @@
+/* =====================================
+	Controls the Theme's Custom Sections 
+	1.	Primary Navigation 
+	2.	Banner Carousel
+	3.	New Patient Hotline Existing 	
+	4.	Meet The Team
+	5. 	Team Carousel
+	6. 	New Patient Specials
+	7. 	New Patient Hotline
+	8. 	Patient Reviews
+	9.	Membership Club
+	10.	Our Services
+	11.	Discover Forensic Dentistry
+	12.	Location
+	13.	Associations
+	14. Primary Footer
+==================================== */
+
+/* ===========================
+	Primary Navigation Section 
+=========================== */
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  height: 80px;
+  padding: 0px;
+}
+
+.navbar-default .navbar-toggle:hover  {
+	background: none;
+}
+
+.navbar-default .navbar-toggle:active {
+	background: none;
+}	
+
+button.navbar-toggle:focus {
+	background: none;
+}	
+
+button.navbar-toggle:clicked {
+	background-color: #ffffff !important;
+}
+
+.navbar-header {
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+.navbar-default .navbar-collapse {
+	border-top: none;
+}
+
+
+button.navbar-toggle {
+	border: none;
+}
+
+/* ========================
+	Banner Carousel Section 
+======================== */
+
+/* =====================================
+	New Patient Hotline Existing Section 
+===================================== */
+
+/* controls the new patient hotline mobile section */
+#new-patient-hotline-existing-mobile {
+	background-color: lightblue;
+	padding: 20px 0px 20px 0px; 
+}
+
+/* controls the new patient hotline desktop section */
+#new-patient-hotline-existing-desktop {
+	padding: 60px 0px 50px 0px;
+}
+
+/* ======================
+	Meet The Team Section  
+====================== */
+
+/* controls the franklin wright section */
+
+#meet-the-team {
+	background-image: url("../../img/bedge_grunge_light.jpg");
+}
+
+/* ======================
+	Team Carousel Section 
+====================== */
+
+/* controls the new patient offers section */
+#new-patient-offers {
+	background-image: url("../../img/field-bkgd_specials.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* =============================
+	New Patient Specials Section 
+============================= */
+
+/* controls the new patient hotline mobile section */
+#new-patient-hotline-mobile {
+	padding: 60px 0px 40px 0px;
+}
+
+/* controls the new patient hotline desktop section */
+#new-patient-hotline-desktop {
+	padding: 40px 0px 40px 0px;
+	box-shadow: 15px 15px 15px 15px #333333;
+}
+
+/* controls the patient reviews section */
+#reviews {
+	background-image: url("../../img/cincinatti-reviews-bkgd.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+/* controls the reviews h2 heading */
+#reviews .h2 {
+	text-shadow: 2px 2px #333333;
+}
+
+/* controls the reviews p */
+#reviews p {
+	text-shadow: 2px 2px #333333;
+}
+	
+/* controls the mobile membership club section */
+#membership-club-mobile {
+	background-image: url("../../membership-row-wright.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	max-height: 600px;
+	margin: 0px;
+	padding: 40px 0px 80px 0px;
+}
+
+
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+}
+
+/* controls the no insurance mobile banner image */
+#no-insurance-mobile-banner {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* controls the no insurance mobile image */
+#no-insurance-mobile-img {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* controls the no insurance section */
+#no-insurance {
+	padding: 100px 0px 100px 0px;
+	background-image: url("../../img/membership-row-wright.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: solid 2px #cccccc;
+}
+
+/* controls the services section */
+#services {
+	background-image: url("../../img/bedge_grunge_light.jpg");
+	background-repeat: repeat;
+	padding: 50px 0px 50px 0px;
+}
+
+/* controls the forensic dentistry section */
+#forensic-dentistry {
+	margin: 0px;	
+	padding: 60px 0px 70px 0px;
+	background-color: #6F6D6A;
+	color: #F9F7F4;
+}
+
+/* control the mobile desktop location styles */
+#mobile-location {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#mobile-location img {
+	max-height: 80px;
+	margin-top: 10px;
+}
+
+#mobile-map {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* ==============================
+	New Patient Specials Section 
+============================== */
+
+#new-patient-specials {
+	margin: 0 auto;
+	padding: ;
+}
+
+/* ==============================
+	New Patient Hotline Section 
+============================== */
+
+
+
+
+
+/* ========================
+	Patient Reviews Section 
+======================== */
+
+
+/* ========================
+	Membership Club Section 
+======================== */
+
+
+
+/* =====================
+	Our Services Section 
+===================== */
+
+
+/* ====================================
+	Discover Forensic Dentistry Section 
+==================================== */
+
+#discover-forensic-dentistry {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
+/* =================
+	Location Section 
+================= */
+
+/* controls the desktop location section styles */
+#mobile-location {
+	background-image: url("../../img/forest-hills-family-dentistry.png");
+	background-position: center center;
+	background-size: cover;
+	width: auto;
+	margin: 0px;
+	padding: 60px 0px 50px 0px;
+}
+
+#mobile-location-map {
+	margin: 0 auto;
+	padding: ;	
+}
+
+/* controls the desktop location section styles */
+#desktop-location {
+	background-image: url("../../img/forest-hills-family-dentistry.png");
+	background-position: center center;
+	background-size: cover;
+	width: auto;
+	margin: 0px;
+	padding: 60px 0px 50px 0px;
+}
+
+/* =====================
+	Associations Section 
+===================== */
+
+/* controls the association section */
+#associations {
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+	max-height: 80px;
+}
+
+#associations img {
+	margin: 0px 0px 0px 0px;
+	max-width: 200px;
+}
+
+/* ============================
+	Primary Site Footer Section 
+============================ */
+
+/* controls the desktop footer section */
+#desktop-footer {
+	margin: 0 auto;
+	padding: 30px 0px 0px 0px;
+	height: 100px;
+}
+
+/* overrides the footer element */
+footer {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* controls the mobile footer */
+#mobile-footer {
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;	
+}
+
+/* overrides the desktop footer */
+#desktop-footer {
+	margin: 0 auto;
+	padding: 40px 0px 40px 0px;
+	max-height: 80px;
+}

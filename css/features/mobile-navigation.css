@@ -1,6 +1,14 @@
+/* ==========================
+	Mobile Navigation Feature
+========================== */
+
 nav {
 	margin: 0px !important; 
 	padding: 0px 0px 0px 0px !important;
+}
+
+#mobile-navigation {
+	height: 100px;
 }
 
 .navbar.navbar-right {
@@ -9,9 +17,10 @@ nav {
 
 button.navbar-toggle {
 	position: absolute;
+	display: block;
 	top: 50%;
+	left: 0%;	
 	margin-top: -25px;
-	left: 0%;
 	background: none !important;
 	border: none !important;
 	height: 40px;
@@ -27,9 +36,7 @@ button.navbar-toggle:focus {
 
 #navbar-brand-img {
 	width: 160px !important;
-	height: 80px !important;
 	margin-top: 0px;
-	
 }		
 
 a:hover {
@@ -87,10 +94,6 @@ a.link-color-5:hover {
 
 .navbar .navbar-right {
 	margin-top: 20px;
-}
-
-#mobile-navigation {
-	height: 100px;
 }
 
 .navbar-default {

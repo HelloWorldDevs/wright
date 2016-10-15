@@ -1,0 +1,120 @@
+/* =====================
+	Custom Color Styles
+	1. Theme Colors
+	2. Link Colors
+	3. Background Colors
+===================== */
+
+/* ====================
+	Primary Theme Colors
+==================== */
+
+/* sets the primary theme color for interactive elements */
+.theme-color-1 {
+	color: #E57C4B;
+}
+
+/* sets the secondary theme color for interactive elements  */
+.theme-color-2 {
+	color: #0D2D3F !important;
+}
+
+/* sets the tertiary theme color for interactive theme elements */
+.theme-color-3 {
+	color: #856b21 !important;
+}
+
+/*  */
+.theme-color-4 {
+	color: #6F6D6A;
+}
+
+/* sets the  */
+.theme-color-5 {
+	color: #FCFCFC;
+}
+
+/* ============
+	Link Colors
+============ */ 
+
+/* sets the primary link color styles */
+a.link-color-1 {
+	color: #e67c4c !important;
+}
+
+/* sets the primary link color hover styles */
+a.link-color-1:hover {
+	color: #e67c4c;
+	text-decoration: underline;
+}
+
+/* sets the secondary theme link color */
+a.link-color-2 {
+	color: #5592b1 !important;
+}
+
+a.link-color-2:hover {
+	color: #5592b1;
+	text-decoration: underline;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-3 {
+	color: #856b21 !important;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-3:hover {
+	color: #856b21;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-4 {
+	color: #666666 !important;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-4:hover {
+	color: #666666;
+	text-decoration: underline;	
+}
+
+/* sets the tertiary theme link color */
+a.link-color-5 {
+	color: #FCFCFC !important;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-5:hover {
+	color: #FCFCFC;
+	text-decoration: underline;	
+}
+
+/* ===================
+	Backgrounds Colors
+=================== */
+
+/* sets the primary theme background */
+.theme-background-1 {
+	background-color: #C95E2D;
+}
+
+/* sets the secondary theme background */
+.theme-background-2 {
+	background-color: #0D2D3F;
+}
+
+/* sets the tertiary theme background */
+.theme-background-3 {
+	background-color: #578fb0;
+}
+
+/* set the pattern theme background */
+.theme-background-4 {
+	background-image: url(../../img/field-bkgd_specials.jpg);
+}
+
+.theme-background-5 {
+	background-color: #f8f7f3;
+}
