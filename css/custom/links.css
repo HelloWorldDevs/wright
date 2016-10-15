@@ -52,31 +52,36 @@ a.read-more-2:hover {
 /* sets the primary theme button color */
 a.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: normal;
-	text-transform: uppercase;
-	padding: 15px 40px 15px 40px;
+	font-weight: 300;
+	padding: 10px 40px 10px 40px;
 	background-color: #C95E2D !important;	
 	border-radius: 15px;	
 	border: solid 2px #fcfcfc;
 	color: #fcfcfc;
+	text-decoration: none;
+	text-transform: uppercase;	
 }
 
 a.theme-btn-1:hover {
-	padding: 15px 40px 15px 40px;
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;	
+	padding: 10px 40px 10px 40px;
 	border: solid 2px #fcfcfc;
 	background-color: #C95E2D !important;	
 	border-radius: 15px;	
 	color: #fcfcfc !important;
 	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 a.theme-btn-1:active {
-	padding: 15px 40px 15px 40px;
+	padding: 10px 40px 10px 40px;
 	border: solid 2px #fcfcfc;
 	background-color: #C95E2D !important;	
 	border-radius: 15px;	
 	color: #fcfcfc !important;
 	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 /* sets the secondary theme link color */
@@ -90,9 +95,9 @@ a.theme-btn-1:active {
 
 button.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 	text-transform: uppercase;
-	padding: 15px 40px 15px 40px;
+	padding: 10px 40px 10px 40px;
 	background-color: #C95E2D !important;	
 	border-radius: 15px;	
 	border: solid 2px #fcfcfc;
@@ -101,9 +106,9 @@ button.theme-btn-1 {
 
 button.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 	text-transform: uppercase;
-	padding: 15px 40px 15px 40px;
+	padding: 10px 40px 10px 40px;
 	background-color: #C95E2D !important;	
 	border-radius: 15px;	
 	border: solid 2px #fcfcfc;

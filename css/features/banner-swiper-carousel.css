@@ -127,3 +127,14 @@
 .icon-angle-down {
 	font-size: 2rem;
 }
+
+/* Small handheld devices (phones & tablets, between 769px and 899px) */
+@media (min-width: 900px) {
+	#mobile-banner {
+		display: none;
+		visibility: hidden;
+		margin: 0px;
+		padding: 0px;
+		max-height: 586px;	
+	}	
+}
