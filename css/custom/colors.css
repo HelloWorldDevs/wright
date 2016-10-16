@@ -29,9 +29,9 @@
 	color: #6F6D6A;
 }
 
-/* sets the  */
+/* sets the 5th theme color */
 .theme-color-5 {
-	color: #FCFCFC;
+	color: #F9F7F4;
 }
 
 /* ============
@@ -112,9 +112,13 @@ a.link-color-5:hover {
 
 /* set the pattern theme background */
 .theme-background-4 {
-	background-image: url(../../img/field-bkgd_specials.jpg);
+	background-color: #6F6D6A;
 }
 
 .theme-background-5 {
 	background-color: #f8f7f3;
+}
+
+.theme-background-6 {
+	background-image: url(../../img/field-bkgd_specials.jpg);
 }

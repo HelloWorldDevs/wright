@@ -196,6 +196,7 @@ button.navbar-toggle {
 
 /* control the mobile desktop location styles */
 #mobile-location {
+	background-color: #FFFFFF !important;
 	margin: 0px;
 	padding: 0px 0px 0px 0px;
 }
@@ -205,8 +206,8 @@ button.navbar-toggle {
 	margin-top: 10px;
 }
 
-#mobile-map {
-	margin: 0px;
+#mobile-location-map {
+	margin: 0 auto;
 	padding: 0px 0px 0px 0px;
 }
 
@@ -249,7 +250,7 @@ button.navbar-toggle {
 
 #discover-forensic-dentistry {
 	margin: 0 auto;
-	padding: 0px 0px 0px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 /* =================
@@ -289,7 +290,7 @@ button.navbar-toggle {
 #associations {
 	margin: 0 auto;
 	padding: 10px 0px 0px 0px;
-}
+}cd 
 
 #associations img {
 	margin: 0px 0px 0px 0px;
@@ -300,29 +301,14 @@ button.navbar-toggle {
 	Primary Site Footer Section 
 ============================ */
 
-/* controls the desktop footer section */
-#desktop-footer {
-	margin: 0 auto;
-	padding: 30px 0px 0px 0px;
-	height: 100px;
-}
-
-/* overrides the footer element */
-footer {
-	margin: 0 auto;
-	padding: 0;
-}
-
 /* controls the mobile footer */
 #mobile-footer {
 	margin: 0 auto;
 	padding: 10px 0px 0px 0px;	
 }
 
-/* overrides the desktop footer */
+/* controls the desktop footer section */
 #desktop-footer {
 	margin: 0 auto;
-	padding: 40px 0px 40px 0px;
-	max-height: 80px;
+	padding: 30px 0px 0px 0px;
 }
-

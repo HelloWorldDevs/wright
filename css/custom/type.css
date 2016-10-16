@@ -68,42 +68,42 @@ p {
 
 /* creates an extra small text class */
 .text-xs {
-	font-size: 0.75rem;
+	font-size: 0.75rem !important;
 }
 
 /* creates a small text class */
 .text-sm {
-	font-size: 0.875rem;
+	font-size: 0.875rem !important;
 }
 
 /* creates a regular text class */
 .text-reg {
-	font-size: 1rem;
+	font-size: 1rem !important;
 }
 
 /* creates a medium text class */
 .text-md {
-	font-size: 1.5rem;
+	font-size: 1.5rem !important;
 }
 
 /* creates a large text class */
 .text-lg {
-	font-size: 2.25rem;
+	font-size: 2.25rem !important;
 }
 
 /* creates an extra large text class */
 .text-xl {
-	font-size: 3rem;
+	font-size: 3rem !important;
 }
 
 /* creates an extra extra large text class */
 .text-xxl {
-	font-size: 4rem;
+	font-size: 4rem !important;
 }
 
 /* creates a huge  text class */
 .text-hu {
-	font-size: 4.5rem;
+	font-size: 4.5rem !important;
 }
 
 /* creates an extra-small responsive text class */
