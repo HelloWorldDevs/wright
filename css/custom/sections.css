@@ -282,6 +282,11 @@ button.navbar-toggle {
 	padding: 60px 0px 50px 0px;
 }
 
+/* controls the desktop location image */
+#desktop-location img {
+	width: 280px;
+}
+
 /* =====================
 	Associations Section 
 ===================== */
