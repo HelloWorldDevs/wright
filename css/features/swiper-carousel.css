@@ -10,7 +10,6 @@
 #mobile-banner {
 	margin: 0px;
 	padding: 0px;
-	max-height: 586px;	
 }
 
 /* ========================
@@ -21,13 +20,11 @@
 #swiper-carousel  {
 	margin: 0px;
 	padding: 0px;
-	height: auto;
 }
 
 /* controls the banner swiper container */
 .swiper-container {
-	width: auto;
-	height: 578px;
+	max-height: 700px;
 }
 
 /* controls the swiper slide */

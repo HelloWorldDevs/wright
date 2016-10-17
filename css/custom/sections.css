@@ -230,6 +230,10 @@ a:hover {
 	color: #F9F7F4;
 }
 
+#forensic-dentistry-img {
+	max-width: 350px;
+}
+
 /* control the mobile desktop location styles */
 #mobile-location {
 	background-color: #FFFFFF !important;

@@ -82,12 +82,12 @@ a.link-color-4:hover {
 
 /* sets the tertiary theme link color */
 a.link-color-5 {
-	color: #FCFCFC !important;
+	color: #FFFFFF !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-5:hover {
-	color: #FCFCFC !important;
+	color: #FFFFFF !important;
 	text-decoration: underline;	
 }
 

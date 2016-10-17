@@ -37,6 +37,14 @@ ul {
 	list-style: none;
 }
 
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
 /* controls the facebook icon */
 .facebook-icon {
 	background-color: #ffffff;
