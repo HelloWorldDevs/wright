@@ -320,6 +320,16 @@
 	padding: ;	
 }
 
+#mobile-location #location-hotline {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mobile-location #location-existing {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 /* controls the desktop location section styles */
 #desktop-location {
 	background-image: url("../../img/forest-hills-family-dentistry.png");
