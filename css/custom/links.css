@@ -20,28 +20,28 @@ a:hover {
 /* sets overrides for the read more links in text description */
 a.read-more-1 {
 	font-size: 1rem;
-	color: #e67c4c;
+	color: #578FAF;
 	text-decoration: none;
 }
 
 /* sets the hover styles for 1st read more link style */
 a.read-more-1:hover {
 	font-size: 1rem; 
-	color: #e67c4c;
+	color: #578FAF;
 	text-decoration: underline;
 }
 
 /* sets the styles for 2nd read more link style */
 a.read-more-2 {
 	font-size: 1rem;
-	color: #578fb0;
+	color: #578FAF;
 	text-decoration: none;
 }
 
 /* sets the hover styles for 2nd read more link style */
 a.read-more-2:hover {
 	font-size: 1rem; 
-	color: #578fb0;	
+	color: #578FAF;
 	text-decoration: underline;
 }
 

@@ -1,6 +1,6 @@
 /* =====================================
 	Controls the Theme's Custom Sections 
-	1.	Primary Navigation 
+	1.	Navigation 
 	2.	Banner Carousel
 	3.	New Patient Hotline Existing 	
 	4.	Meet The Team
@@ -13,55 +13,67 @@
 	11.	Discover Forensic Dentistry
 	12.	Location
 	13.	Associations
-	14. Primary Footer
+	14. Footer
 ==================================== */
 
-/* ===========================
-	Primary Navigation Section 
-=========================== */
+/* ===================
+	Navigation Section 
+=================== */
 
-.navbar-default {
-	background-color: #ffffff;
-	border-bottom: solid 2px #cccccc;
+#mobile-navigation {
+	height: 100px;
 }
 
-.navbar-brand {
-  padding: 0px;
+.navbar.navbar-right {
+	height: 100px;
 }
 
-.navbar-brand > img {
-  height: 80px;
-  padding: 0px;
+button.navbar-toggle {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 0%;	
+	margin-top: -25px;
+	background: none !important;
+	border: none !important;
+	height: 40px;
 }
 
-.navbar-default .navbar-toggle:hover  {
-	background: none;
+button.navbar-toggle {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 0%;
+    margin-top: -25px;
+    background: none !important;
+    border: none !important;
+    height: 40px;
 }
 
-.navbar-default .navbar-toggle:active {
-	background: none;
-}	
+button.navbar-toggle:hover {
+	background-color: #FCFCFC;
+}
 
 button.navbar-toggle:focus {
 	background: none;
 }	
 
-button.navbar-toggle:clicked {
-	background-color: #ffffff !important;
+a:hover {
+	text-decoration: underline !important;
 }
 
-.navbar-header {
-	padding: 0px 0px 0px 0px;
-	border: 0px;
+.navbar .navbar-right {
+	margin-top: 20px;
 }
 
-.navbar-default .navbar-collapse {
-	border-top: none;
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
 }
 
-
-button.navbar-toggle {
-	border: none;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #CCCCCC;
 }
 
 /* ========================
@@ -74,21 +86,24 @@ button.navbar-toggle {
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-existing-mobile {
-	background-color: lightblue;
 	padding: 20px 0px 20px 0px; 
 }
 
 /* controls the new patient hotline desktop section */
 #new-patient-hotline-existing-desktop {
-	padding: 60px 0px 50px 0px;
+	padding: 20px 0px 20px 0px;
+}
+
+/* controls the new patient hotline desktop theme button */
+#new-patient-hotline-existing-desktop .theme-btn-1 {
+	margin-top: 10px;
 }
 
 /* ======================
 	Meet The Team Section  
 ====================== */
 
-/* controls the franklin wright section */
-
+/* controls the meet the team section background */
 #meet-the-team {
 	background-image: url("../../img/bedge_grunge_light.jpg");
 }
@@ -105,9 +120,9 @@ button.navbar-toggle {
 	background-repeat: no-repeat;
 }
 
-/* =============================
-	New Patient Specials Section 
-============================= */
+/* ============================
+	New Patient Hotline Section 
+============================ */
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
@@ -119,6 +134,15 @@ button.navbar-toggle {
 	padding: 40px 0px 40px 0px;
 	box-shadow: 15px 15px 15px 15px #333333;
 }
+
+/* controls the new patient hotline desktop theme button */
+#new-patient-hotline-desktop .theme-btn-1 {
+	margin-top: 10px;
+}
+
+/* ========================
+	Patient Reviews Section 
+======================== */
 
 /* controls the patient reviews section */
 #reviews {
@@ -137,6 +161,10 @@ button.navbar-toggle {
 #reviews p {
 	text-shadow: 2px 2px #333333;
 }
+
+/* ========================
+	Membership Club Section 
+======================== */
 	
 /* controls the mobile membership club section */
 #membership-club-mobile {
@@ -224,7 +252,13 @@ button.navbar-toggle {
 	New Patient Hotline Section 
 ============================== */
 
+#new-patient-hotline-desktop {
+	padding: 30px 0px 30px 0px;
+}
 
+#new-patient-hotline-desktop .theme-btn-1 {
+	margin-top: 10px;
+}
 
 
 

@@ -9,8 +9,8 @@ $(document).ready(function () {
 		stagePadding: 0,
 		nav: true,
 		navText: [
-			"<i class='fa fa-long-arrow-left fa-lg fa-fw'></i>", 
-			"<i class='fa fa-long-arrow-right fa-lg fa-fw'></i>"
+			"<i class='fa fa-chevron-left fa-lg fa-fw'></i>", 
+			"<i class='fa fa-chevron-right fa-lg fa-fw'></i>"
 		],
 		dots: false,
 		autoplay: false,

@@ -9,22 +9,22 @@
 	Primary Theme Colors
 ==================== */
 
-/* sets the primary theme color for interactive elements */
+/* sets the 1st theme color for interactive elements */
 .theme-color-1 {
 	color: #E57C4B;
 }
 
-/* sets the secondary theme color for interactive elements  */
+/* sets the 2nd theme color for interactive elements  */
 .theme-color-2 {
 	color: #0D2D3F !important;
 }
 
-/* sets the tertiary theme color for interactive theme elements */
+/* sets the 3rd theme color for interactive theme elements */
 .theme-color-3 {
 	color: #856b21 !important;
 }
 
-/*  */
+/* sets the 4th theme color for interactive theme elements */
 .theme-color-4 {
 	color: #6F6D6A;
 }
@@ -40,43 +40,43 @@
 
 /* sets the primary link color styles */
 a.link-color-1 {
-	color: #e67c4c !important;
+	color: #C95E2D !important;
 }
 
 /* sets the primary link color hover styles */
 a.link-color-1:hover {
-	color: #e67c4c;
+	color: #C95E2D !important;
 	text-decoration: underline;
 }
 
 /* sets the secondary theme link color */
 a.link-color-2 {
-	color: #5592b1 !important;
+	color: #0D2D3F !important;
 }
 
 a.link-color-2:hover {
-	color: #5592b1;
+	color: #0D2D3F !important;
 	text-decoration: underline;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3 {
-	color: #856b21 !important;
+	color: #846A20 !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-3:hover {
-	color: #856b21;
+	color: #846A20 !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-4 {
-	color: #666666 !important;
+	color: #6F6D6A !important;
 }
 
 /* sets the tertiary theme link color */
 a.link-color-4:hover {
-	color: #666666;
+	color: #6F6D6A !important;
 	text-decoration: underline;	
 }
 
@@ -87,7 +87,7 @@ a.link-color-5 {
 
 /* sets the tertiary theme link color */
 a.link-color-5:hover {
-	color: #FCFCFC;
+	color: #FCFCFC !important;
 	text-decoration: underline;	
 }
 
@@ -107,7 +107,7 @@ a.link-color-5:hover {
 
 /* sets the tertiary theme background */
 .theme-background-3 {
-	background-color: #578fb0;
+	background-color: #FFFFFF;
 }
 
 /* set the pattern theme background */
