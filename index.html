@@ -57,8 +57,8 @@
 	<!-- Specials Custom CSS Styles -->
 	<link rel="stylesheet" href="css/features/specials.css" type="text/css">	
 	
-	<!-- Team Owl Carousel Custom CSS Styles -->	
-	<link rel="stylesheet" href="css/features/team-owl-carousel.css" type="text/css">	
+	<!-- Team Carousel Custom CSS Styles -->	
+	<link rel="stylesheet" href="css/features/team-carousel.css" type="text/css">	
 	
 	<!-- =========================
 		End of Features CSS Styles 
@@ -141,7 +141,7 @@
 							 data-target="#navbar-collapse-target" 
 												 data-toggle="collapse">Reviews</a></li>
 					<li>
-						<a href="#team" 
+						<a href="#meet-the-team" 
 							 class="serif-reg link-color-4 text-reg" 
 							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">Team</a>
@@ -192,7 +192,7 @@
 	=======================  -->
 	
 	<!-- #swiper-carousel -->
-	<section id="banner-swiper-carousel">
+	<section id="banner-swiper-carousel" class="visible-lg">
 		<!-- Slider main container -->
 		<div id="banner-swiper-container" class="swiper-container">
 			<!-- Additional required wrapper -->
@@ -305,9 +305,9 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="text-center">
-						<span class="serif-reg theme-color-2 text-capitalize">New Patient Hotline</span><br>
+						<span class="serif-reg theme-color-2 text-md text-capitalize">New Patient Hotline</span><br>
 						<span>
-							<a href="tel:+18883064431" class="link-color-2 phone-lg">(888) 306-4431</a>
+							<a href="tel:+18883064431" class="link-color-2 phone-xl">(888) 306-4431</a>
 						</span>
 					</div><!-- /.text-center -->
 				</div><!-- /.col-md-6 -->
@@ -319,15 +319,15 @@
 							 class="btn theme-btn-1" 
 							 data-toggle="modal" 
 							 data-href="#franklinWrightModal" 
-							 data-target="#franklinWrightModal">Read More...</a>
+							 data-target="#franklinWrightModal">Request Appointment</a>
 					</div><!-- /.call-to-action -->
 				</div><!-- /.col-md-6 -->
 			</div><!-- /.row -->
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="text-center">
-						<span class="serif-reg theme-color-2">Existing Patients Call:</span><br>
-						<a href="tel:+15132315353" class="serif-reg-bold link-color-2">
+						<span class="serif-reg text-md theme-color-2">Existing Patients Call:</span><br>
+						<a href="tel:+15132315353" class="serif-reg-bold phone-lg link-color-2">
 							(513) 231-5353
 						</a>
 					</div><!-- /.text-center -->
@@ -397,7 +397,8 @@
 					</p>
 				</div><!-- /.col-md-4 -->
 				<div class="col-md-8">
-					<h3 class="h3 theme-color-3 sans-serif-bold text-lg">Franklin D. Wright, DMD</h3>
+					<h3 class="h3 theme-color-3 sans-serif-bold text-lg hidden-xs hidden-sm">Franklin D. Wright, DMD</h3>
+					<h3 class="h3 theme-color-3 sans-serif-bold text-md hidden-md hidden-lg">Franklin D. Wright, DMD</h3>	
 					<p class="serif-reg text-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
 					<p class="serif-reg text-reg">Dr. Wright was appointed to the State of Ohio Dental Board in 2004. Dr. Wright has lectured throughout the US, Europe, as well as Central and South America on forensic dentistry. He has also published extensively in the field of forensic dentistry.</p>
 					<p class="serif-reg text-reg">When out of the office, Dr. Wright can be found playing golf, traveling, as well as watching high school and collegiate football. He also enjoys spending time researching in the area of bite-mark evidence collection and analysis, both the traditional and high-tech approaches.</p>
@@ -410,7 +411,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<h3 class="h3 sans-serif-bold theme-color-3 text-lg">Bradley A. Dorsch, DDS</h3>
+					<h3 class="h3 sans-serif-bold theme-color-3 text-lg hidden-xs hidden-sm">Bradley A. Dorsch, DDS</h3>
+					<h3 class="h3 sans-serif-bold theme-color-3 text-md hidden-md hidden-lg">Bradley A. Dorsch, DDS</h3>
 					<p class="serif-reg text-reg">Dr. Dorsch completed his Bachelor of Arts (BA) in Sociology, with honors, at Northwestern University, in Evanston, Illinois, 1994. He graduated with his Doctor of Dental Surgery (DDS) from Northwestern University School of Dentistry in 1998, where he was selected to the Honors Program in Oral Surgery. He served on the faculty of the Northwestern University School of Dentistry as an instructor in prosthodontics from 1999-2001, as well as maintaining a private family dental practice. 
 					<p class="serif-reg text-reg">Additionally, from 1998-1999, Dr. Dorsch completed a General Practice Residency at the West Side Veterans Affairs Medical Center in Chicago, Illinois.</p>
 					<p class="serif-reg text-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
@@ -701,7 +703,7 @@
 				<div class="col-xs-12 col-sm-12 text-center">
 					<h2 class="h2 sans-serif-black theme-color-1 text-lg text-uppercase">No Insurance?</h2>
 					<p class="serif-reg ">
-						Join the Forest Hills Family Dentistry <br>Membership Club and Start Saving Today!
+						Join the Forest Hills Family Dentistry Membership Club and Start Saving Today!
 					</p>
 					<h3 class="header sans-serif-bold theme-color-1 text-">MEMBERSHIPS START <br>AT $29/mo.</h3>
 					<ul>
@@ -994,79 +996,37 @@
 	<!-- ========================
 		Start of Location Section
 	========================= -->	
-	
-	<section id="mobile-location" class="hidden-md hidden-lg">
+		
+	<section id="mobile-location" 
+					 class=" hidden-md hidden-lg">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
-						<div class="row">
-							<div class="col-xs-12 col-sm-12">
-								<img src="img/forest-hills-logo.svg" 
-										 class="img-responsive" 
-										 alt="Forest Hills Dentistry logo">
-							</div><!-- /.col-xs-12 .col-sm-12 -->
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-12 col-sm-12">
-								<div class="text-center">
-									<address>
-										1055 N Nimitzview Drive <br>
-										Cincinatti, OH 45230 <br>
-									</address>
-								</div>
-							</div>
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-12 col-sm-12">
-								<p class="text-center">
-									<a href="" class="link-color-3">Click to view map</a>
-								</p>
-							</div>
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-12 col-sm-12 text-center">
+					<img src="img/forest-hills-logo.svg"
+							 class="img-responsive"
+							 alt="Forest Hills Dentistry logo">
+					<address>
+						1055 N Nimitzview Drive <br>
+						Cincinatti, OH 45230 <br>
+					</address>
+					<p class="text-center">
+						<a href="" class="link-color-3">Click to view map</a>
+					</p>
 								<p class="text-center">New Patient Hotline</p>
 								<span class="text">
 									<a href="tel:+18883064431" class="link-color-1">
 										<b class="phone-lg">(888) 306-4431</b></a>
 								</span>
-							</div>
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-12 col-sm-12">
 								<p class="text-center">
 									<a href="" 
 										 class="btn btn-lg theme-btn-1 text-uppercase"
 										 data-toggle="modal"
 										 data-target="#requestAppointmentModal">Request Appointment</a>
-								</p>
-							</div><!-- /.col-xs-12 .col-sm-12 -->
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-12 col-sm-12 text-center">
-								<p class="text-center">Existing patients call</p>
-								<span class="text">
-									<a href="tel:+15132315353" class="link-color-1">
-										<b class="phone-sm">(513) 231-5353</b></a>
-								</span>
-							</div><!-- /.col-xs-12 .col-sm-12 .text-center -->
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
-								<h4 class="theme-color-3 text-center">Hours</h4>
-								<ul class="unstyled-list text-center">
-									<li class="text-left">Mon:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Tue:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Wed:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Thu:&nbsp;&nbsp;8:00am - 5:00pm</li>
-									<li class="text-left">Fri:&nbsp;&nbsp;8:00am - 5:00pm</li>
-								</ul><!-- /.unstyled-list .text-center -->
-							</div><!-- /.col-lg-8 .col-lg-offset-2 -->
-						</div><!-- /.row -->	
-				</div><!-- /.col-xs-12 .col-sm-12 -->
+								</p>					
+				</div><!-- /.col-xs-12 col-sm-12 -->		
 			</div><!-- /.row -->
 		</div><!-- /.container -->
-	</section><!-- /#mobile-location -->	
+	</section><!-- /#mobile-location -->
 	
 	<section id="mobile-location-map" class="hidden-md hidden-lg">
 		<a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138">

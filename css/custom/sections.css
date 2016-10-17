@@ -188,7 +188,7 @@ a:hover {
 /* controls the no insurance mobile banner image */
 #no-insurance-mobile-banner {
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px !important;
 }
 
 /* controls the no insurance mobile image */
@@ -291,14 +291,11 @@ a:hover {
 	Location Section 
 ================= */
 
-/* controls the desktop location section styles */
+/* control the mobile desktop location styles */
 #mobile-location {
-	background-image: url("../../img/forest-hills-family-dentistry.png");
-	background-position: center center;
-	background-size: cover;
-	width: auto;
+	background-color: #FFFFFF !important;
 	margin: 0px;
-	padding: 60px 0px 50px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 #mobile-location-map {

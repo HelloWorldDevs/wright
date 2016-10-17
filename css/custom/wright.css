@@ -62,6 +62,12 @@ ul {
 	font-weight: 700;
 }
 
+/* sets the extral large phone number link class */
+.phone-xl {
+	font-size: 3rem !important;
+	font-weight: 700;
+}
+
 .owl-controls.clickable {
 	visibility: hidden;
 }
