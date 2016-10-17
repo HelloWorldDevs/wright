@@ -84,14 +84,18 @@ a:hover {
 	New Patient Hotline Existing Section 
 ===================================== */
 
+#new-patient-hotline-existing {
+	padding: 20px 0px 20px 0px; 
+}
+
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-existing-mobile {
-	padding: 20px 0px 20px 0px; 
+	padding: 0px 0px 0px 0px; 
 }
 
 /* controls the new patient hotline desktop section */
 #new-patient-hotline-existing-desktop {
-	padding: 20px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 /* controls the new patient hotline desktop theme button */
@@ -102,6 +106,11 @@ a:hover {
 /* ======================
 	Meet The Team Section  
 ====================== */
+
+/* controls the meet the team section background */
+#meet-the-team {
+	padding: 0px 0px 0px 0px;	
+}
 
 /* controls the meet the team section background */
 #meet-the-team-heading {
@@ -183,6 +192,12 @@ a:hover {
 	Membership Club Section 
 ======================== */
 	
+/* controls the no insurance mobile section */
+#no-insurance {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
 /* controls the mobile membership club section */
 #membership-club-mobile {
 	background-image: url("../../membership-row-wright.jpg");
@@ -202,6 +217,21 @@ a:hover {
 	padding: 40px 0px 0px 0px;
 }
 
+#no-insurance-header h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#no-insurance-membership {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#no-insurance-cta {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 /* controls the no insurance mobile banner image */
 #no-insurance-mobile-banner {
 	margin: 0px;
@@ -215,7 +245,7 @@ a:hover {
 }
 
 /* controls the no insurance section */
-#no-insurance {
+#no-insurance-desktop {
 	padding: 100px 0px 100px 0px;
 	background-image: url("../../img/membership-row-wright.jpg");
 	background-position: top center;
