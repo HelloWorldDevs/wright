@@ -302,6 +302,10 @@ a:hover {
 /* =================
 	Location Section 
 ================= */
+#location {
+	margin: 0 auto;
+	padding: 0;
+}
 
 /* control the mobile desktop location styles */
 #mobile-location {
