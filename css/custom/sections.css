@@ -108,6 +108,14 @@ a:hover {
 	background-image: url("../../img/bedge_grunge_light.jpg");
 }
 
+#meet-the-team #wright-img {
+	max-width: 350px;
+}
+
+#meet-the-team #dorsch-img {
+	max-width: 350px;
+}
+
 /* ======================
 	Team Carousel Section 
 ====================== */

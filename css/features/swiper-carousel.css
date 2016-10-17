@@ -18,14 +18,14 @@
 ======================== */
 
 /* controls the banner carousel section */
-#banner-swiper-carousel  {
+#swiper-carousel  {
 	margin: 0px;
 	padding: 0px;
 	height: auto;
 }
 
 /* controls the banner swiper container */
-.banner-swiper-container {
+.swiper-container {
 	width: auto;
 	height: 578px;
 }
@@ -37,7 +37,7 @@
 }
 
 /* controls the first slide in the banner-carousel */
-#banner-swiper-slide-1 {
+#swiper-slide-1 {
 	background-image: url("../../img/wright-slide1.jpg");
 	background-repeat: no-repeat;	
 	background-position: top center;
@@ -50,7 +50,7 @@
 }
 
 /* controls the second slide in the banner-carousel */
-#banner-swiper-slide-2 {
+#swiper-slide-2 {
 	background-image: url("../../img/wright-slide2.jpg");
 	background-repeat: no-repeat;	
 	background-position: top center;
@@ -63,7 +63,7 @@
 }
 
 /* controls the third slide in the banner-carousel */
-#banner-swiper-slide-3 {
+#swiper-slide-3 {
 	background-image: url("../../img/wright-slide3.jpg");
 	background-position: top center;	
 	background-repeat: no-repeat;	

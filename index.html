@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href="lib/canvas-4.1.1/css/font-icons.css" type="text/css">
 	
 	<!-- Swiper Carousel CSS Dependency -->
-	<link rel="stylesheet" href="lib/canvas-4.1.1/css/swiper.css" type="text/css">	
+	<link rel="stylesheet" href="lib/canvas-4.1.1/css/swiper.css" type="text/css"> 
 	
 	<!-- OWL Carousel CSS Dependency -->
 	<link rel="stylesheet" href="lib/owl.carousel.2.1.0/assets/owl.carousel.css" type="text/css">
@@ -53,7 +53,7 @@
 	<link rel="stylesheet" href="css/features/mobile-navigation.css" type="text/css">	
 	
 	<!-- Banner Swiper Carousel Custom CSS Styles -->
-	<link rel="stylesheet" href="css/features/banner-swiper-carousel.css" type="text/css">	
+	<link rel="stylesheet" href="css/features/swiper-carousel.css" type="text/css">	
 	
 	<!-- Specials Custom CSS Styles -->
 	<link rel="stylesheet" href="css/features/specials.css" type="text/css">	
@@ -67,10 +67,7 @@
 	
 	<!-- =========================
 		Start of Custom CSS Styles 
-	========================== -->
-	
-	<!-- Wright Custom CSS Styles -->
-	<link rel="stylesheet" href="css/custom/wright.css" type="text/css">	
+	========================== -->	
 	
 	<!-- Fonts Custom CSS Styles -->
 	<link rel="stylesheet" href="css/custom/fonts.css" type="text/css">	
@@ -85,7 +82,10 @@
 	<link rel="stylesheet" href="css/custom/sections.css" type="text/css">		
 	
 	<!-- Links Custom CSS Styles -->
-	<link rel="stylesheet" href="css/custom/links.css" type="text/css">	
+	<link rel="stylesheet" href="css/custom/links.css" type="text/css">
+	
+	<!-- Wright Custom CSS Styles -->
+	<link rel="stylesheet" href="css/custom/wright.css" type="text/css">	
 	
 	<!-- =======================
 		End of Custom CSS Styles 
@@ -193,13 +193,13 @@
 	=======================  -->
 	
 	<!-- #swiper-carousel -->
-	<section id="banner-swiper-carousel" class="visible-lg">
+	<section id="swiper-carousel" class="visible-md visible-lg">
 		<!-- Slider main container -->
-		<div id="banner-swiper-container" class="swiper-container">
+		<div class="swiper-container">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper">
 				<!-- Slides -->
-			<div id="banner-swiper-slide-1" class="swiper-slide">
+			<div id="swiper-slide-1" class="swiper-slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 text-left">
@@ -228,7 +228,7 @@
 						</a>
 					</div>
 				</div>
-			<div id="banner-swiper-slide-2" class="swiper-slide">
+			<div id="swiper-slide-2" class="swiper-slide">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 col-lg-7 col-lg-offset-5 text-left">
@@ -265,7 +265,7 @@
 							</a>
 					</div>
 				</div>
-				<div id="banner-swiper-slide-3" class="swiper-slide">								
+				<div id="swiper-slide-3" class="swiper-slide">								
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-6 text-left">
@@ -386,8 +386,8 @@
 				</div><!-- /.col-md-12 .text-center -->
 			</div><!-- /.row -->
 			<div class="row">
-				<div class="col-md-4">
-					<img src="img/wright-bio.jpg" class="responsive" alt="Dr. Wright">
+				<div class="col-md-4 col-lg-4">
+					<img src="img/wright-bio.jpg" id="wright-img" class="img-responsive" alt="Dr. Wright">
 					<p class="text-description serif-reg text-sm">
 						Dr. Wright is a member of the Cincinnati Dental Society (CDS), the Ohio Dental Association (ODA), and the American Dental Association (ADA). He is member emeritus of the ODA Forensic Dental Team and a member of the CDS Council. He is a trustee and vice president of the Cincinatti Dental Society Oral Health Foundation. When not providing patient care, Dr. Wright can be found practicing forensic dentistry.
 						<a href="#franklinWrightModal" 
@@ -397,7 +397,7 @@
 							 data-target="#franklinWrightModal">Read More...</a>
 					</p>
 				</div><!-- /.col-md-4 -->
-				<div class="col-md-8">
+				<div class="col-md-8 col-lg-8">
 					<h3 class="h3 theme-color-3 sans-serif-bold text-lg hidden-xs hidden-sm">Franklin D. Wright, DMD</h3>
 					<h3 class="h3 theme-color-3 sans-serif-bold text-md hidden-md hidden-lg">Franklin D. Wright, DMD</h3>	
 					<p class="serif-reg text-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
@@ -419,7 +419,7 @@
 					<p class="serif-reg text-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
 				</div>
 				<div class="col-md-4">
-					<img src="img/dorsch-bio.jpg" class="responsive" alt="Dr. Bradley Dorsch">
+					<img src="img/dorsch-bio.jpg" id="dorsch-img" class="img-responsive" alt="Dr. Bradley Dorsch">
 					<p class="text-description serif-reg">When not treating patients, Dr. Dorsch spends many hours in continuing education learning about CAD-Cam dentistry and complex patient care with the Spear Foundation. <a href="#bradleyDorschModal" 
 					class="read-more-2" 
 					data-toggle="modal" 
