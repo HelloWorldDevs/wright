@@ -104,7 +104,8 @@ a:hover {
 ====================== */
 
 /* controls the meet the team section background */
-#meet-the-team {
+#meet-the-team-heading {
+	padding-top: 40px;	
 	background-image: url("../../img/bedge_grunge_light.jpg");
 }
 
@@ -114,6 +115,14 @@ a:hover {
 
 #meet-the-team #dorsch-img {
 	max-width: 350px;
+}
+
+#franklin-wright {
+	background-image: url("../../img/bedge_grunge_light.jpg");
+}
+
+#bradley-dorsch {
+	padding: 50px 0px 50px 0px;
 }
 
 /* ======================
