@@ -1,101 +1,108 @@
-/* ==========================
-	Mobile Navigation Feature
-========================== */
+nav {
+	margin: 0px !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+.navbar.navbar-right {
+	height: 100px;
+}
+
+button.navbar-toggle {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	left: 0%;
+	background: none !important;
+	border: none !important;
+	height: 40px;
+}
+
+button.navbar-toggle:hover {
+	background-color: #FCFCFC;
+}
+
+button.navbar-toggle:focus {
+	background: none;
+}
+
+#navbar-brand-img {
+	width: 160px !important;
+	margin-top: -5px;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+/* sets the 1st default link color */
+a.link-color-1 {
+	color: #C04355 !important;
+}
+
+a.link-color-1:hover {
+	color: #C04355 !important;
+}
+
+/* sets the 2nd default link color */
+a.link-color-2 {
+	color: #36A9AE !important;
+}
+
+/* sets the 2nd default link hover color */
+a.link-color-2:hover {
+	color: #36A9AE !important;
+}
+
+/* sets the 3rd default link color */
+a.link-color-3 {
+	color: #252A2E !important;
+}
+
+/* sets the 3rd default link hover color */
+a.link-color-3:hover {
+	color: #252A2E !important;
+}
+
+/* sets the 4th default link color */
+a.link-color-4 {
+	color: #797874 !important;
+}
+
+/* sets the 4th default link hover color */
+a.link-color-4:hover {
+	color: #797874 !important;
+}
+
+/* sets the 5th default link color */
+a.link-color-5 {
+	color: #fcfcfc;
+}
+
+.navbar .navbar-right {
+	margin-top: 20px;
+}
+
+#mobile-navigation {
+	height: 100px;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #CCCCCC;
+}
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-	.navbar-brand > img {
-		width: 220px;
-	}
-	img.#navbar-brand-img {
-		width: 200px !important;
-		margin-top: 0px;
-		margin-left: 10px !important;
-	}
 	.navbar-brand-centered {
 		position: absolute;
 		display: block;		
 		left: 0%;
-		top: 0%;
-		width: 220px;
-		text-align: center;
-	}
-	.navbar>.container .navbar-brand-centered,
-	.navbar>.container-fluid .navbar-brand-centered {
-		position: absolute;
-		display: block;		
-		left: 0%;
-		top: 0%;
-		margin-left: 10px !important;
-	}
-	button.navbar-toggle {
-		position: absolute;
-		display: none;
-		top: 50%;
-		left: 0%;
-		margin-top: -25px;
-		background: none !important;
-		border: none !important;
-		height: 40px;
-	}	
-}
-
-/* Portrait tablets and smaller desktops */
-@media (min-width: 991px) and (max-width: 990px) {
-	img.#navbar-brand-img {
-		width: 200px !important;
-	}		
-  .navbar-header {
-		float: none;
-	}
-	.navbar-toggle {
-		display: block;
-	}
-	.navbar-collapse {
-    display: block !important;
-		background-color: #FFFFFF;
-    width: 1000px;
-    left: 0%;
-    margin-top: 100px;
-    position: absolute;
-    padding-top: 0px;
-    padding-left: 30px;	
-	}
-	.navbar-collapse.collapse {
-			display: none!important;
-	}
-	.navbar-nav {
-			float: none!important;
-			margin: 7.5px -15px;
-	}
-	.navbar-nav > li {
-			float: none;
-	}
-	.navbar-nav > li >a {
-			padding-top: 10px;
-			padding-bottom: 10px;
-	}
-	.navbar-text {
-			float: none;
-			margin: 15px 0;
-	}
-	/* since 3.1.0 */
-	.navbar-collapse.collapse.in { 
-    display: block!important;
-    width: 1000px;
-    left: 0%;
-    margin-top: 100px;
-    position: absolute;
-    padding-top: 0px;
-    padding-left: 30px;		
-	}
-	.collapsing {
-		overflow: hidden!important;
-	}	
-	.navbar-brand-centered {
-		position: absolute;
-		left: 50%;
-		display: block;
 		width: 180px;
 		height: 100px;
 		text-align: center;
@@ -103,79 +110,19 @@
 	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
-		left: 50%;
-		margin-left: -80px;
-		display: block;
-		height: 100px;
-	}	
-	button.navbar-toggle {
-		position: absolute;
-		display: block;
-		top: 50%;
+		display: block;		
 		left: 0%;
-		margin-top: -25px;
-		background: none !important;
-		border: none !important;
-		height: 40px;
-	}	
+		margin-left: 0px;
+		height: 100px;
+	}
 }
 
-/* Small handheld devices (phones & tablets, between 769px and 899px) */
-@media (min-width: 769px) and (max-width: 899px) {
-	img.#navbar-brand-img {
-		width: 200px !important;
-	}		
-  .navbar-header {
-		float: none;
-	}
-	.navbar-toggle {
-		display: block;
-	}
-	.navbar-collapse {
-    display: block !important;
-		background-color: #FFFFFF;
-    width: 1000px;
-    left: 0%;
-    margin-top: 100px;
-    position: absolute;
-    padding-top: 0px;
-    padding-left: 30px;	
-	}
-	.navbar-collapse.collapse {
-			display: none!important;
-	}
-	.navbar-nav {
-			float: none!important;
-			margin: 7.5px -15px;
-	}
-	.navbar-nav > li {
-			float: none;
-	}
-	.navbar-nav > li >a {
-			padding-top: 10px;
-			padding-bottom: 10px;
-	}
-	.navbar-text {
-			float: none;
-			margin: 15px 0;
-	}
-	/* since 3.1.0 */
-	.navbar-collapse.collapse.in { 
-    display: block!important;
-    width: 1000px;
-    left: 0%;
-    margin-top: 100px;
-    position: absolute;
-    padding-top: 0px;
-    padding-left: 30px;		
-	}
-	.collapsing {
-		overflow: hidden!important;
-	}	
+/* Portrait tablets and small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-brand-centered {
 		position: absolute;
-		left: 50%;
-		display: block;
+		display: block;		
+		left: 0%;
 		width: 180px;
 		height: 100px;
 		text-align: center;
@@ -183,28 +130,16 @@
 	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
-		left: 50%;
-		margin-left: -80px;
-		display: block;
-		height: 100px;
-	}	
-	button.navbar-toggle {
-		position: absolute;
-		display: block;
-		top: 50%;
+		display: block;		
 		left: 0%;
-		margin-top: -25px;
-		background: none !important;
-		border: none !important;
-		height: 40px;
-	}	
+		margin-left: 0px;
+		height: 100px;
+	}
 }
 
-/* Portrait phones and smaller tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-	img.#navbar-brand-img {
-		width: 200px !important;
-	}		
+
+/* Portrait phones and larger tablets */
+@media (min-width: 481px) and (max-width: 991px) {
   .navbar-header {
 		float: none;
 	}
@@ -268,23 +203,14 @@
 		margin-left: -80px;
 		display: block;
 		height: 100px;
-	}	
-	button.navbar-toggle {
-		position: absolute;
-		display: block;
-		top: 50%;
-		left: 0%;
-		margin-top: -25px;
-		background: none !important;
-		border: none !important;
-		height: 40px;
-	}		
+	}
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-	img.#navbar-brand-img {
-		width: 200px !important;
+	#navbar-brand-img {
+		width: 160px !important;
+		height: 80px !important;
 	}	
 	.navbar-brand-centered {
 		position: absolute;
@@ -307,14 +233,4 @@
 		margin-top: 100px;
 		background-color: #FFFFFF;
 	}
-	button.navbar-toggle {
-		position: absolute;
-		display: block;
-		top: 50%;
-		left: 0%;
-		margin-top: -25px;
-		background: none !important;
-		border: none !important;
-		height: 40px;
-	}		
 }

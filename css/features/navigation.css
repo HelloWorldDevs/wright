@@ -1,83 +1,146 @@
+/* ===================
+	Navigation Feature
+=================== */
 
-
-a:hover {
-	text-decoration: underline !important;
-}
-
-/* sets the primary theme link color */
-a.link-color-1 {
-	color: #ff6633 !important;
+.navbar {
+	margin-bottom: 0px;
 }
 
-a.link-color-1:hover {
-	color: #ff6633;
-	text-decoration: underline;
+.navbar-default {
+	background-color: #FFFFFF !important;
 }
 
-/* sets the secondary theme link color */
-a.link-color-2 {
-	color: #669999 !important;
+.navbar-fixed-top {
+	top: 0;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
 }
 
-a.link-color-2:hover {
-	color: #669999;
-	text-decoration: underline;
+.navbar-brand {
+	position: absolute;
+	left: 0%;
+	top: 5%;
+	height: 100px
 }
 
-/* sets the tertiary theme link color */
-a.link-color-3 {
-	color: #996633 !important;
+.navbar .navbar-right {
+	position: absolute;
+	margin-top: 20px;
 }
 
-/* sets the tertiary theme link color */
-a.link-color-3:hover {
-	color: #996633;
+.navbar-default .navbar-collapse {
+	border-top: none;
 }
 
-/* sets the tertiary theme link color */
-a.link-color-4 {
-	color: #666666 !important;
+button.navbar-toggle {
+	border: none;
 }
 
-/* sets the tertiary theme link color */
-a.link-color-4:hover {
-	color: #666666;
-	text-decoration: underline;	
+.navbar > .container-fluid .navbar-brand-centered {
+	position: absolute;
+	left: 0%;
+	margin-left: -80px;
+	display: block;
+	height: 100px;
+}	
+
+/* Portrait tablets and smaller desktops */
+@media (min-width: 0px) and (max-width: 1199px) {
+	
+#navigation {
+	margin: 0 auto;
 }
 
-/* sets the tertiary theme link color */
-a.link-color-5 {
-	color: #FCFCFC;
+.navbar-default {
+	background-color: #FFFFFF !important;
 }
-
-/* sets the tertiary theme link color */
-a.link-color-5:hover {
-	color: #FCFCFC;
-	text-decoration: underline;	
+.navbar-fixed-top {
+	top: 0;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
 }
-
-/*!
- * Yamm!3 - Yet another megamenu for Bootstrap 3
- * http://geedmo.github.com/yamm3
- * 
- * @geedmo - Licensed under the MIT license
- */
-.yamm .nav,
-.yamm .collapse,
-.yamm .dropup,
-.yamm .dropdown {
-  position: static;
+.navbar-brand > img {
+	width: 220px;
 }
-.yamm .container {
-  position: relative;
+img.#navbar-brand-img {
+	width: 200px !important;
+	margin-top: 0px;
+	margin-left: 10px !important;
 }
-.yamm .dropdown-menu {
-  left: auto;
+.navbar-brand-centered {
+	position: absolute;
+	display: block;		
+	left: 50%;
+	top: 0%;
+	margin-left: -220px;
+	width: 220px;
+	text-align: center;
 }
-.yamm .yamm-content {
-  padding: 20px 30px;
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	display: block;
+	height: 100px;
+}	
+button.navbar-toggle {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 0%;
+	margin-top: -25px;
+	background: none !important;
+	border: none !important;
+	height: 40px;
+}	
+img.#navbar-brand-img {
+	width: 200px !important;
+}		
+.navbar-header {
+	float: none;
 }
-.yamm .dropdown.yamm-fw .dropdown-menu {
-  left: 0;
-  right: 0;
+.navbar-toggle {
+	display: block;
+}
+.navbar-collapse {
+	display: block !important;
+	background-color: #FFFFFF;
+	width: 1400px !important;
+	left: 0%;
+	margin-top: 100px;
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 30px
+}
+.navbar-collapse.collapse {
+	display: none !important;
+}
+.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+}
+.navbar-nav > li {
+		float: none;
+}
+.navbar-nav > li >a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+.navbar-text {
+		float: none;
+		margin: 15px 0;
+}
+/* since 3.1.0 */
+.navbar-collapse.collapse.in { 
+	display: block!important;
+	width: 1400px;
+	left: 0%;
+	margin-top: 100px;
+	padding-left: 30px;
+	position: absolute;		
+}
+.collapsing {
+	overflow: hidden !important;
+}
 }

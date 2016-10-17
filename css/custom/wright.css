@@ -18,8 +18,8 @@ body {
 
 /* overrides the default nav element */
 nav {
-	margin: 0 auto; 
-	padding: 0px 0px 20px 0px !important;
+	margin: 0 auto !important; 
+	padding: 0px 0px 0px 0px !important;
 }
 
 /* overrides the default header element */
@@ -152,32 +152,6 @@ a:hover {
 	body {
 		font-size: 1rem;
 	}
-
-	.navbar-header {
-		float: none;
-	}
-	.navbar-toggle {
-			display: block;
-	}
-	.navbar-collapse {
-			border-top: 1px solid transparent;
-			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-	}
-	.navbar-collapse.collapse {
-			display: none!important;
-	}
-	.navbar-nav {
-			float: none!important;
-			margin: 7.5px -15px;
-	}
-	.navbar-nav>li {
-			float: none;
-	}
-	.navbar-nav>li>a {
-			padding-top: 10px;
-			padding-bottom: 10px;
-	}
-}
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
