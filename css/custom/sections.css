@@ -346,18 +346,20 @@ a:hover {
 	max-width: 250px;
 }
 
-/* ============================
-	Primary Site Footer Section 
-============================ */
+/* ===============
+	Footer Section 
+=============== */
 
 /* controls the mobile footer */
-#mobile-footer {
-	margin: 0 auto;
-	padding: 10px 0px 0px 0px;	
-}
-
-/* controls the desktop footer section */
-#desktop-footer {
+#footer {
 	margin: 0 auto;
 	padding: 30px 0px 0px 0px;
+}
+
+#mobile-footer {
+	padding: 20px 0px 10px 0px;
+}
+
+#desktop-footer {
+	padding: 20px 0px 10px 0px;
 }
