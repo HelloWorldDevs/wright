@@ -63,3 +63,48 @@
 	color: #ffffff;
 	margin-right: 0px;
 }
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	/* controls the team carousel left nav */
+	#team-carousel .owl-nav .owl-prev {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -50px !important;
+		left: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FFFFFF !important;
+		background-color: #846A20 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}
+
+	/* controls the team carousel right nav */
+	#team-carousel .owl-nav .owl-next {
+		position: absolute;
+		top: 50%;
+		margin-top: -50px;
+		right: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FFFFFF !important;
+		background-color: #846A20 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important; 
+		-webkit-transition: all .3s ease!important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}
+}

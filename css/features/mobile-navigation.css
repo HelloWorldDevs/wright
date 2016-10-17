@@ -3,8 +3,22 @@ nav {
 	padding: 0px 0px 0px 0px !important;
 }
 
-.navbar.navbar-right {
+#mobile-navigation {
 	height: 100px;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
+}
+
+.navbar-default.navbar-nav {
+	margin-top: 20px;
+}
+
+.navbar-right {
+	margin-top: 20px !important;
 }
 
 button.navbar-toggle {
@@ -26,72 +40,12 @@ button.navbar-toggle:focus {
 }
 
 #navbar-brand-img {
-	width: 160px !important;
-	margin-top: -5px;
+	width: 210px !important;
 }
 
 a:hover {
 	text-decoration: underline !important;
 }
-
-/* sets the 1st default link color */
-a.link-color-1 {
-	color: #C04355 !important;
-}
-
-a.link-color-1:hover {
-	color: #C04355 !important;
-}
-
-/* sets the 2nd default link color */
-a.link-color-2 {
-	color: #36A9AE !important;
-}
-
-/* sets the 2nd default link hover color */
-a.link-color-2:hover {
-	color: #36A9AE !important;
-}
-
-/* sets the 3rd default link color */
-a.link-color-3 {
-	color: #252A2E !important;
-}
-
-/* sets the 3rd default link hover color */
-a.link-color-3:hover {
-	color: #252A2E !important;
-}
-
-/* sets the 4th default link color */
-a.link-color-4 {
-	color: #797874 !important;
-}
-
-/* sets the 4th default link hover color */
-a.link-color-4:hover {
-	color: #797874 !important;
-}
-
-/* sets the 5th default link color */
-a.link-color-5 {
-	color: #fcfcfc;
-}
-
-.navbar .navbar-right {
-	margin-top: 20px;
-}
-
-#mobile-navigation {
-	height: 100px;
-}
-
-.navbar-default {
-	background-color: #ffffff;
-	border-bottom: solid 2px #CCCCCC;
-	height: 100px;
-}
-
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #CCCCCC;
