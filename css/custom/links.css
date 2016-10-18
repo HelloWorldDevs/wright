@@ -114,3 +114,43 @@ button.theme-btn-1:hover {
 	border: solid 2px #fcfcfc;
 	color: #fcfcfc;
 }
+
+/* ====================
+	LINKS MEDIA QUERIES 
+==================== */
+
+/* */
+@media (max-width:1200px) {
+	
+}
+
+
+/* */
+@media (max-width:768px) {
+	
+}
+
+/* Phone media query */
+@media (max-width:480px) {
+	button.theme-btn-1 {
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding: 10px 40px 10px 40px;
+		background-color: #C95E2D !important;	
+		border-radius: 15px;	
+		border: solid 2px #fcfcfc;
+		color: #fcfcfc;
+	}
+
+	button.theme-btn-1:hover {
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding: 10px 40px 10px 40px;
+		background-color: #C95E2D !important;	
+		border-radius: 15px;	
+		border: solid 2px #fcfcfc;
+		color: #fcfcfc;
+	}
+}

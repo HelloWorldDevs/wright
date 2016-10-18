@@ -112,6 +112,12 @@
 	New Patient Hotline Section 
 ============================ */
 
+/* controls the new patient hotline section */
+#new-patient-hotline {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
 	padding: 60px 0px 40px 0px;
@@ -481,10 +487,6 @@ Pseudo ::selection element
 	
 }
 
-/* */
-@media (max-width:768px) {
-	
-}
 
 /* */
 @media (max-width:768px) {
