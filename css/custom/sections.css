@@ -88,9 +88,9 @@
 	padding: 50px 0px 50px 0px;
 }
 
-/* ======================
-	Team Carousel Section 
-====================== */
+/* ===========================
+	NEW PATIENT OFFERS SECTION 
+=========================== */
 
 /* controls the new patient offers section */
 #new-patient-offers {
@@ -98,6 +98,14 @@
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+#new-patient-offers h2 {
+	margin-bottom: 0px;
+}
+
+#new-patient-offers h3 {
+	margin-bottom: 20px;
 }
 
 /* ============================
@@ -464,17 +472,27 @@ Pseudo ::selection element
     text-shadow: none;
 }
 
-/* ===================
-	TYPE MEDIA QUERIES 
-=================== */
+/* =======================
+	SECTIONS MEDIA QUERIES 
+======================= */
 
-/* Landscape smartphones type media query  */
-@media (min-width: 321px) and (max-width:480px) {
+/* */
+@media (max-width:1200px) {
 	
 }
 
-/* Portrait smartphones type media query */
-@media (min-width: 0px) and (max-width:320px) {
+/* */
+@media (max-width:768px) {
+	
+}
+
+/* */
+@media (max-width:768px) {
+	
+}
+
+/*  */
+@media (max-width:480px) {
 	#no-insurance-headline {
 		margin-bottom: 20px;
 	}
@@ -486,12 +504,5 @@ Pseudo ::selection element
 	}
 	#no-insurance-cta {
 		margin-bottom: 0px;
-	}
-	
-	#wright-img {
-		max-width: 290px !important;
-	}
-	#dorsch-img {
-		max-width: 290px !important;
 	}
 }
