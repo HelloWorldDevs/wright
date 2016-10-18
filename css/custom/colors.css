@@ -2,7 +2,8 @@
 	Custom Color Styles
 	1. Theme Colors
 	2. Link Colors
-	3. Background Colors
+	3. Specials Colors
+	4. Background Colors
 ===================== */
 
 /* ====================
@@ -89,6 +90,32 @@ a.link-color-5 {
 a.link-color-5:hover {
 	color: #FFFFFF !important;
 	text-decoration: underline;	
+}
+
+/* =================
+	Specials Colors
+================= */
+
+.specials-color-1 {
+  color: #C95E2D;
+}
+.specials-color-2 {
+  color: #0D2D3F;
+}
+
+.specials-color-3 {
+  color: #846A20;
+}
+
+.specials-background-color-1 {
+  background-color:#C95E2D;
+}
+.specials-background-color-2 {
+  background-color: #0D2D3F;
+}
+
+.specials-background-color-3 {
+  background-color: #846A20;
 }
 
 /* ===================
