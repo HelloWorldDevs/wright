@@ -151,7 +151,7 @@ p {
 =================== */
 
 /* Landscape smartphones type media query  */
-@media (min-width: 321px) and (max-width:480px) {
+@media (min-width: 481px) and (max-width:768px) {
 	html {
 		font-size: 14px;
 	}
@@ -161,8 +161,8 @@ p {
 	}
 }
 
-/* Portrait smartphones type media query */
-@media (min-width: 0px) and (max-width:320px) {
+/* Smartphones type media query */
+@media (min-width: 0px) and (max-width:480px) {
 	html {
 		font-size: 14px !important;
 	}
