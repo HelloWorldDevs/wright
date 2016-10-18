@@ -468,4 +468,21 @@ Pseudo ::selection element
     text-shadow: none;
 }
 
+/* ===================
+	TYPE MEDIA QUERIES 
+=================== */
 
+/* Landscape smartphones type media query  */
+@media (min-width: 321px) and (max-width:480px) {
+	
+}
+
+/* Portrait smartphones type media query */
+@media (min-width: 0px) and (max-width:320px) {
+	#wright-img {
+		max-width: 290px !important;
+	}
+	#dorsch-img {
+		max-width: 290px !important;
+	}
+}
