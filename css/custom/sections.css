@@ -177,6 +177,7 @@
 #no-insurance-mobile {
 	margin: 0px;
 	padding: 40px 0px 0px 0px;
+	background-color: #F8F7F5;
 }
 
 #no-insurance-header h2 {
@@ -465,3 +466,5 @@ Pseudo ::selection element
 ::selection {
     text-shadow: none;
 }
+
+

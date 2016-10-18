@@ -95,30 +95,37 @@ a.link-color-5:hover {
 	Backgrounds Colors
 =================== */
 
-/* sets the primary theme background */
+/* sets 1st theme background */
 .theme-background-1 {
 	background-color: #C95E2D;
 }
 
-/* sets the secondary theme background */
+/* sets the 2nd theme background */
 .theme-background-2 {
 	background-color: #0D2D3F;
 }
 
-/* sets the tertiary theme background */
+/* sets 3rd theme background */
 .theme-background-3 {
 	background-color: #FFFFFF;
 }
 
-/* set the pattern theme background */
+/* sets 4th theme background */
 .theme-background-4 {
 	background-color: #6F6D6A;
 }
 
+/* sets the 5th theme background color */
 .theme-background-5 {
 	background-color: #f8f7f3;
 }
 
+/* sets the 6th theme background color */
 .theme-background-6 {
 	background-image: url(../../img/field-bkgd_specials.jpg);
+}
+
+/* sets the 7th theme background color */
+.theme-background-7 {
+	background-image: #F8F7F5;
 }
