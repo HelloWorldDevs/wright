@@ -184,7 +184,7 @@
 	background-color: #F8F7F5;
 }
 
-#no-insurance-header h2 {
+#no-insurance-headline h2 {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
@@ -483,6 +483,16 @@ Pseudo ::selection element
 
 /* Portrait smartphones type media query */
 @media (min-width: 0px) and (max-width:320px) {
+	#no-insurance-headline {
+		margin-bottom: 20px;
+	}
+	#no-insurance-details {
+		margin-bottom: 20px;
+	}
+	#no-insurance-benefits {
+		margin-bottom: 20px;
+	}
+	
 	#wright-img {
 		max-width: 290px !important;
 	}
