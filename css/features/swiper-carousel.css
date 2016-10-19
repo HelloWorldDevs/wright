@@ -78,6 +78,11 @@
 	color: gold;
 }
 
+/* creates a text shadow effect for slides */
+.text-shadow {
+	text-shadow: 2px 2px 2px rgba(64, 51, 12, 1); 
+}
+
 /* sets the default color style for the review stars */
 .fa-gold {
 	color: gold !important;

@@ -52,30 +52,6 @@ a:hover {
 	color: blue;
 }
 
-/* sets the small phone number link class */
-.phone-sm {
-	font-size: 0.875rem !important;
-	font-weight: 700;
-}
-
-/* sets the medium phone number link class */
-.phone-md {
-	font-size: 1.5rem !important;
-	font-weight: 700;
-}
-
-/* sets the large phone number link class */
-.phone-lg {
-	font-size: 2.5rem !important;
-	font-weight: 700;
-}
-
-/* sets the extral large phone number link class */
-.phone-xl {
-	font-size: 3rem !important;
-	font-weight: 700;
-}
-
 .owl-controls.clickable {
 	visibility: hidden;
 }
