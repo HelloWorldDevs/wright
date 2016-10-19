@@ -363,7 +363,7 @@
 /* controls the association section */
 #associations {
 	margin: 0 auto;
-	padding: 10px 0px 0px 0px;
+	padding: 10px 0px 0px 0px !important;
 }
 
 /* controls the associations images */
@@ -380,7 +380,7 @@
 /* controls the mobile footer */
 #footer {
 	margin: 0 auto;
-	padding: 30px 0px 0px 0px;
+	padding: 0px 0px 0px 0px !important;
 }
 
 #mobile-footer {
