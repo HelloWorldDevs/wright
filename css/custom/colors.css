@@ -17,7 +17,7 @@
 
 /* sets the 2nd theme color for interactive elements  */
 .theme-color-2 {
-	color: #0D2D3F !important;
+	color: #0D2D3F !important; color: #4682B4
 }
 
 /* sets the 3rd theme color for interactive theme elements */
@@ -33,6 +33,10 @@
 /* sets the 5th theme color */
 .theme-color-5 {
 	color: #F9F7F4;
+}
+
+.theme-color-6 {
+	color: #FFFFFF;
 }
 
 /* ============
@@ -154,5 +158,8 @@ a.link-color-5:hover {
 
 /* sets the 7th theme background color */
 .theme-background-7 {
-	background-image: #F8F7F5;
+	background-color: #F8F7F5;
+}
+.theme-background-8 {
+	background-color: #4682B4;
 }
