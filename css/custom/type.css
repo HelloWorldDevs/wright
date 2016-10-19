@@ -58,15 +58,6 @@ p {
 	margin: 0px 0px 0px 0px;	
 }
 
-
-
-/* sets the default text class */
-.text {
-	font-size: 1rem;
-	font-weight: normal;
-	line-height: normal;
-}
-
 /* creates an extra small text class */
 .text-xs {
 	font-size: 0.75rem !important;
@@ -140,8 +131,9 @@ p {
 /* sets the description text class */
 .text-description {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: normal;
 	font-size: 0.75rem !important;	
+	font-weight: 300;
+	line-height: 1.375;
 	margin: 30px 0px 15px 0px;
 	padding: 0px;	
 }

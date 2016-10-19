@@ -20,6 +20,7 @@ a:hover {
 /* sets overrides for the read more links in text description */
 a.read-more-1 {
 	font-size: 1rem;
+	line-height: 1.375;
 	color: #578FAF;
 	text-decoration: none;
 }
