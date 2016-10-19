@@ -48,7 +48,8 @@ a:hover {
 /* controls the facebook icon */
 .facebook-icon {
 	background-color: #ffffff;
-	overflow: hidden;
+	height: 36px;
+	width: 36px;
 	color: blue;
 }
 
