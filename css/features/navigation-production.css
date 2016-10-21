@@ -182,6 +182,13 @@ button.navbar-toggle {
 		height: 100px;
 	}
 		
+	#navigation-production .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 12px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}		
+		
 }
 
 /* Navigation Production - Center Logo on Mobile */

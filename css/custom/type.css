@@ -45,40 +45,40 @@ address {
 /* creates a custom h1 header class for custom sizing */
 .h1 {
 	font-size: 72px;	
-	margin: 0px 0px 0px 0px;		
+	margin: 0px 0px 10px 0px;		
 }
 
 /* creates a custom h2 header class for custom sizing */
 .h2 {
 	font-size: 48px;
 	font-weight: ;
-	margin: 0px 0px 0px 0px;		
+	margin: 0px 0px 20px 0px;		
 }
 
 /* creates a custom h3 header class for custom sizing */
 .h3 {
 	font-size: 32px;
 	font-weight: ;
-	margin: 0px 0px 0px 0px;		
+	margin: 0px 0px 15px 0px;		
 }
 
 /* creates a custom h4 header class for custom sizing */
 .h4 {
 	font-size: 24px;	
 	font-weight:;
-	margin: 0px 0px 0px 0px;		
+	margin: 0px 0px 10px 0px;		
 }
 
 /* creates a custom h5 header class for custom sizing */
 .h5 {
 	font-size: 20px;
-	margin: 0px 0px 0px 0px;	
+	margin: 0px 0px 10px 0px;	
 }
 
 /* creates a custom h6 header class for custom sizing */
 .h6 {
 	font-size: 18px;
-	margin: 0px 0px 0px 0px;	
+	margin: 0px 0px 10px 0px;	
 }
 
 /* =========================

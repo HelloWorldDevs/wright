@@ -116,7 +116,24 @@
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
-	padding: 60px 0px 40px 0px;
+	padding: 10px 0px 20px 0px;
+}
+
+#new-patient-hotline-number {
+	margin-bottom: 20px;
+}
+
+#new-patient-hotline-existing-mobile .button-cta {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#new-patient-hotline-existing-number {
+	margin-top: 20px !important;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
 }
 
 /* controls the new patient hotline desktop section */
@@ -156,6 +173,10 @@
 /* controls the reviews p */
 #reviews p {
 	text-shadow: 2px 2px #333333;
+}
+
+#bf-revz-widget-1952882581 {
+	max-height: 648px;
 }
 
 #bf-dv {
@@ -209,7 +230,7 @@
 
 /* controls the no insurance mobile banner image */
 #no-insurance-mobile-banner {
-	margin: 0px;
+	margin: -20px 0px 0px 0px;
 	padding: 0px 0px 0px 0px !important;
 }
 
@@ -343,7 +364,7 @@
 
 /* controls the desktop location section styles */
 #desktop-location {
-	background-image: url("../../img/forest-hills-family-dentistry.png");
+	background-image: url("../../img/forest-hills-zoom.png");
 	background-position: center center;
 	background-size: cover;
 	width: auto;
@@ -382,18 +403,29 @@
 	Footer Section 
 =============== */
 
-/* controls the mobile footer */
+/* controls the footer */
 #footer {
 	margin: 0 auto;
-	padding: 0px 0px 0px 0px !important;
+	padding: 10px 0px 0px 0px !important;
+}
+
+#footer-social-icon {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	margin-top: -10px;
 }
 
 #mobile-footer {
 	padding: 20px 0px 10px 0px;
 }
 
+#mobile-footer #copyright-notice {
+	font-size: 11px;
+}
+
 #desktop-footer {
-	padding: 20px 0px 10px 0px;
+	padding: 20px 0px 20px 0px;
 }
 
 body:not(.device-touch) .social-icon i {
@@ -406,15 +438,16 @@ body:not(.device-touch) .social-icon i {
     position: relative;
 }
 .si-colored i {
-    color: #FFF;
+	color: #FFF;
 }
-.icon-facebook, .icon-google, .icon-twitter, .icon-youtube {
-    color: white;
-    font-size: 25px;
-    width: 37px;
-    text-align: center;
+.icon-facebook {
+	background-color: #003EFF;	
+	color: white;
+	font-size: 25px;
+	width: 37px;
+	text-align: center;
 }
-[class^="icon-"], [class*=" icon-"], [class^="icon-line-"], [class*=" icon-line-"], [class^="icon-line2-"], [class*=" icon-line2-"], .side-header #primary-menu ul > li.sub-menu > a:after {
+[class^="icon-"], [class*=" icon-"] {
     display: inline-block;
     font-family: 'font-icons';
     speak: none;
@@ -440,7 +473,7 @@ body:not(.device-touch) .social-icon i {
     line-height: 38px !important;
     color: #555;
     text-shadow: none;
-    border: 1px solid #AAA;
+    /* border: 2px solid #FFFFFF; */
     border-radius: 3px;
     overflow: hidden;
 }
