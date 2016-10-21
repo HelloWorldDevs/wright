@@ -8,18 +8,18 @@
 
 /* sets the default link */
 a {
-	font-size: 18px !important;
-	font-weight: normal;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 /* sets the default link hover */
 a:hover {
-	text-decoration: underline !important;
+	text-decoration: underline;
 }
 
 /* sets overrides for the read more links in text description */
 a.read-more-1 {
-	font-size: 1rem;
+	font-size: 14px;
 	line-height: 1.375;
 	color: #578FAF;
 	text-decoration: none;
@@ -27,21 +27,21 @@ a.read-more-1 {
 
 /* sets the hover styles for 1st read more link style */
 a.read-more-1:hover {
-	font-size: 1rem; 
+	font-size: 14px; 
 	color: #578FAF;
 	text-decoration: underline;
 }
 
 /* sets the styles for 2nd read more link style */
 a.read-more-2 {
-	font-size: 1rem;
+	font-size: 14px;
 	color: #578FAF;
 	text-decoration: none;
 }
 
 /* sets the hover styles for 2nd read more link style */
 a.read-more-2:hover {
-	font-size: 1rem; 
+	font-size: 14px; 
 	color: #578FAF;
 	text-decoration: underline;
 }
@@ -53,29 +53,29 @@ a.read-more-2:hover {
 /* sets the small phone number link class */
 .phone-sm {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-size: 0.875rem !important;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight: 900;
 }
 
 /* sets the medium phone number link class */
 .phone-md {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
-	font-size: 1.5rem !important;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 900;
 }
 
 /* sets the large phone number link class */
 .phone-lg {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
-	font-size: 2.5rem !important;
-	font-weight: 700;
+	font-size: 32px;
+	font-weight: 900;
 }
 
 /* sets the extral large phone number link class */
 .phone-xl {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
-	font-size: 3rem !important;
-	font-weight: 700;
+	font-size: 36px;
+	font-weight: 900;
 }
 
 /* =====================
@@ -85,67 +85,67 @@ a.read-more-2:hover {
 /* sets the primary theme button color */
 a.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
 	font-weight: 300;
 	padding: 10px 40px 10px 40px;
-	background-color: #C95E2D !important;	
+	background-color: #E57C4B !important;	
 	border-radius: 15px;	
-	border: solid 2px #fcfcfc;
-	color: #fcfcfc;
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
 	text-decoration: none;
 	text-transform: uppercase;	
 }
 
 a.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: 300;	
+	font-size: 20px;
+	font-weight: 300;
 	padding: 10px 40px 10px 40px;
-	border: solid 2px #fcfcfc;
-	background-color: #C95E2D !important;	
+	background-color: #E57C4B !important;	
 	border-radius: 15px;	
-	color: #fcfcfc !important;
-	text-decoration: underline;
-	text-transform: uppercase;
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
+	text-decoration: none !important;
+	text-transform: uppercase;	
 }
 
 a.theme-btn-1:active {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
 	padding: 10px 40px 10px 40px;
-	border: solid 2px #fcfcfc;
-	background-color: #C95E2D !important;	
+	background-color: #E57C4B !important;	
 	border-radius: 15px;	
-	color: #fcfcfc !important;
-	text-decoration: underline;
-	text-transform: uppercase;
-}
-
-/* sets the secondary theme link color */
-.theme-btn-2 {
-	background-color: #578fb0;
-}
-
-.theme-btn-2:hover {
-	background-color: #578fb0;
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
+	text-decoration: none !important;
+	text-transform: uppercase;	
 }
 
 button.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
 	font-weight: 300;
-	text-transform: uppercase;
 	padding: 10px 40px 10px 40px;
-	background-color: #C95E2D !important;	
+	background-color: #E57C4B !important;	
 	border-radius: 15px;	
-	border: solid 2px #fcfcfc;
-	color: #fcfcfc;
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;	
 }
 
 button.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
 	font-weight: 300;
-	text-transform: uppercase;
 	padding: 10px 40px 10px 40px;
-	background-color: #C95E2D !important;	
+	background-color: #E57C4B !important;	
 	border-radius: 15px;	
-	border: solid 2px #fcfcfc;
-	color: #fcfcfc;
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
+	text-decoration: none !important;
+	text-transform: uppercase;	
 }
 
 /* ====================

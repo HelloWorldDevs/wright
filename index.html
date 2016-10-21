@@ -18,11 +18,19 @@
 	<link rel="stylesheet" 
 				href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CMerriweather:300,400,700"
 				type="text/stylesheet">
-	
+		
 	<!-- Bootstrap CSS dependency -->
 	<link rel="stylesheet" 
 				href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" 
 				type="text/css">
+	
+	<!-- Font Awesome Icon dependency -->
+	<script src="https://use.fontawesome.com/e256b557ab.js"></script>
+	
+	<!-- Local Bootstrap CSS dependency 
+	<link rel="stylesheet" 
+				href="lib/bootstrap-3.3.7/css/bootstrap.min.css"s 
+				type="text/css"> -->
 	
 	<!-- Animate CSS Dependency -->
 	<link rel="stylesheet" 
@@ -45,8 +53,8 @@
 		Start of Features CSS Styles 
 	============================ -->
 	
-	<!-- Navigation Custom CSS Styles -->
-	<link rel="stylesheet" href="css/features/mobile-navigation.css" type="text/css">	
+	<!-- Navigation Production Custom CSS Styles -->
+	<link rel="stylesheet" href="css/features/navigation-production.css" type="text/css">	
 	
 	<!-- Swiper Carousel Custom CSS Styles -->
 	<link rel="stylesheet" href="css/features/swiper-carousel.css" type="text/css">	
@@ -85,75 +93,39 @@
 </head>
 <body>
 	
-	<!-- =================================
-		Start of Mobile Navigation Section
-	================================== -->	
+	<!-- =====================================
+		START OF NAVIGATION PRODUCTION SECTION
+	====================================== -->	
 	
 	<a id="top"></a>
 	
-	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+	<nav id="navigation-production" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" 
 								class="navbar-toggle" 
 								data-toggle="collapse" 
-								data-target="#navbar-brand-centered">
+								data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
+				
 					<i class="fa fa-bars fa-2x"></i>
 				</button>
-				<div class="navbar-brand-centered">
-					<a href="#top" 
-						 class="navbar-brand" 
-						 data-target="#navbar-collapse-target">
-						<img id="navbar-brand-img" 
-								 src="img/forest-hills-logo.svg" 
-								 alt="Forest Hills Dentistry logo">
-					</a>
-				</div><!-- /.navbar-brand .navbar-brand-centered -->
+				<a class="navbar-brand" href="#top">
+					<img src="img/forest-hills-logo.svg" alt="Forest Hills Family Dentistry logo">
+				</a>
 			</div><!-- /.navbar-header -->
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-brand-centered">
+			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#new-patient-offers" 
-							 class="serif-reg link-color-1 text-reg" 
-							 data-target="#navbar-collapse-target" 
-							 data-toggle="collapse">New Patient Offers</a>
-					</li>
-					<li>
-						<a href="#no-insurance" 
-							 class="serif-reg link-color-2 text-reg" 
-							 data-target="#navbar-collapse-target" 
-							 data-toggle="collapse">Membership Savings</a></li>
-					<li>
-											<a href="#reviews" 
-							 class="serif-reg link-color-3 text-reg" 
-							 data-target="#navbar-collapse-target" 
-												 data-toggle="collapse">Reviews</a></li>
-					<li>
-						<a href="#meet-the-team" 
-							 class="serif-reg link-color-4 text-reg" 
-							 data-target="#navbar-collapse-target" 
-							 data-toggle="collapse">Team</a>
-					</li>
-					<li>
-						<a href="#services" 
-							 class="serif-reg link-color-4 text-reg" 
-							 data-target="#navbar-collapse-target" 
-							 data-toggle="collapse">Services</a>
-					</li>		
-					<li>
-						<a href="#location" 
-							 class="serif-reg link-color-4 text-reg hidden-xs hidden-sm" 
-							 data-target="#navbar-collapse-target" 
-							 data-toggle="collapse">Location</a>		
-					</li>			
+					<li><a href="#new-patient-offers" class="serif-bold link-color-1">New Patient Offers</a></li>
+					<li><a href="#no-insurance" class="serif-bold link-color-2">Membership Club</a></li>
+					<li><a href="#reviews" class="serif-bold link-color-3">Reviews</a></li>
+					<li><a href="#team" class="serif-reg link-color-4">Team</a></li>
+					<li><a href="#services" class="serif-reg link-color-4">Services</a></li>					
+					<li><a href="#location" class="serif-reg link-color-4">Location</a></li>
 				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav><!-- /#navigation -->
+			</div><!--/.nav-collapse -->
+		</div><!--/.container-fluid -->
+	</nav><!-- /navigation-production -->
 	
 	<!-- =======================
 		Start of Swiper Carousel
@@ -182,25 +154,26 @@
 			<div id="swiper-slide-1" class="swiper-slide">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12 text-left">
+							<div class="col-md-12">
 								<div id="slide-1-headline">
-									<h1 class="h1 sans-serif-black theme-color-2 text-hu">Natural Smiles</h1>
-									<h2 class="h2 serif-reg theme-color-2 text-md">by Forest Hills Family Dentistry</h2>
+									<h1 class="theme-color-2 text-left">Natural Smiles</h1>
+									<h3 class="theme-color-2 text-left">by Forest Hills Family Dentistry</h3>
 								</div>
-								<div id="slide-1-details">
-									<p class="sans-serif-thin theme-color-2 text-md">Now welcoming new patients</p>
-								</div>
-								<div id="slide-1-cta">
+								<div class="slide-details">
+									<p class="sans-serif-reg theme-color-2 text-uppercase text-left">
+										Now welcoming new patients
+									</p>
+								</div><!-- /.slide-details -->
+								<div class="slide-cta">
 									<p class="text-left">
 										<a href="#new-patient-offers" 
 											 class="btn btn-lg theme-btn-1 text-left" 
 											 data-target="#new-patient-offers">New patient offers</a>	
 									</p>
-								</div>								
-							</div>
-						</div>
+								</div><!-- /.slide-cta -->							
+							</div><!-- /.col-md-12 -->
+						</div><!-- /.row -->
 						<a href="#meet-the-team" 
-							 data-target="#team" 
 							 class="scroll-down infinite animated fadeInDown">
 							<span class="theme-color-1">
 								<i class="dark-icon icon-angle-down"></i>
@@ -224,7 +197,7 @@
 										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
 										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
 									</p>
-									<p class="serif-reg theme-color-6 text-reg customer-review">
+									<p class="serif-reg theme-color-6  customer-review">
 									"I have received care that is nothing short <br>
 									of stellar in my 25+ years as a patient with <br>
 									Forest Hills Family Dentistry. The entire <br>
@@ -239,8 +212,8 @@
 								</p>
 							</div>
 							</div>
-							<a href="#team" 
-								 data-target="#team" class="scroll-down infinite animated fadeInDown">
+							<a href="#meet-the-team" 
+								 class="scroll-down infinite animated fadeInDown">
 							<span class="theme-color-1">
 								<i class="dark-icon icon-angle-down"></i>
 							</span>
@@ -267,8 +240,8 @@
 								</div>
 							</div><!-- /.col-md-6 col-md-offset-6 text-left -->
 						</div><!-- /.row -->
-						<a href="#team" 
-							 data-target="#team" class="scroll-down infinite animated fadeInDown">
+						<a href="#meet-the-team" 
+							 class="scroll-down infinite animated fadeInDown">
 							<span class="theme-color-1">
 								<i class="dark-icon icon-angle-down"></i>
 							</span>
@@ -291,17 +264,17 @@
 					<div class="col-xs-12 col-sm-12">
 						<h2 class="h2 hidden">New Patient Hotline Mobile</h2>
 						<div id="new-patient-hotline-number" class="text-center">
-							<span class="serif-reg theme-color-6 text-reg text-capitalize">New Patient Hotline</span><br>
+							<span class="serif-reg theme-color-6  text-capitalize">New Patient Hotline</span><br>
 							<span>
-								<a href="tel:+18883064431" class="link-color-6 phone-xl">(888) 306-4431</a>
+								<a href="tel:+18883064431" class="link-color-6 phone-xl">(888)&nbsp;306&nbsp;-&nbsp;4431</a>
 							</span>
 						</div><!-- /.text-center -->
 					</div><!-- /.col-md-6 -->
 				</div><!-- /.row -->
 				<div class="row">
 					<div class="col-xs-12 col-sm-12">
-						<div class="call-to-action text-center">
-							<a href="" 
+						<div class="text-center">
+							<a href="#appointmentModal" 
 								 class="btn theme-btn-1" 
 								 data-toggle="modal" 
 								 data-href="#appointmentModal" 
@@ -314,7 +287,7 @@
 						<div id="new-patient-hotline-existing-number" class="text-center">
 							<span class="serif-reg text-md theme-color-6">Existing Patients Call:</span><br>
 							<a href="tel:+15132315353" class="phone-lg link-color-5">
-								(513) 231-5353
+								(513)&nbsp;231&nbsp;-&nbsp;5353
 							</a>
 						</div><!-- /.text-center -->
 					</div><!-- /.col-xs-12 -->
@@ -328,16 +301,16 @@
 				<div class="row">
 					<div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
 						<div class="right-border text-right">
-							<span class="serif-reg text-reg theme-color-6">New Patient Hotline</span><br>
+							<span class="serif-reg theme-color-6">New Patient Hotline</span><br>
 							<span class="theme-color-6 sans-serif-bold text-right">						
 								<a href="tel:+18883064431" class="link-color-5 phone-lg text-right">
-									(888) 306-4431
+									(888)&nbsp;306&nbsp;-&nbsp;4431
 								</a>
 							</span>
 						</div><!-- /.right-border text-right -->
 					</div><!-- /.col-md-5 .col-md-offset-1 -->
 					<div class="col-md-5">
-						<a href="" 
+						<a href="#appointmentModal" 
 							 class="btn theme-btn-1" 
 							 data-toggle="modal" 
 							 data-href="#appointmentModal" 
@@ -347,7 +320,7 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<p class="serif-reg theme-color-6 text-center">Existing patients of our practice call: 
-							<a href="tel:+15132315353" class="link-color-5 phone-md">(513) 231-5353</a>
+							<a href="tel:+15132315353" class="link-color-5 phone-md">(513)&nbsp;231&nbsp;-&nbsp;5353</a>
 						</p>
 					</div><!-- /.col-md-10 col-md-offset-1 -->
 				</div><!-- /.row -->
@@ -355,10 +328,6 @@
 		</div><!-- /#new-patients-hotline-existing-desktop -->	
 		
 	</section><!-- /#new-patients-hotline-existing -->
-	
-	<!-- ==========================================
-		End of New Patient Hotline Existing Section
-	=========================================== -->
 	
 	<!-- =============================
 		Start of Meet The Team Section
@@ -370,8 +339,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-col col-sm-12 col-md-12 col-lg-12">
-						<h2 class="h2 sans-serif-black theme-color-3 text-xl text-center hidden-md hidden-lg">Meet&nbsp;The&nbsp;Team</h2>
-						<h2 class="h2 sans-serif-black theme-color-3 text-xl text-center hidden-xs hidden-sm">Meet&nbsp;The&nbsp;Team</h2>
+						<h2 class="h2 sans-serif-black theme-color-3 text-center hidden-md hidden-lg">Meet&nbsp;The&nbsp;Team</h2>
+						<h2 class="h2 sans-serif-black theme-color-3 text-center hidden-xs hidden-sm">Meet&nbsp;The&nbsp;Team</h2>
 					</div><!-- /.col-md-12 .text-center -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -382,17 +351,17 @@
 				<div class="row hidden-md hidden-lg">
 					<div class="col-sm-12 col-xs-12">
 						<img src="img/wright-bio.jpg" id="wright-img" class="img-responsive" alt="Dr. Wright">
-						<h3 class="h3 theme-color-3 sans-serif-bold text-md hidden-md hidden-lg">
+						<h3 class="h3 theme-color-3 sans-serif-bold text-md">
 							Franklin D. Wright, DMD
 						</h3>	
-						<p class="serif-reg text-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
-						<p class="serif-reg text-reg">Dr. Wright was appointed to the State of Ohio Dental Board in 2004. Dr. Wright has lectured throughout the US, Europe, as well as Central and South America on forensic dentistry. He has also published extensively in the field of forensic dentistry.</p>
-						<p class="serif-reg text-reg">When out of the office, Dr. Wright can be found playing golf, traveling, as well as watching high school and collegiate football. He also enjoys spending time researching in the area of bite-mark evidence collection and analysis, both the traditional and high-tech approaches.</p>
+						<p class="serif-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
+						<p class="serif-reg">Dr. Wright was appointed to the State of Ohio Dental Board in 2004. Dr. Wright has lectured throughout the US, Europe, as well as Central and South America on forensic dentistry. He has also published extensively in the field of forensic dentistry.</p>
+						<p class="serif-reg">When out of the office, Dr. Wright can be found playing golf, traveling, as well as watching high school and collegiate football. He also enjoys spending time researching in the area of bite-mark evidence collection and analysis, both the traditional and high-tech approaches.</p>
 					</div><!-- /.col-md-8 -->
 				</div><!-- /.row -->
 				<div class="row hidden-md hidden-lg">
 					<div class="col-xs-12 col-sm-12">
-						<p class="text-description serif-reg text-sm">
+						<p class="text-description sans-serif-reg text-sm">
 							Dr. Wright is a member of the Cincinnati Dental Society (CDS), the Ohio Dental Association (ODA), and the American Dental Association (ADA). He is member emeritus of the ODA Forensic Dental Team and a member of the CDS Council. He is a trustee and vice president of the Cincinnati Dental Society Oral Health Foundation. When not providing patient care, Dr. Wright can be found practicing forensic dentistry.
 							<a href="#franklinWrightModal" 
 								 class="read-more-1" 
@@ -415,12 +384,12 @@
 						</p>
 					</div><!-- /.col-md-4 -->
 					<div class="col-md-8 col-lg-8">
-						<h3 class="h3 theme-color-3 sans-serif-bold text-md hidden-md hidden-lg">
+						<h4 class="h4 theme-color-3 sans-serif-bold">
 							Franklin D. Wright, DMD
-						</h3>	
-						<p class="serif-reg text-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
-						<p class="serif-reg text-reg">Dr. Wright was appointed to the State of Ohio Dental Board in 2004. Dr. Wright has lectured throughout the US, Europe, as well as Central and South America on forensic dentistry. He has also published extensively in the field of forensic dentistry.</p>
-						<p class="serif-reg text-reg">When out of the office, Dr. Wright can be found playing golf, traveling, as well as watching high school and collegiate football. He also enjoys spending time researching in the area of bite-mark evidence collection and analysis, both the traditional and high-tech approaches.</p>
+						</h4>	
+						<p class="serif-reg">Dr. Wright is a native of Cincinnati. He attended Anderson Senior High School where he graduated in 1976. He attended the University of Kentucky where he received a Bachelor of Science-Biology (BS) degree in 1980 from the College of Arts and Sciences, and a Doctor of Dental Medicine (DMD) degree in 1984 from the College of Dentistry. Upon graduation, he returned to Cincinnati, where he has practiced family dentistry continuously since.</p>
+						<p class="serif-reg">Dr. Wright was appointed to the State of Ohio Dental Board in 2004. Dr. Wright has lectured throughout the US, Europe, as well as Central and South America on forensic dentistry. He has also published extensively in the field of forensic dentistry.</p>
+						<p class="serif-reg">When out of the office, Dr. Wright can be found playing golf, traveling, as well as watching high school and collegiate football. He also enjoys spending time researching in the area of bite-mark evidence collection and analysis, both the traditional and high-tech approaches.</p>
 					</div><!-- /.col-md-8 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -434,12 +403,12 @@
 								 id="dorsch-img" 
 								 class="img-responsive" 
 								 alt="Dr. Bradley Dorsch">						
-						<h3 class="h3 sans-serif-bold theme-color-3 text-md hidden-md hidden-lg">
+						<h4 class="h4 sans-serif-bold theme-color-3 hidden-md hidden-lg">
 							Bradley A. Dorsch, DDS
-						</h3>
-						<p class="serif-reg text-reg">Dr. Dorsch completed his Bachelor of Arts (BA) in Sociology, with honors, at Northwestern University, in Evanston, Illinois, 1994. He graduated with his Doctor of Dental Surgery (DDS) from Northwestern University School of Dentistry in 1998, where he was selected to the Honors Program in Oral Surgery. He served on the faculty of the Northwestern University School of Dentistry as an instructor in prosthodontics from 1999-2001, as well as maintaining a private family dental practice. 
-						<p class="serif-reg text-reg">Additionally, from 1998-1999, Dr. Dorsch completed a General Practice Residency at the West Side Veterans Affairs Medical Center in Chicago, Illinois.</p>
-						<p class="serif-reg text-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
+						</h4>
+						<p class="serif-reg">Dr. Dorsch completed his Bachelor of Arts (BA) in Sociology, with honors, at Northwestern University, in Evanston, Illinois, 1994. He graduated with his Doctor of Dental Surgery (DDS) from Northwestern University School of Dentistry in 1998, where he was selected to the Honors Program in Oral Surgery. He served on the faculty of the Northwestern University School of Dentistry as an instructor in prosthodontics from 1999-2001, as well as maintaining a private family dental practice. 
+						<p class="serif-reg">Additionally, from 1998-1999, Dr. Dorsch completed a General Practice Residency at the West Side Veterans Affairs Medical Center in Chicago, Illinois.</p>
+						<p class="serif-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
 					</div>					
 				</div>
 				<div class="row hidden-md hidden-lg">
@@ -453,11 +422,11 @@
 				</div>
 				<div class="row hidden-xs hidden-sm">
 					<div class="col-md-8 col-lg-8">
-						<h3 class="h3 sans-serif-bold theme-color-3 text-lg hidden-xs hidden-sm">Bradley A. Dorsch, DDS</h3>
-						<h3 class="h3 sans-serif-bold theme-color-3 text-md hidden-md hidden-lg">Bradley A. Dorsch, DDS</h3>
-						<p class="serif-reg text-reg">Dr. Dorsch completed his Bachelor of Arts (BA) in Sociology, with honors, at Northwestern University, in Evanston, Illinois, 1994. He graduated with his Doctor of Dental Surgery (DDS) from Northwestern University School of Dentistry in 1998, where he was selected to the Honors Program in Oral Surgery. He served on the faculty of the Northwestern University School of Dentistry as an instructor in prosthodontics from 1999-2001, as well as maintaining a private family dental practice. 
-						<p class="serif-reg text-reg">Additionally, from 1998-1999, Dr. Dorsch completed a General Practice Residency at the West Side Veterans Affairs Medical Center in Chicago, Illinois.</p>
-						<p class="serif-reg text-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
+						<h4 class="h4 sans-serif-bold theme-color-3 hidden-xs hidden-sm">Bradley A. Dorsch, DDS</h4>
+						<h4 class="h4 sans-serif-bold theme-color-3 hidden-md hidden-lg">Bradley A. Dorsch, DDS</h4>
+						<p class="serif-reg">Dr. Dorsch completed his Bachelor of Arts (BA) in Sociology, with honors, at Northwestern University, in Evanston, Illinois, 1994. He graduated with his Doctor of Dental Surgery (DDS) from Northwestern University School of Dentistry in 1998, where he was selected to the Honors Program in Oral Surgery. He served on the faculty of the Northwestern University School of Dentistry as an instructor in prosthodontics from 1999-2001, as well as maintaining a private family dental practice. 
+						<p class="serif-reg">Additionally, from 1998-1999, Dr. Dorsch completed a General Practice Residency at the West Side Veterans Affairs Medical Center in Chicago, Illinois.</p>
+						<p class="serif-reg">Dr. Dorsch is married and has two daughters. In his spare time, he enjoys playing tennis, watching football, and spending time with his family.</p>
 					</div>
 					<div class="col-md-4 col-lg-4">
 						<img src="img/dorsch-bio.jpg" id="dorsch-img" class="img-responsive" alt="Dr. Bradley Dorsch">
@@ -487,9 +456,9 @@
 				<div id="team-slide-1" class="item">
 					<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="h3 sans-serif-black text-md theme-color-3">Gwen</h3>
-						<p class="serif-reg text-reg">Gwen joined our team in 1991 working for her first two years as a high performing dental assistant. The office encountered the need for a receptionist and Gwen volunteered to help out until a new team member could be found. Well, she still is "helping out" - now in her 23rd year! Gwen coordinates the doctors schedules. We are delighted to have such a caring and dedicated member on our team.</p>
-						<p class="serif-reg text-reg">No matter whether it is making an appointment, researching insurance benefit coordination or simply answering a question, you can count on Gwen to get things done in the most caring and professional manner possible.</p>
-						<p class="serif-reg text-reg">Gwen is married and has three grown sons and five grandchildren. When not in the office, she enjoys boating, beading and spending time with her family</p>
+						<p class="serif-reg">Gwen joined our team in 1991 working for her first two years as a high performing dental assistant. The office encountered the need for a receptionist and Gwen volunteered to help out until a new team member could be found. Well, she still is "helping out" - now in her 23rd year! Gwen coordinates the doctor's schedules. We are delighted to have such a caring and dedicated member on our team.</p>
+						<p class="serif-reg">No matter whether it is making an appointment, researching insurance benefit coordination or simply answering a question, you can count on Gwen to get things done in the most caring and professional manner possible.</p>
+						<p class="serif-reg">Gwen is married, and has three grown sons and five grandchildren. When not in the office, she enjoys boating, beading, and spending time with her family</p>
 					</div>
 				</div>	
 				<!-- #team-slide-1 -->
@@ -498,9 +467,9 @@
 				<div id="team-slide-2" class="item">
 					<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">					
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Jane</h3>
-					<p class="serif-reg text-reg">Jane joined our office in 1980. She graduated from Raymond Walters Dental Hygiene program at the University of Cincinnati.</p>
-					<p class="serif-reg text-reg">Her continual focus has been to utilize the most current methods of oral health care practice for the benefit of the patient's oral health in the most gentle, yet thorough way possible. Not satisfied with just knowing the basics, Jane continues to search out post graduate educational training to simply know the most so she can be the best.</p>
-					<p class="serif-reg text-reg">Our patients agree that she has been most successful in accomplishing her&nbsp;lofty &nbsp;goal.</p>
+					<p class="serif-reg">Jane joined our office in 1980. She graduated from Raymond Walters Dental Hygiene program at the University of Cincinnati.</p>
+					<p class="serif-reg">Her continual focus has been to utilize the most current methods of oral health care practice for the benefit of the patient's oral health in the most gentle, yet thorough way possible. Not satisfied with just knowing the basics, Jane continues to search out post graduate educational training to simply know the most so she can be the best.</p>
+					<p class="serif-reg">Our patients agree that she has been most successful in accomplishing her&nbsp;lofty &nbsp;goal.</p>
 				</div>
 				</div>
 				<!-- #team-slide-2 -->
@@ -509,9 +478,9 @@
 				<div id="team-slide-3" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Sandy</h3>
-					<p class="serif-reg text-reg">Sandy began with our office in 1982, coming to us from another area office. She is a graduate of the Raymond Walters Dental Hygiene Program at the University of Cincinnati.</p>
-					<p class="serif-reg text-reg">There is no one more gentle and caring than Sandy. She puts her heart in the care of each and every patient she sees with the usual combination of the detailed delivery of dental oral health care in the most relaxed possible environment.</p>
-					<p class="serif-reg text-reg">Sandy continues to pursue continuing education in dental oral health care to expand her traditional delivery of oral health care practice perfection. Our patients are touched by the warmth Sandy exudes at each visit to our office.</p>
+					<p class="serif-reg">Sandy began with our office in 1982, coming to us from another area office. She is a graduate of the Raymond Walters Dental Hygiene Program at the University of Cincinnati.</p>
+					<p class="serif-reg">There is no one more gentle and caring than Sandy. She puts her heart in the care of each and every patient she sees with the usual combination of the detailed delivery of dental oral health care in the most relaxed possible environment.</p>
+					<p class="serif-reg">Sandy continues to pursue continuing education in dental oral health care to expand her traditional delivery of oral health care practice perfection. Our patients are touched by the warmth Sandy exudes at each visit to our office.</p>
 				</div>
 				</div>
 				<!-- /#team-slide-3 -->
@@ -520,8 +489,8 @@
 				<div id="team-slide-4" class="item">
 					<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Karen</h3>
-					<p class="serif-reg text-reg">Karen came to our office in 1989 from an office in the Carolinas. She has extensive experience in complex periodontal disease patient care management and has shared her knowledge with our patients in her quest for oral health perfection. However, she is not satisfied with the knowledge she possesses and continuously looks to know more by attending post graduate continuing education in the delivery of dental oral health care.
-						<p class="serif-reg text-reg">Our patients are greeted with a smile by Karen and her warm laugh is never far away. We are fortunate to have such a complete team member in Karen, possessing outstanding clinical capabilities and performance in a gentle and upbeat environment.</p>
+					<p class="serif-reg">Karen came to our office in 1989 from an office in the Carolinas. She has extensive experience in complex periodontal disease patient care management and has shared her knowledge with our patients in her quest for oral health perfection. However, she is not satisfied with the knowledge she possesses and continuously looks to know more by attending post graduate continuing education in the delivery of dental oral health care.
+						<p class="serif-reg">Our patients are greeted with a smile by Karen and her warm laugh is never far away. We are fortunate to have such a complete team member in Karen, possessing outstanding clinical capabilities and performance in a gentle and upbeat environment.</p>
 				</div>
 				</div>
 				<!-- /#team-slide-4 -->
@@ -530,9 +499,9 @@
 				<div id="team-slide-5" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Andrea</h3>
-					<p class="serif-reg text-reg">Andrea joined our hygiene staff in 2002. She graduated from hygiene school in western Michigan in 1982. She is an excellent clinician that is very gentle and very thorough. Her ability to teach patients about their oral conditions and how to stay healthy are unmatched.</p>
-					<p class="serif-reg text-reg">She is also our resident expert with the ZOOM in-office whitening system and is proud to help patients achieve their oral health care goals - including very beautiful white teeth. Her addition to the office has been a real boost to our team.</p>
-					<p class="serif-reg text-reg">She is married and has 4 children. She spends her free time with photography, scrapbooking and going to many, many&nbsp;swim&nbsp;meets.</p>
+					<p class="serif-reg">Andrea joined our hygiene staff in 2002. She graduated from hygiene school in western Michigan in 1982. She is an excellent clinician that is very gentle and very thorough. Her ability to teach patients about their oral conditions and how to stay healthy are unmatched.</p>
+					<p class="serif-reg">She is also our resident expert with the ZOOM in-office whitening system and is proud to help patients achieve their oral health care goals - including very beautiful white teeth. Her addition to the office has been a real boost to our team.</p>
+					<p class="serif-reg">She is married and has 4 children. She spends her free time with photography, scrapbooking and going to many, many&nbsp;swim&nbsp;meets.</p>
 				</div>
 				</div>
 				<!-- /#team-slide-5 -->
@@ -541,7 +510,7 @@
 				<div id="team-slide-6" class="item">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Cindy</h3>
-					<p class="serif-reg text-reg">Cindy joined our team in 2002. She obtained her hygiene education as well as a degree in applied science at Raymond Walters College at the University of Cincinnati in 1993.</p>
+					<p class="serif-reg">Cindy joined our team in 2002. She obtained her hygiene education as well as a degree in applied science at Raymond Walters College at the University of Cincinnati in 1993.</p>
 				</div>
 				</div>
 				<!-- #team-slide-6 -->
@@ -550,8 +519,8 @@
 				<div id="team-slide-7" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Sandy</h3>
-					<p class="serif-reg text-reg">Sandy joined the office in 1976 and has been assisting in the delivery of dental health care with our office since. She is a licensed Certified Dental Assistant and Ohio Dental Radiographer.</p>
-					<p class="serif-reg text-reg">She has vast experience in all services provided by our office and her intuition and foresight to patient needs are unmatched. Patient comfort in a professional environment is the goal Sandy strives to achieve with each patient while visiting our office and she is extremely successful in reaching&nbsp;her&nbsp;goals!</p>
+					<p class="serif-reg">Sandy joined the office in 1976 and has been assisting in the delivery of dental health care with our office since. She is a licensed Certified Dental Assistant and Ohio Dental Radiographer.</p>
+					<p class="serif-reg">She has vast experience in all services provided by our office and her intuition and foresight to patient needs are unmatched. Patient comfort in a professional environment is the goal Sandy strives to achieve with each patient while visiting our office and she is extremely successful in reaching&nbsp;her&nbsp;goals!</p>
 				</div>
 				</div>
 				<!-- /#team-slide-7 -->
@@ -560,9 +529,9 @@
 				<div id="team-slide-8" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Lori</h3>
-					<p class="serif-reg text-reg">In February 1999, we had the need for an Expanded Function Dental Auxiliary. Our search ended promptly when Lori agreed to join our team. She is a graduate from Sinclair College in the Expanded Function Dental Auxiliary Program, a Certified Dental Assistant, an Ohio licensed Dental Radiographer and is CPR certified.</p>
-					<p class="serif-reg text-reg">One of only a few hundred such dental assistants in Ohio, Lori is an Ohio State Dental Board certified Expanded Function Dental Auxiliary. We could not have been more excited to have Lori's experience, training, knowledge and gentle manner available to provide dental oral health care to our patients.</p>
-					<p class="serif-reg text-reg">Lori professes that she loves patient contact, especially when she has the opportunity to use her special touch in easing patient concerns about the delivery of dental oral health care. Another perfect part of the finest dental team in the city!</p>
+					<p class="serif-reg">In February 1999, we had the need for an Expanded Function Dental Auxiliary. Our search ended promptly when Lori agreed to join our team. She is a graduate from Sinclair College in the Expanded Function Dental Auxiliary Program, a Certified Dental Assistant, an Ohio licensed Dental Radiographer and is CPR certified.</p>
+					<p class="serif-reg">One of only a few hundred such dental assistants in Ohio, Lori is an Ohio State Dental Board certified Expanded Function Dental Auxiliary. We could not have been more excited to have Lori's experience, training, knowledge and gentle manner available to provide dental oral health care to our patients.</p>
+					<p class="serif-reg">Lori professes that she loves patient contact, especially when she has the opportunity to use her special touch in easing patient concerns about the delivery of dental oral health care. Another perfect part of the finest dental team in the city!</p>
 				</div>
 				</div>
 				<!-- /#team-slide-8 -->
@@ -571,8 +540,8 @@
 				<div id="team-slide-9" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Angie</h3>
-					<p class="serif-reg text-reg">Angie joined our team as a dental assistant in 2001. She received her certified dental assistant's certificate in Atlanta in 2000. She is friendly and always willing to help patients feel comfortable while making sure the dentistry is being performed at a&nbsp;high&nbsp;level.</p>
-					<p class="serif-reg text-reg">Her confidence and her chair side personality make her a pleasure to work with. In her spare time, she likes to travel to classic car shows with her husband and son and she is an avid Bengals fan.</p>
+					<p class="serif-reg">Angie joined our team as a dental assistant in 2001. She received her certified dental assistant's certificate in Atlanta in 2000. She is friendly and always willing to help patients feel comfortable while making sure the dentistry is being performed at a&nbsp;high&nbsp;level.</p>
+					<p class="serif-reg">Her confidence and her chair side personality make her a pleasure to work with. In her spare time, she likes to travel to classic car shows with her husband and son and she is an avid Bengals fan.</p>
 				</div>
 				</div>
 				<!-- #team-slide-9 -->
@@ -581,8 +550,8 @@
 				<div id="team-slide-10" class="item">
 										<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">	
 					<h3 class="h3 sans-serif-black text-md theme-color-3">Michelle</h3>
-					<p class="serif-reg text-reg">Michelle came to us from a dental practice in Kenwood in 2002. We were lucky to find her. She is outgoing and eager to learn about the latest dental techniques. Her interest in the art of dentistry is evident in how she interacts with both doctor and patient in a professional and confident manner.</p>
-					<p class="serif-reg text-reg">She is married, has one daughter and spends her free time as a special occasion cake maker and enjoying family and friends.</p>
+					<p class="serif-reg">Michelle came to us from a dental practice in Kenwood in 2002. We were lucky to find her. She is outgoing and eager to learn about the latest dental techniques. Her interest in the art of dentistry is evident in how she interacts with both doctor and patient in a professional and confident manner.</p>
+					<p class="serif-reg">She is married, has one daughter and spends her free time as a special occasion cake maker and enjoying family and friends.</p>
 				</div>
 				</div>
 				<!-- #team-slide-10 -->
@@ -686,7 +655,7 @@
 						<p class="sans-serif-bold theme-color-6 text-center">
 							<a href="tel:+18883064431"
 								 class="link-color-5">
-								<b class="phone-lg">(888) 306-4431</b>
+								<b class="phone-lg">(888)&nbsp;306&nbsp;-&nbsp;4431</b>
 							</a>
 						</p>
 					</div><!-- /.col-xs-12 col-sm-12 -->
@@ -709,10 +678,10 @@
 				<div class="row">
 					<div class="col-md-6 col-lg-6">
 						<div class="right-border text-right">
-							<span class="serif-reg text-reg theme-color-6">New Patient Hotline</span><br>
+							<span class="serif-reg theme-color-6">New Patient Hotline</span><br>
 							<span class="theme-color-2 sans-serif-bold text-right">						
 								<a href="tel:+18883064431" class="link-color-5 phone-lg text-right">
-									(888) 306-4431
+									(888)&nbsp;306&nbsp;-&nbsp;4431
 								</a>
 							</span>
 						</div><!-- /.right-border text-right -->
@@ -857,22 +826,22 @@
 								<div id="no-insurance-benefits">
 									<ul class="unstyled-list">
 										<li class="text-center">
-											<span class="serif-reg text-reg">
+											<span class="serif-reg">
 												Easy Monthly Payments with Plans for All Family Members
 											</span>
 										</li>
 										<li class="text-center">
-											<span class="serif-reg text-reg">
+											<span class="serif-reg">
 												No Exclusions for Cosmetic or Elective Care
 											</span >
 										</li>
 										<li class="text-center">
-											<span class="serif-reg text-reg">
+											<span class="serif-reg">
 												No Yearly Maximum Benefits, and No Deductibles!
 											</span >
 										</li>
 										<li class="text-center">
-											<span class="serif-reg text-reg">
+											<span class="serif-reg">
 												Up to 15% Discount on Needed Treatments
 											</span >
 										</li>								
@@ -915,9 +884,9 @@
 			</div><!-- /.row -->
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p class="serif-reg text-reg theme-color-4">By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, we’ll partner with you to maintain your healthy, beautiful smile. Prevention is always better than treatment, so if it’s been a while since you’ve seen a dentist, please give us a call or 
+					<p class="serif-reg theme-color-4">By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, we’ll partner with you to maintain your healthy, beautiful smile. Prevention is always better than treatment, so if it’s been a while since you’ve seen a dentist, please give us a call or 
 						<a href="#appointmentModal" 
-							 class="serif-reg text-reg link-color-4 text-underline" 
+							 class="serif-reg link-color-4 text-underline" 
 							 data-toggle="modal" 
 							 data-target="#appointmentModal">click to request an appointment</a>.</p>
 				</div><!-- /.col-md-12 -->
@@ -942,7 +911,7 @@
 									<i class="icon-check"></i> Cosmetic Dentistry</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-2" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg margin-btm-half">Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile can increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!</p>
+							<p class="serif-reg margin-btm-half">Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile can increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!</p>
 						</div>
 						
 							<h4 class=" sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1">
@@ -950,8 +919,8 @@
 									<i class="icon-check"></i> Invisalign &reg; Orthodontics</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-4" aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">These "invisible" teeth aligners are the latest in orthodontic technology for adults and teens. Straight teth and revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces.</p>
-							<p class="serif-reg text-reg">Get the smile you've always wanted with Invisalign &reg; Orthodontics.</p>
+							<p class="serif-reg">These "invisible" teeth aligners are the latest in orthodontic technology for adults and teens. Straight teth and revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces.</p>
+							<p class="serif-reg">Get the smile you've always wanted with Invisalign &reg; Orthodontics.</p>
 						</div>					
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span
@@ -959,8 +928,8 @@
 													class="icon-check"></i> Zoom Whitening</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Many everyday things like cofee, tea, and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.</p>
-							<p class="serif-reg text-reg margin-btm-half">Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks.</p>
+							<p class="serif-reg">Many everyday things like cofee, tea, and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.</p>
+							<p class="serif-reg margin-btm-half">Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks.</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span
@@ -968,8 +937,8 @@
 													class="icon-check"></i> One-Visit Crowns</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">CEREC &reg; technology allows our practice to create tooth-colored porcelain restorations for healthy, beautiful smiles in a single appointment.</p>
-							<p class="serif-reg text-reg">Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative.</p>
+							<p class="serif-reg">CEREC &reg; technology allows our practice to create tooth-colored porcelain restorations for healthy, beautiful smiles in a single appointment.</p>
+							<p class="serif-reg">Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative.</p>
 						</div>
 					</div>
 				</div>
@@ -981,8 +950,8 @@
 													class="icon-check"></i> Guided Surgical Implants</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-10" aria-labelledby="ui-id-9" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.</p>
-							<p class="serif-reg text-reg">Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth.</p>
+							<p class="serif-reg">Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.</p>
+							<p class="serif-reg">Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth.</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-expanded="false" tabindex="-1">
@@ -990,8 +959,8 @@
 													class="icon-check"></i> Crowns and Bridges</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-12" aria-labelledby="ui-id-11" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they're durable, strong, and undetectable.</p>
-							<p class="serif-reg text-reg">Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative.</p>
+							<p class="serif-reg">Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they're durable, strong, and undetectable.</p>
+							<p class="serif-reg">Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative.</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-13" aria-controls="ui-id-14" aria-selected="false" aria-expanded="false" tabindex="-1"><span
@@ -999,7 +968,7 @@
 													class="icon-check"></i> Porcelain Veneers</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-14" aria-labelledby="ui-id-13" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Veneers are very thin porcelain pieces that are custom made to adhere to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!</p>
+							<p class="serif-reg">Veneers are very thin porcelain pieces that are custom made to adhere to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-13" aria-controls="ui-id-14" aria-selected="false" aria-expanded="false" tabindex="-1"><span
@@ -1007,7 +976,7 @@
 													class="icon-check"></i> Cosmetic Bonding</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-14" aria-labelledby="ui-id-13" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Gum disease is treated by carefully removing the bacteria and substances that form in the pockets around the teeth. The removal of this material occurs on a microscopic level and requires great skill. Our dental team has had advanced training to effectively remove all of the bacteria.</p>
+							<p class="serif-reg">Gum disease is treated by carefully removing the bacteria and substances that form in the pockets around the teeth. The removal of this material occurs on a microscopic level and requires great skill. Our dental team has had advanced training to effectively remove all of the bacteria.</p>
 						</div>
 
 					</div>
@@ -1019,8 +988,8 @@
 													class="icon-check"></i> Family-friendly care</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-18" aria-labelledby="ui-id-17" role="tabpanel" aria-hidden="false">
-							<p class="serif-reg text-reg">From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.</p>
-							<p class="serif-reg text-reg">Join us today and discover how our practice can help treat your entire family.</p>
+							<p class="serif-reg">From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.</p>
+							<p class="serif-reg">Join us today and discover how our practice can help treat your entire family.</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-id-19" aria-controls="ui-id-20" aria-selected="false" aria-expanded="false" tabindex="-1"><span
@@ -1028,8 +997,8 @@
 													class="icon-check"></i> 3D Cone Beam Imaging</h4>
 						
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-20" aria-labelledby="ui-id-19" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">This imaging system allows our practice to generate accurate 3D imagery of your jaw, mouth, and teeth with much more detail than traditional x-rays, and to measure bone density, which is essential for placing dental implants.</p>
-							<p class="serif-reg text-reg">
+							<p class="serif-reg">This imaging system allows our practice to generate accurate 3D imagery of your jaw, mouth, and teeth with much more detail than traditional x-rays, and to measure bone density, which is essential for placing dental implants.</p>
+							<p class="serif-reg">
 								<a href="" class="theme-btn-1" data-toggle="modal" data-target="#3DConeModal"> 
 											Click to watch video
 										</a>
@@ -1040,32 +1009,32 @@
 													class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i
 													class="icon-check"></i> Root Canals</h4>
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-20" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">Root canal therapy is an excellent way to save a tooth that would otherwise die and need to be removed. All teeth that have had root canal therapy must be protected with a crown. This is because teeth that have had the pulp removed are more susceptible to fracture.</p>
+							<p class="serif-reg">Root canal therapy is an excellent way to save a tooth that would otherwise die and need to be removed. All teeth that have had root canal therapy must be protected with a crown. This is because teeth that have had the pulp removed are more susceptible to fracture.</p>
 						</div>
 
 						<h4 class="header sans-serif-bold theme-color-3 ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-id-21" aria-controls="ui-id-22" aria-selected="false" aria-expanded="false" tabindex="-1"><span
 													class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i
 													class="icon-check"></i> Financial Information</h4>
 						<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-22" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="true">
-							<p class="serif-reg text-reg">In an effort to keep dental fees low while maintaining a very high level of professional care, we have established the following plans of payment for our patients: Payment in full for each visit is due unless financial agreements have been made in advance. We offer a 5% discount for treatment paid in full the day of service.</p>
-							<p class="serif-reg text-reg">
+							<p class="serif-reg">In an effort to keep dental fees low while maintaining a very high level of professional care, we have established the following plans of payment for our patients: Payment in full for each visit is due unless financial agreements have been made in advance. We offer a 5% discount for treatment paid in full the day of service.</p>
+							<p class="serif-reg">
 								<a href="https://forest-hills-family-dentistry.illumitrac.com/#programs" 
 									 class="btn btn-sm theme-btn-1"
 									 target="_blank"> 
 									Join our membership club
 								</a>
 							</p>
-							<p class="serif-reg text-reg">
+							<p class="serif-reg">
 								<a href="https://www.carecredit.com/apply/confirm.html?encm=XD1VbFIwAmdRbQBkWm5eNwc9AGRUOgUzB2pQZ1A0BTc" 
 									 target="_blank"
-									 class="serif-reg text-reg link-color-4">
+									 class="serif-reg link-color-4">
 											12-mo interest-free financing with CareCredit
 								</a>
 							</p>
-							<p class="serif-reg text-reg">
+							<p class="serif-reg">
 								Ask about FlexPay.
 							</p>
-							<p class="serif-reg text-reg">We accept VISA, MasterCard, American Express, and Discover.</p>
+							<p class="serif-reg">We accept VISA, MasterCard, American Express, and Discover.</p>
 						</div>
 					</div>
 				</div>
@@ -1095,8 +1064,8 @@
 				</div><!-- /.col-xs-12 .col-sm-12 .col-md-4 .col-lg-4 -->
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 					<h3 class="h3 sans-serif-black theme-color-1 text-md">Discover Forensic Dentistry</h3>
-					<p class="theme-color-5 serif-reg text-reg">Many of you already know that Dr. Wright maintains a part-time practice in the field of forensic odontology. He is a member of the American Society of Forensic Odontology, a fellow in the American Academy of Forensic-Sciences-Odontology Section, and a diplomat of the American Board of Forensic Odontology. There are any number of cases in which he is involved at any given time, any and all of which challenge Dr. Wright in the application of the profession of dentistry to the profession of law. The expectation of this part of our office web siteis to introduce the reader to the intriguing field of forensic odontology.</p>
-					<p class="theme-color-5 serif-reg text-reg">Forensic dentistry, which is sometimes referred to as forensic odontology, is an exciting and dynamic area of dentistry where dentistry interacts with the law. While the names are interchangeable, the field of forensic dentistry is commonly recognized by the identification of human remains, but it involves much more. It is true that the majority of the case work for many forensic dentists relates primarily to dental identification but they can also become involved in other areas, which include mass disaster dental identification, human abuse cases, bit mark patterns, and dental-legal issues.</p>
+					<p class="theme-color-5 serif-reg">Many of you already know that Dr. Wright maintains a part-time practice in the field of forensic odontology. He is a member of the American Society of Forensic Odontology, a fellow in the American Academy of Forensic-Sciences-Odontology Section, and a diplomat of the American Board of Forensic Odontology. There are any number of cases in which he is involved at any given time, any and all of which challenge Dr. Wright in the application of the profession of dentistry to the profession of law. The expectation of this part of our office web siteis to introduce the reader to the intriguing field of forensic odontology.</p>
+					<p class="theme-color-5 serif-reg">Forensic dentistry, which is sometimes referred to as forensic odontology, is an exciting and dynamic area of dentistry where dentistry interacts with the law. While the names are interchangeable, the field of forensic dentistry is commonly recognized by the identification of human remains, but it involves much more. It is true that the majority of the case work for many forensic dentists relates primarily to dental identification but they can also become involved in other areas, which include mass disaster dental identification, human abuse cases, bit mark patterns, and dental-legal issues.</p>
 				</div><!-- /.col-xs-12 .col-sm-12 .col-md-8 .col-lg-8 -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -1123,19 +1092,19 @@
 							 alt="Forest Hills Dentistry logo">
 					</div>
 					<div id="location-address" class="text-center">
-						<address class="serif-reg text-reg theme-color-4">
+						<address class="serif-reg">
 							1055 N Nimitzview Drive <br>
 							Cincinatti, OH 45230 <br>
 						</address>
 						<p class="text-center">
-							<a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138" class="link-color-3" target="_blank">Click to view map</a>
+							<a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138" class="link-color-3 text-underline" target="_blank">Click to view map</a>
 						</p>
 					</div>
 					<div id="location-hotline" class="text-center">
-						<span class="serif-reg text-reg theme-color-4">New Patient Hotline</span><br>
+						<span class="serif-reg">New Patient Hotline</span><br>
 						<span>
 							<a href="tel:+18883064431" class="link-color-1 ">
-								<b class="phone-lg">(888) 306-4431</b></a>
+								<b class="phone-lg">(888)&nbsp;306&nbsp;-&nbsp;4431</b></a>
 						</span>
 					</div>
 					<div id="location-appointment" class="text-center">
@@ -1145,28 +1114,28 @@
 							 data-target="#requestAppointmentModal">Request Appointment</a>
 					</div>
 					<div id="location-existing" class="text-center">
-						<span class="serif-reg text-reg">Existing patients call </span><br>
+						<span class="serif-reg">Existing patients call </span><br>
 						<span class="sans-serif-bold">
-							<a href="tel:5132315353" class="link-color-1 phone-md">(513) 231-5353</a>
+							<a href="tel:5132315353" class="link-color-1 phone-md">(513)&nbsp;231&nbsp;-&nbsp;5353</a>
 						</span>
 					</div>
 					<div id="location-hours">
 						<h4 class="h4 sans-serif-bold theme-color-3 text-md text-center">Hours</h4>
 						<ul class="list-unstyled text-center">
 							<li>
-								<span class="serif-reg text-reg theme-color-4">Mon: 8:00am - 5:00pm</span>
+								<span class="serif-reg">Mon: 8:00am - 5:00pm</span>
 							</li>
 							<li>
-								<span class="serif-reg text-reg theme-color-4">Tue: 8:00am - 5:00pm</span>
+								<span class="serif-reg">Tue: 8:00am - 5:00pm</span>
 							</li>
 							<li>
-								<span class="serif-reg text-reg theme-color-4">Wed: 8:00am - 5:00pm</span>
+								<span class="serif-reg">Wed: 8:00am - 5:00pm</span>
 							</li>
 							<li>
-								<span class="serif-reg text-reg theme-color-4">Thu: 8:00am - 5:00pm</span>
+								<span class="serif-reg">Thu: 8:00am - 5:00pm</span>
 							</li>
 							<li>
-								<span class="serif-reg text-reg theme-color-4">Fri:  8:00am - 5:00pm</span>
+								<span class="serif-reg">Fri:  8:00am - 5:00pm</span>
 							</li>
 						</ul>
 					</div>
@@ -1200,18 +1169,18 @@
 													 src="img/forest-hills-logo.svg"
 													 alt="Forest Hills Dentistry logo">
 									</p>
-									<address class="sans-serif-reg text-reg text-center">
+									<address class="serif-reg text-center">
 										1055 N Nimitzview Drive <br>
 										Cincinatti, OH 45230 <br>
 									</address>
-									<p class="serif-reg text-reg text-center"><a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138" class="link-color-3" target="_blank">Click to view map</a></p>
+									<p class="serif-reg text-center"><a href="https://www.google.com/maps/place/Forest+Hills+Family+Dentistry:+Wright+Franklin+D+DDS/@39.0696943,-84.3554078,17z/data=!3m1!4b1!4m5!3m4!1s0x8841a92d65d4009d:0x89a1f0c89920fdf6!8m2!3d39.0696902!4d-84.3532138" class="link-color-3 text-underline" target="_blank">Click to view map</a></p>
 								</div><!-- /.col-md-12 col-lg-12 -->
 							</div><!-- /.row -->
 							<div class="row">
 								<div class="col-md-12 col-lg-12">
 									<ul class="list-unstyled">
 										<li class="text-center">
-											<span class="serif-reg text-reg">New Patient Hotline</span><br>
+											<span class="serif-reg">New Patient Hotline</span><br>
 											<span class="sans-serif-bold">
 												<a href="tel:8883064431" class="link-color-1 phone-lg">(888) 306-4431</a>
 											</span>
@@ -1224,9 +1193,9 @@
 													 data-target="#appointmentModal">Request appointment</a></p>
 										</li>
 										<li class="text-center">
-											<span class="serif-reg text-reg">Existing patients call </span><br>
+											<span class="serif-reg">Existing patients call </span><br>
 											<span class="sans-serif-bold">
-												<a href="tel:5132315353" class="link-color-1 phone-md">(513) 231-5353</a>
+												<a href="tel:5132315353" class="link-color-1 phone-md">(513)&nbsp;231&nbsp;-&nbsp;5353</a>
 											</span>
 										</li>
 									</ul>
@@ -1241,19 +1210,19 @@
 								<div class="col-md-8 col-md-offset-2">
 									<ul class="list-unstyled text-center">
 										<li>
-											<span class="serif-reg text-reg theme-color-4">Mon: 8:00am - 5:00pm</span>
+											<span class="serif-reg">Mon: 8:00am - 5:00pm</span>
 										</li>
 										<li>
-											<span class="serif-reg text-reg theme-color-4">Tue: 8:00am - 5:00pm</span>
+											<span class="serif-reg">Tue: 8:00am - 5:00pm</span>
 										</li>
 										<li>
-											<span class="serif-reg text-reg theme-color-4">Wed: 8:00am - 5:00pm</span>
+											<span class="serif-reg">Wed: 8:00am - 5:00pm</span>
 										</li>
 										<li>
-											<span class="serif-reg text-reg theme-color-4">Thu: 8:00am - 5:00pm</span>
+											<span class="serif-reg">Thu: 8:00am - 5:00pm</span>
 										</li>
 										<li>
-											<span class="serif-reg text-reg theme-color-4">Fri:  8:00am - 5:00pm</span>
+											<span class="serif-reg">Fri: 8:00am - 5:00pm</span>
 										</li>
 									</ul>
 								</div><!-- /.col-md-8 .col-md-offset-2 -->
@@ -1365,21 +1334,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12">
-						<p class="sans-serif-reg theme-color-5 text-center text-sm">
+						<p class="sans-serif-thin theme-color-5 text-center">
 							Copyright &copy; 2016. All Rights Reserved by
 							<a href="//www.tysonsteele.com" 
-								 class="sans-serif-reg text-sm" 
+								 class="sans-serif-thin" 
 								 target="_blank">Tyson Steele Associates</a></p>
 					</div><!-- /.col-xs-12 .col-sm-12 -->
 				</div><!-- /.row -->
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 text-center">
-						<a href="https://www.facebook.com/CincyDigitalDentists/" 
-							 class="social-icon si-colored si-facebook" 
-							 target="_blank">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
-						</a>
+					<div class="col-xs-12 col-sm-12">
 					</div><!-- /.col-xs-12 .col-sm-12 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -1390,20 +1353,24 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-6">
-						<p class="sans-serif-reg theme-color-5 text-sm">
+						<p class="sans-serif-thin theme-color-5 text-sm">
 							Copyright &copy; 2016. All Rights Reserved by 
-							<a href="//www.tysonsteele.com" class="sans-serif-reg text-sm" target="_blank">
+							<a href="//www.tysonsteele.com" class="sans-serif-thin" target="_blank">
 								Tyson Steele Associates
 							</a>
 						</p>
 					</div><!-- /.col-md-6 .col-lg-6 -->
 					<div class="col-md-6 col-lg-6">
-						<a href="https://www.facebook.com/CincyDigitalDentists/" 
-							 class="social-icon si-colored si-facebook" 
-							 target="_blank">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
-						</a>
+						<ul class="unstyled-list">
+							<li>
+								<a href="" 
+									 class="social-icon si-colored si-facebook"
+									 target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
+						</ul>
 					</div><!-- /.col-md-6 .col-lg-6 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -1480,12 +1447,12 @@
 							<i class="fa fa-times fa-1x fa-fw"></i>
 						</span>
 					</button>
-					<h4 class="header modal-title sans-serif-bold theme-color-3">Dr. Franklin Wright</h4>
+					<h4 class="h4 modal-title sans-serif-bold theme-color-3">Dr. Franklin Wright</h4>
 				</div>
 				<div class="modal-body">
-					<p class="serif-reg text-reg">Dr. Wright is a member of the Cincinnati Dental Society (CDS), the Ohio Dental Association (ODA) and the American Dental Association (ADA). He is member emeritus of the ODA Forensic Dental Team and a member of the CDS Council. He is a trustee and vice president of the Cincinnati Dental Society Oral Health Foundation. When not providing patient care, Dr. Wright can be found practicing forensic dentistry.</p>
-					<p class="serif-reg text-reg">He is a member of the American Society of Forensic Odontology (ASFO), a diplomat and past president of the American Board of Forensic Odontology (ABFO) and a fellow in the American Academy of Forensic Sciences- Odontology Section (AAFS). He currently serves as the chairman of the Bitemark Proficiency Examination Development Committee of the ABFO.</p> 
-					<p class="serif-reg text-reg">In October of 2014, he was appointed to the Odontology Subcommittee of the Organization of Scientific Areas Committee, National Institute of Standards and Technology (NIST), U.S. Department of Commerce for a two year term. He has previously served on the Board of Governors of the AFSO and as the AAFS Section Program Chairman, Secretary and Chairman. He is the Forensic Dental Consultant for the Hamilton County Coroner's Office and is a member of the Disaster Committee at the Cincinnati/Northern Kentucky International Airport.</p>
+					<p class="sans-serif-reg">Dr. Wright is a member of the Cincinnati Dental Society (CDS), the Ohio Dental Association (ODA) and the American Dental Association (ADA). He is member emeritus of the ODA Forensic Dental Team and a member of the CDS Council. He is a trustee and vice president of the Cincinnati Dental Society Oral Health Foundation. When not providing patient care, Dr. Wright can be found practicing forensic dentistry.</p>
+					<p class="sans-serif-reg">He is a member of the American Society of Forensic Odontology (ASFO), a diplomat and past president of the American Board of Forensic Odontology (ABFO) and a fellow in the American Academy of Forensic Sciences- Odontology Section (AAFS). He currently serves as the chairman of the Bitemark Proficiency Examination Development Committee of the ABFO.</p> 
+					<p class="sans-serif-reg">In October of 2014, he was appointed to the Odontology Subcommittee of the Organization of Scientific Areas Committee, National Institute of Standards and Technology (NIST), U.S. Department of Commerce for a two year term. He has previously served on the Board of Governors of the AFSO and as the AAFS Section Program Chairman, Secretary and Chairman. He is the Forensic Dental Consultant for the Hamilton County Coroner's Office and is a member of the Disaster Committee at the Cincinnati/Northern Kentucky International Airport.</p>
 				</div>
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
@@ -1504,11 +1471,11 @@
 							<i class="fa fa-times fa-1x fa-fw"></i>
 						</span>
 					</button>
-					<h4 class="header modal-title sans-serif-bold theme-color-3">Dr. Bradley Dorsch</h4>
+					<h4 class="h4 sans-serif-bold theme-color-3">Dr. Bradley Dorsch</h4>
 				</div>
 				<div class="modal-body">
-					<p class="serif-reg text-reg">When not treating patients, Dr. Dorsch spends many hours in continuing education learning about CAD-Cam dentistry and complex patient care with the Spear Foundation.</p>
-					<p class="serif-reg text-reg">Dr. Dorsch practices the full array of family dentistry, with a special interest in high-tech digital dentistry and dental implant reconstruction. He is an active participant in many online study clubs, and he also performs limited orthodontics using Invisalign.</p>
+					<p class="serif-reg">When not treating patients, Dr. Dorsch spends many hours in continuing education learning about CAD-Cam dentistry and complex patient care with the Spear Foundation.</p>
+					<p class="serif-reg">Dr. Dorsch practices the full array of family dentistry, with a special interest in high-tech digital dentistry and dental implant reconstruction. He is an active participant in many online study clubs, and he also performs limited orthodontics using Invisalign.</p>
 				</div>
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
@@ -1555,9 +1522,9 @@
 					<h4 class="header sans-serif-bold theme-color-1 modal-title">Discover Forensic Dentistry</h4>
 				</div>
 				<div class="modal-body">
-					<p class="serif-reg text-reg theme-color-4">Professional education in forensic dentistry is available in varying degrees from many of the dental schools in the United States, both as an elective short course as well as longer courses that can take more than a semester. Postgraduate forensic dental education is available from many sources and in many different forms.
-					<p class="serif-reg text-reg theme-color-4">The most widely recognized postgraduate forensic dental education opportunities are those presented by the <a href="http://www.afip.org/" class="link-color-4 text-reg text-underline" target="_blank">Armed Forces Institute of Pathology</a> and the <a href="https://www.utsa.edu/" class="link-color-4 text-reg text-underline" target="_blank">University of Texas-San Antonio</a>. Many universities and colleges also sponsor postgraduate education in forensic dentistry.</p>
-					<p class="serif-reg text-reg theme-color-4">The most widely recognized forensic dental organizations in the United States include The <a href="http://www.asfo.org/" class="text-reg link-color-4 text-reg text-underline" target="_blank">American Society of Forensic Dentistry</a> (ASFO), The <a href="http://www.abfo.org/" class="link-color-4 text-reg text-underline" target="_blank">American Academy of Forensic Sciences-Odontology Section</a> (AAFS), and The <a href="http://www.abfo.org/" class="link-color-4 text-reg text-underline" target="_blank">American Board of Forensic Odontology</a> (ABFO).</p>
+					<p class="serif-reg theme-color-4">Professional education in forensic dentistry is available in varying degrees from many of the dental schools in the United States, both as an elective short course as well as longer courses that can take more than a semester. Postgraduate forensic dental education is available from many sources and in many different forms.
+					<p class="serif-reg theme-color-4">The most widely recognized postgraduate forensic dental education opportunities are those presented by the <a href="http://www.afip.org/" class="link-color-4  text-underline" target="_blank">Armed Forces Institute of Pathology</a> and the <a href="https://www.utsa.edu/" class="link-color-4  text-underline" target="_blank">University of Texas-San Antonio</a>. Many universities and colleges also sponsor postgraduate education in forensic dentistry.</p>
+					<p class="serif-reg theme-color-4">The most widely recognized forensic dental organizations in the United States include The <a href="http://www.asfo.org/" class=" link-color-4  text-underline" target="_blank">American Society of Forensic Dentistry</a> (ASFO), The <a href="http://www.abfo.org/" class="link-color-4  text-underline" target="_blank">American Academy of Forensic Sciences-Odontology Section</a> (AAFS), and The <a href="http://www.abfo.org/" class="link-color-4  text-underline" target="_blank">American Board of Forensic Odontology</a> (ABFO).</p>
 				</div>
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
@@ -1567,14 +1534,24 @@
 		Start of JS Dependencies
 	======================== -->
 	
-	<!-- jQuery JS Dependency -->
+	<!-- jQuery JS Dependency 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-						type="text/javascript"></script>
+						type="text/javascript"></script>-->
+	
+	<!-- jQuery JS Dependency --> 
+	<script src="lib/jquery/jquery-1.11.2.min.js"
+					type="text/javascript"></script>
+	
+	<!-- Bootstrap JS Dependency 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+					integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+					crossorigin="anonymous"></script> -->
 	
 	<!-- Bootstrap JS Dependency -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-						integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-						crossorigin="anonymous"></script>
+	<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"
+					integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+					crossorigin="anonymous"></script>
+	
 	
 	<!-- Font Awesome JS Dependency -->
 	<script src="https://use.fontawesome.com/aae0ac609b.js"></script>
@@ -1609,7 +1586,7 @@
 	
 	<!-- Appointment Form JS script -->
 	<script type="text/template" id="success_msg">
-		<p class="sans-serif-reg text-reg">
+		<p class="sans-serif-reg">
 			Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have. Thank you!</p>
 	</script>
 	

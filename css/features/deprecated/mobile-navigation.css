@@ -44,6 +44,10 @@ nav {
 	margin-top: 25px;
 }
 
+.navbar-right > li > a {
+	font-size: 18px !important;
+}
+
 .navbar-right li {}
 
 button.navbar-toggle {

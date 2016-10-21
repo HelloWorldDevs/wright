@@ -4,8 +4,8 @@
 
 /* overrides the default html element*/
 html {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 }
 
@@ -13,7 +13,6 @@ html {
 body {
 	margin-top: 80px;
 	padding: 0px;	
-	font-size: 1rem;
 }
 
 /* overrides the default nav element */
@@ -45,23 +44,6 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/* controls the facebook icon */
-.facebook-icon {
-	background-color: #ffffff;
-	height: 36px;
-	width: 36px;
-	color: blue;
-}
-
-.owl-controls.clickable {
-	visibility: hidden;
-}
-
-/* controls spacing around buttons */
-.call-to-action {
-	margin: 20px 0px 20px 0px;
-}
-
 /* centers an image */
 .img-center {
 	display: block;
@@ -75,68 +57,27 @@ a:hover {
 	border-radius: 15px;
 }
 
-/* sets a solid right blue border */ 
-.right-border {
-	border-right: solid 2px #FFFFFF;
-	padding-right: 30px !important;
-}
-
 /* ==============
 	Media Queries 
 ============== */
 
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
-
-	html {
-		font-size: 16px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
+@media (max-width: 1200px) {
 	
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	
-	html {
-		font-size: 16px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
-	
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
 	
-	html {
-		font-size: 14px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
+}
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-		/* overrides default html settings */
-	html {
-		font-size: 14px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
+@media (max-width: 768px) {
 	
 }
 
@@ -145,34 +86,4 @@ a:hover {
 ============================================== */
 @media (max-width: 480px) {
 	
-	/* overrides the default html settings */
-	html {
-		font-size: 12px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
-	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 5px 25px 5px 25px;	
-		background-color: #e67c4c;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
-	
-		/* sets the 1st default theme button style */
-	a.theme-btn-1:hover {
-		padding: 5px 25px 5px 25px;	
-		background-color: #e67c4c;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
-
 }

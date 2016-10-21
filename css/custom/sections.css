@@ -28,20 +28,6 @@
 	Swiper Carousel Section 
 ======================== */
 
-#swiper-carousel {}
-
-#slide-1-headline {
-
-}
-
-#slide-1-details {
-
-}
-
-#slide-1-cta {
-
-}
-
 /* =====================================
 	New Patient Hotline Existing Section 
 ===================================== */
@@ -72,7 +58,7 @@
 
 /* controls the new patient hotline desktop theme button */
 #new-patient-hotline-existing-desktop .theme-btn-1 {
-	margin-top: 10px;
+	margin-top: 0px;
 }
 
 /* ======================
@@ -141,7 +127,13 @@
 
 /* controls the new patient hotline desktop theme button */
 #new-patient-hotline-desktop .theme-btn-1 {
-	margin-top: 10px;
+	margin-top: 0px;
+}
+
+/* sets a solid right blue border */ 
+#new-patient-hotline .right-border {
+	border-right: solid 2px #FFFFFF;
+	padding-right: 30px;
 }
 
 /* ========================
@@ -291,10 +283,8 @@
 }
 
 #new-patient-hotline-desktop .theme-btn-1 {
-	margin-top: 10px;
+	margin-top: 0px;
 }
-
-
 
 /* ========================
 	Patient Reviews Section 
@@ -364,6 +354,11 @@
 /* controls the desktop location image */
 #desktop-location img {
 	width: 280px;
+}
+
+#desktop-location .btn {
+	margin-top: 20px;
+	margin-bottom: 20px;	
 }
 
 /* =====================

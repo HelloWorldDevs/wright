@@ -22,86 +22,114 @@ h6 {
 
 /*  */
 p {
-	margin: 0px 0px 15px 0px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
+	color: #6F6D6A;
 	padding: 0px;
+	margin: 0px 0px 15px 0px;	
+}
+
+span {
+	font-size: 16px;	
+	font-weight: 400;
+	line-height: 1.0;
+	color: #6F6D6A;
+}
+
+address {
+	font-size: 16px;	
+	color: #6F6D6A;
 }
 
 /* creates a custom h1 header class for custom sizing */
 .h1 {
-	margin: 0px 0px 0px 0px;
+	font-size: 72px;	
+	margin: 0px 0px 0px 0px;		
 }
 
 /* creates a custom h2 header class for custom sizing */
 .h2 {
-	margin: 0px 0px 30px 0px;	
+	font-size: 48px;
+	font-weight: ;
+	margin: 0px 0px 0px 0px;		
 }
 
 /* creates a custom h3 header class for custom sizing */
 .h3 {
-	margin: 0px 0px 10px 0px;	
+	font-size: 32px;
+	font-weight: ;
+	margin: 0px 0px 0px 0px;		
 }
 
 /* creates a custom h4 header class for custom sizing */
 .h4 {
-	margin: 0px 0px 0px 0px;	
+	font-size: 24px;	
+	font-weight:;
+	margin: 0px 0px 0px 0px;		
 }
 
 /* creates a custom h5 header class for custom sizing */
 .h5 {
+	font-size: 20px;
 	margin: 0px 0px 0px 0px;	
 }
 
 /* creates a custom h6 header class for custom sizing */
 .h6 {
+	font-size: 18px;
 	margin: 0px 0px 0px 0px;	
 }
 
-/* creates an extra small text class */
-.text-xs {
-	font-size: 0.75rem !important;
-}
+/* =========================
+	TEXT CUSTOM SIZE CLASSES
+========================= */
 
-/* creates a small text class */
-.text-sm {
-	font-size: 0.875rem !important;
-}
-
-/* creates a regular text class */
-.text-reg {
-	font-size: 1rem !important;
-}
-
-/* creates a medium text class */
-.text-md {
-	font-size: 1.5rem !important;
-}
-
-/* creates a large text class */
-.text-lg {
-	font-size: 2.25rem !important;
-}
-
-/* creates an extra large text class */
-.text-xl {
-	font-size: 3rem !important;
+/* creates a huge  text class */
+.text-hu {
+	font-size: ;
+	/* font-size: 4.5rem !important; */
 }
 
 /* creates an extra extra large text class */
 .text-xxl {
-	font-size: 4rem !important;
+	font-size: ;
 }
 
-/* creates a huge  text class */
-.text-hu {
-	font-size: 4.5rem !important;
+/* creates an extra large text class */
+.text-xl {
+	font-size: ;
 }
 
-/* creates an extra-small responsive text class */
-	.text-xs {
-		font-size: 0.75rem;
-	}
+/* creates a large text class */
+.text-lg {
+	font-size: ;
+}
+
+/* creates a medium text class */
+.text-md {
+	font-size:;
+}
+
+/* creates a regular text class */
+.text-reg {
+	font-size: ;
+}
+
+/* creates a small text class */
+.text-sm {
+	font-size: 14px;
+}
+
+
+/* creates an extra small text class */
+.text-xs {
+	font-size: 12px;	
+}
+
+/* =============================
+	TEXT CUSTOM TRANFORM CLASSES
+============================= */
 
 /* sets the bold text class */
 .text-bold {
@@ -125,13 +153,13 @@ p {
 
 /* sets the inverse text class */
 .text-inverse {
-	color: #fcfcfc !important;
+	color: #FFFFFF !important;
 }
 
 /* sets the description text class */
 .text-description {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-size: 0.75rem !important;	
+	font-size: 12px !important;	
 	font-weight: 300;
 	line-height: 1.375;
 	margin: 30px 0px 15px 0px;
@@ -154,7 +182,7 @@ p {
 }
 
 /* Landscape smartphones type media query  */
-@media (max-width:990px) {
+@media (max-width:991px) {
 	html {
 		font-size: 14px;
 	}
@@ -165,7 +193,7 @@ p {
 }
 
 /* Landscape smartphones type media query  */
-@media (max-width:768px) {
+@media (max-width:769px) {
 	html {
 		font-size: 14px;
 	}
@@ -176,7 +204,7 @@ p {
 }
 
 /* Smartphones type media query */
-@media (max-width:480px) {
+@media (max-width:481px) {
 	html {
 		font-size: 14px !important;
 	}

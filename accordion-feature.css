@@ -1,0 +1,69 @@
+html {
+	background-color: #0099ff;
+}
+#services{
+	background-image: url("img/bedge_grunge_light.jpg")
+}
+
+#services .panel-title {
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
+		font-size: 21px;
+		font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #856b21;
+
+}
+
+.panel {
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 2px #cccccc;
+	border-radius: none;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 2px solid #cccccc;
+    border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border: none;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border: none; 
+}
+
+#services div.panel-body {
+    border-radius: 0px;
+    border-bottom: solid 2px #cccccc;
+}
+
+#services .panel-heading {
+	background: none;
+	border: none;
+}
+
+#services .panel-collapse.collapse.in {
+	background: none;
+}
+
+#services div.panel-body {
+	background-color: #FF0000;
+	background: transparent;
+}
+
+
+.panel-default {
+	background-color: none; 
+	border-radius: none !important;
+}

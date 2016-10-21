@@ -10,22 +10,22 @@
 	Primary Theme Colors
 ==================== */
 
-/* sets the 1st theme color for interactive elements */
+/* sets the 1st theme color */
 .theme-color-1 {
 	color: #E57C4B;
 }
 
-/* sets the 2nd theme color for interactive elements  */
+/* sets the 2nd theme color */
 .theme-color-2 {
-	color: #0D2D3F !important; color: #4682B4
+	color: #0D2D3F !important;
 }
 
-/* sets the 3rd theme color for interactive theme elements */
+/* sets the 3rd theme color */
 .theme-color-3 {
 	color: #856b21 !important;
 }
 
-/* sets the 4th theme color for interactive theme elements */
+/* sets the 4th theme color */
 .theme-color-4 {
 	color: #6F6D6A;
 }
@@ -35,6 +35,7 @@
 	color: #F9F7F4;
 }
 
+/* sets the 6th theme color */
 .theme-color-6 {
 	color: #FFFFFF;
 }
@@ -45,12 +46,12 @@
 
 /* sets the primary link color styles */
 a.link-color-1 {
-	color: #C95E2D !important;
+	color: #E57C4B  !important;
 }
 
 /* sets the primary link color hover styles */
 a.link-color-1:hover {
-	color: #C95E2D !important;
+	color: #E57C4B !important;
 	text-decoration: underline;
 }
 
@@ -96,30 +97,38 @@ a.link-color-5:hover {
 	text-decoration: underline;	
 }
 
-/* =================
-	Specials Colors
-================= */
+/* ======================
+	SPECIALS COLOR STYLES
+====================== */
 
+/* creates 1st specials color class */
 .specials-color-1 {
   color: #C95E2D;
 }
-.specials-color-2 {
-  color: #0D2D3F;
-}
 
-.specials-color-3 {
+/* creates 2nd specials color class */
+.specials-color-2 {
   color: #846A20;
 }
 
-.specials-background-color-1 {
-  background-color:#C95E2D;
-}
-.specials-background-color-2 {
-  background-color: #0D2D3F;
+/* creates 3rd specials color class */
+.specials-color-3 {
+	color: #0D2D3F;
 }
 
-.specials-background-color-3 {
+/* creates 1st specials background color class */
+.specials-background-color-1 {
+  background-color: #C95E2D;
+}
+
+/* creates 2nd specials background color class */
+.specials-background-color-2 {
   background-color: #846A20;
+}
+
+/* creates 3rd specials background color class */
+.specials-background-color-3 {
+  background-color: #0D2D3F;
 }
 
 /* ===================
@@ -162,4 +171,12 @@ a.link-color-5:hover {
 }
 .theme-background-8 {
 	background-color: #4682B4;
+}
+
+/* controls the facebook icon */
+.facebook-icon {
+	background-color: #ffffff;
+	height: 36px;
+	width: 36px;
+	color: blue;
 }

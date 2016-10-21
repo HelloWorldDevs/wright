@@ -1,0 +1,199 @@
+/* =====================================
+	NAVIGATION PRODUCTION FEATURE STYLES
+===================================== */
+
+/* sets the 1st link color */
+a.link-color-1 {
+	color: #C95E2D !important;
+	text-decoration: none;
+}
+
+/* sets the 1st link color hover */
+a.link-color-1:hover {
+	color: #C95E2D !important;	
+	text-decoration: underline !important;	
+}
+
+/* sets the 2nd link color */
+a.link-color-2 {
+	color: #0D2D3F !important;
+	text-decoration: none;
+}
+
+/* sets the 2nd link color hover */
+a.link-color-2:hover {
+	color: #0D2D3F !important;
+	text-decoration: underline !important;		
+}
+
+/* sets the 3rd link color */
+a.link-color-3 {
+	color: #846A20 !important;
+	text-decoration: none;
+}
+
+/* sets the 3rd link color */
+a.link-color-3:hover {
+	color: #846A20 !important;
+	text-decoration: underline !important;	
+}
+
+/* sets the 4th link color */
+a.link-color-4 {
+	color: #6F6D6A !important;
+	text-decoration: none;
+}
+
+/* sets the 4th link color hover */
+a.link-color-4:hover {
+	color: #6F6D6A !important;
+	text-decoration: underline !important;	
+}
+
+#navigation-production .navbar {
+	height: 100px;
+}
+
+#navigation-production .navbar-default {
+	background-color: #FFFFFF;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
+}
+
+#navigation-production .navbar-header {
+	background-color: #FFFFFF;	
+	height: 100px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 100px;
+}
+
+#navigation-production .container, .container-fluid {
+	background-color: #FFFFFF;
+}
+
+#navigation-production a.navbar-brand {
+  height: 100px;
+}
+
+#navigation-production .navbar-brand > img {
+	height: 100px;
+  margin: -15px;
+}
+
+#navigation-production .navbar-right {
+	margin-top: 20px;
+}
+
+#navigation-production .nav > li > a {
+	font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+	font-size: 16px;
+}
+
+#navigation-production .navbar-toggle {
+	float: left;
+  padding: 10px;
+  margin: 25px 15px 25px 15px;
+	border: none;
+	height: 50px;
+	width: 50px;
+}
+
+#navigation-production .navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFFFFF;
+}
+
+button.navbar-toggle {
+	background-color: #FFFFFF;
+}
+
+.navbar-collapse {
+	background-color: #FFFFFF;
+}
+
+/* Navigation Production - Tablet and Small Laptop */
+	@media only screen and (max-width: 1200px){
+	#navigation-production .navbar-brand {
+		position: absolute;	
+		margin-left: 0px;
+		padding: 0px;
+		left: 0%;
+	}
+		
+	#navigation-production .navbar-brand > img {
+		height: 100px;
+		margin: 0;
+	}
+		
+	#navigation-production .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 15px;
+		margin-right: 0px;
+		padding-right: 5px;
+	}
+		
+}
+
+/* Navigation Production - Tablet and Small Laptop */
+	@media only screen and (max-width: 990px){
+	#navigation-production .navbar-brand {
+		position: absolute;	
+		margin-left: 0px;
+		padding: 0px;
+		left: 0%;
+	}
+		
+	#navigation-production .navbar-brand > img {
+		/* max-width: 200px; */
+		height: 100px;
+		margin: 0;
+	}
+		
+	#navigation-production .container-fluid {
+		padding-right: 15px;
+	}
+		
+	#navigation-production .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 13px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+		
+}
+
+/* Navigation Production - Center Logo on Tablet */
+	@media only screen and (max-width: 767px){
+	#navigation-production .navbar-brand {
+		position: absolute;
+		margin-left: 25px;		
+		padding: 0px;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+		
+	#navigation-production .navbar-brand > img {
+		height: 100px;
+	}
+		
+}
+
+/* Navigation Production - Center Logo on Mobile */
+	@media only screen and (max-width : 481px){
+	#navigation-production .navbar-brand {
+		position: absolute;
+		margin-left: 25px;
+		padding: 0px;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	#navigation-production .navbar-brand > img {
+		height: 100px;
+	}
+}
