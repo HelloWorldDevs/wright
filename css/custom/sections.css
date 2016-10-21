@@ -56,6 +56,11 @@
 	padding: 20px 0px 20px 0px !important;
 }
 
+#new-patient-hotline-existing .right-border {
+	border-right: solid 2px #FFFFFF;
+	padding-right: 30px;
+}
+
 /* controls the new patient hotline desktop theme button */
 #new-patient-hotline-existing-desktop .theme-btn-1 {
 	margin-top: 0px;
@@ -149,6 +154,11 @@
 
 /* sets a solid right blue border */ 
 #new-patient-hotline .right-border {
+	border-right: solid 2px #FFFFFF;
+	padding-right: 30px;
+}
+
+.right-border {
 	border-right: solid 2px #FFFFFF;
 	padding-right: 30px;
 }
