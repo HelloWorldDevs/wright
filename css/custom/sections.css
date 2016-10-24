@@ -97,6 +97,7 @@
 #new-patient-offers {
 	background-image: url("../../img/field-bkgd_specials.jpg");
 	background-position: top center;
+	background-attachment: fixed;	
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -106,6 +107,7 @@
 }
 
 #new-patient-offers h3 {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -302,8 +304,11 @@
 
 #new-patient-specials {
 	margin: 0 auto;
-	padding: ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 }
+
 
 /* ==============================
 	New Patient Hotline Section 
